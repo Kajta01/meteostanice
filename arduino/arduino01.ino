@@ -1,10 +1,9 @@
 void setup(){
 Serial.begin(9600);
-int k = 0;
 while(true)
 {
+int k = random(10,30);
 Serial.println(String(k));
-k = k+1;
 delay(80000); 
 }
 }
