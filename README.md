@@ -5,7 +5,7 @@ Arduino + sensors + knowledge = meteostation
 
 
 
-##PYVO: Automatizace 1
+#PYVO: Automatizace 1
 
 
 Open Hub
@@ -46,7 +46,7 @@ web django
 MQQT, IFTTT, Blynk,
 
 
-##PYVO: Automatizace 2
+#PYVO: Automatizace 2
 
 Raspberry
 
