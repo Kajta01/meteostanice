@@ -8,9 +8,10 @@ if (mysqli_connect_errno())
 {
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
-$tepl = (int)$_GET['teplota'];
-$sql = "INSERT INTO Test1 (Datum,Cas,Note, Hodnota) VALUES
-            (NOW(),NOW(),'John',$tepl)";
+$tepl = (float)$_GET['teplota'];
+$vlhkost = (float)$_GET['vlhkost'];
+$sql = "INSERT INTO Am23 (Datum, Teplota, Vlhkost, Note) VALUES
+            (NOW(),$tepl,$vlhkost,'ok')";
 if(mysqli_query($con, $sql)){
     echo "Records added successfully.";
     echo date("H:i:s");
@@ -23,7 +24,7 @@ if(mysqli_query($con, $sql)){
 
 
 // This SQL statement selects ALL from the table 'Locations'
-$sql = "SELECT * FROM Test1";
+$sql = "SELECT * FROM Am23";
 
 // Check if there are results
 if ($result = mysqli_query($con, $sql))
