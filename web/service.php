@@ -1,17 +1,20 @@
 <?php
 
 // Create connection
-$con=mysqli_connect("localhost","foxhomeskval6395","7Zyqp7Q","foxhomeskval6395");
+$con=mysqli_connect("localhost","arduino01","AAarduino01","meteostanice01");
 
 // Check connection
 if (mysqli_connect_errno())
 {
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
+
+
 $tepl = (float)$_GET['teplota'];
-$vlhkost = (float)$_GET['vlhkost'];
-$sql = "INSERT INTO Am23 (Datum, Teplota, Vlhkost, Note) VALUES
-            (NOW(),$tepl,$vlhkost,'ok')";
+if($tepl != 0)
+{
+$sql = "INSERT INTO teplota (Datum, teplota, Note) VALUES
+            (NOW(),$tepl,'ok')";
 if(mysqli_query($con, $sql)){
     echo "Records added successfully.";
     echo date("H:i:s");
@@ -19,12 +22,13 @@ if(mysqli_query($con, $sql)){
 } else{
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($con);
 }
+}
 
 
 
 
 // This SQL statement selects ALL from the table 'Locations'
-$sql = "SELECT * FROM Am23";
+$sql = "SELECT * FROM teplota";
 
 // Check if there are results
 if ($result = mysqli_query($con, $sql))
