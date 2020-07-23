@@ -1,0 +1,202 @@
+body{
+   background-color: rgb(230, 242, 255);
+  font-family: Calibri;
+     
+	padding: 12%;
+ padding-top: 2%;
+padding-bottom: 5%;
+  margin: 0;
+
+
+  background-size: cover;
+ float: top; 
+}
+
+.foto{
+margin: auto;
+	color: black;
+  
+  box-shadow: none;
+text-shadow: none;
+
+
+  font-size: 18px;
+
+
+    margin-bottom: 20px;
+
+}
+
+
+.page{
+  float: top;
+  background-color: rgb(230, 242, 255);
+
+
+
+	margin: auto;
+  padding: 10px;
+padding-top: 0px;
+max-width: 1000px;
+
+}
+
+.ramecek{
+margin: auto;
+	color: black;
+  background-color: white;
+  box-shadow: none;
+text-shadow: none;
+    padding-top: 10px;
+
+  font-size: 18px;
+
+  	margin-bottom: 20px;
+  	padding: 20px;
+
+  	
+    
+	border-radius: 15px;
+}
+
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  padding: 0;
+  margin: 0;
+font-size: 1px;
+ 
+}
+
+h1{
+  float: top; 
+   text-align: center;
+  margin-left: 1%;
+
+  margin-bottom: 5px;  
+font-size: 22px; 
+
+}
+
+h2{
+  float: top; 
+
+  margin-left: 5%;
+  margin-top: 10px;
+  margin-bottom: 5px;  
+font-size: 22px; 
+
+}
+
+
+
+p{  
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h3{
+float: left;
+
+  margin-left: 10%;
+  margin-top: 10px;
+  margin-bottom: 5px;  
+font-size: 20px; 
+
+
+  
+}
+
+a:link, a:visited {
+    color: blue;
+    text-decoration: none;
+ font-size: 20px; 
+}
+
+a:hover {
+    color: lightblue;
+}
+
+
+.title{
+  float: top;
+  background-color: rgb(26, 26, 255);
+  box-shadow: 0px 0px 5px black;  
+  
+  width: 100%;
+  margin-bottom: 20px;
+font-size: 20px; 
+	padding: 5px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+border-radius: 15px;
+}
+
+
+
+.values div {
+  font-family: Arial;
+}
+
+#hodnota{
+  font-size: 100%;
+}
+
+
+
+#line{
+  border-top: 2px dotted rgba(255,255,255,0.5);
+  width: 97%;
+  margin-bottom: 10px;
+float: top
+
+}      
+    
+/*
+Display mode for mobile devices.
+*/    
+@media only screen and (max-device-width:800px), (max-width:800px){
+  .values{
+    width: 48%;
+    max-width: 100%;
+
+  }
+body{
+   background-color: rgb(230, 242, 255);
+  font-family: Calibri;
+     
+	padding: 5%;
+ padding-top: 2%;
+
+  margin: 0;
+
+
+  background-size: cover;
+ float: top; 
+}
+p{  
+    font-size: 15px;
+
+}
+h1{
+ 
+font-size: 20px; 
+
+}
+h2{
+
+font-size: 20px; 
+
+}
+
+}

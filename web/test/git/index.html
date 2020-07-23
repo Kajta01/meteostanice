@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>meteo</title>
+      <meta charset="UTF-8">
+      <script src="jquery-1.11.2.min.js"></script>
+      <script src="highstock.js"></script> 
+      <script src="highcharts-more.js"></script> 
+      <script src="options.js"></script>
+      <script src="script.js"></script>
+      <link rel="stylesheet" type="text/css" href="stylesheet.css"> 
+   </head>
+<body>
+
+   <div id = "title"> <h2> Meteorologická stanice GJK </h2> </div>
+
+   <div class = "values" id ="teplota"> Teplota:<div id = "t"></div> <div id = "line"></div> <div id = "time"></div> </div>
+   <div class = "values" id = "tlak"> Tlak: <div id ="p"></div></div> 
+   <div class = "values" id = "vlhkost"> Vlhkost: <div id ="h"></div></div> 
+   <div class = "values" id = "pocitovateplota"> <a href="http://en.wikipedia.org/wiki/Heat_index">Pocitová teplota:</a> <div id ="hi"></div></div> 
+   <div class = "values" id = "rosnybod"> <a href="http://cs.wikipedia.org/wiki/Rosný_bod">Rosný bod:</a> <div id ="dp"></div></div> 
+
+   <h3> Vývoj teploty a tlaku za poslední 3 dny </h3>   
+	 <div id="canvas"><h2> Načítá se graf...</h2></div>
+
+   <h3> Denní rozmezí teplot</h3>
+   <div id="canvas2"><h2> Načítá se graf...</h2></div>
+   <h3> Jaroslav Lžičař &nbsp 2015 <br> <a href="https://github.com/jardalzicar/meteo"> &#10142; GitHub</a> <br><br> </h3> 
+
+</body>
+</html>

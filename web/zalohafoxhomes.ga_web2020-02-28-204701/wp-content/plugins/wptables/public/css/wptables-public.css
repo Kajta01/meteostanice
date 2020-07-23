@@ -1,0 +1,18 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.jsgrid-table {
+  margin: 0;
+}
+
+.jsgrid-table th:first-child,
+.jsgrid-table td:first-child {
+  padding-left: 0.5em;
+}
+
+.jsgrid-table th:last-child,
+.jsgrid-table td:last-child {
+  padding-right: 0.5em;
+}

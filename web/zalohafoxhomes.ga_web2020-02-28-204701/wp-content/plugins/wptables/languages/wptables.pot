@@ -1,0 +1,239 @@
+# Copyright (C) 2017 WordPress Tables
+# This file is distributed under the same license as the WordPress Tables package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Tables 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wptables\n"
+"POT-Creation-Date: 2017-04-30 16:02:59+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/class-wptables-admin.php:28 admin/class-wptables-admin.php:29
+msgid "Tables"
+msgstr ""
+
+#: admin/class-wptables-admin.php:38
+msgid "Add New Table"
+msgstr ""
+
+#: admin/class-wptables-admin.php:39
+#: admin/partials/view-wptables-edit-table.php:15
+#: admin/partials/view-wptables-list-tables.php:10
+msgid "Add New"
+msgstr ""
+
+#: admin/class-wptables-admin.php:93
+msgid "Error: Please specify valid data to import."
+msgstr ""
+
+#: admin/class-wptables-admin.php:120
+msgid "New Table"
+msgstr ""
+
+#: admin/partials/view-wptables-add-new-table.php:21
+#: admin/partials/view-wptables-add-new-table.php:37
+msgid "Data Source"
+msgstr ""
+
+#: admin/partials/view-wptables-add-new-table.php:26
+msgid "Data Format"
+msgstr ""
+
+#: admin/partials/view-wptables-add-new-table.php:30
+msgid "CSV"
+msgstr ""
+
+#: admin/partials/view-wptables-add-new-table.php:31
+msgid "MySQL"
+msgstr ""
+
+#: admin/partials/view-wptables-add-new-table.php:43
+msgid "File Upload"
+msgstr ""
+
+#: admin/partials/view-wptables-add-new-table.php:48
+msgid "URL"
+msgstr ""
+
+#: admin/partials/view-wptables-add-new-table.php:53
+msgid "Manual Input"
+msgstr ""
+
+#: admin/partials/view-wptables-add-new-table.php:59
+msgid "Database Table"
+msgstr ""
+
+#: admin/partials/view-wptables-add-new-table.php:70
+msgid "Select File"
+msgstr ""
+
+#: admin/partials/view-wptables-add-new-table.php:78
+msgid "File URL"
+msgstr ""
+
+#: admin/partials/view-wptables-add-new-table.php:86
+msgid "Insert Data"
+msgstr ""
+
+#: admin/partials/view-wptables-add-new-table.php:94
+msgid "Select Table"
+msgstr ""
+
+#: admin/partials/view-wptables-add-new-table.php:113
+msgid "Insert Query"
+msgstr ""
+
+#: admin/partials/view-wptables-add-new-table.php:124
+msgid "Create"
+msgstr ""
+
+#: admin/partials/view-wptables-edit-table.php:8
+msgid "Text"
+msgstr ""
+
+#: admin/partials/view-wptables-edit-table.php:9
+msgid "Number"
+msgstr ""
+
+#: admin/partials/view-wptables-edit-table.php:14
+msgid "Edit Table"
+msgstr ""
+
+#: admin/partials/view-wptables-edit-table.php:31
+#: admin/partials/view-wptables-list-tables.php:17
+#: admin/partials/view-wptables-list-tables.php:54
+msgid "Shortcode"
+msgstr ""
+
+#: admin/partials/view-wptables-edit-table.php:33
+msgid "Copy"
+msgstr ""
+
+#: admin/partials/view-wptables-edit-table.php:41
+msgid "Fields"
+msgstr ""
+
+#: admin/partials/view-wptables-edit-table.php:46
+#: admin/partials/view-wptables-list-tables.php:16
+#: admin/partials/view-wptables-list-tables.php:53
+msgid "Title"
+msgstr ""
+
+#: admin/partials/view-wptables-edit-table.php:47
+msgid "Type"
+msgstr ""
+
+#: admin/partials/view-wptables-edit-table.php:48
+msgid "Align"
+msgstr ""
+
+#: admin/partials/view-wptables-edit-table.php:49
+msgid "Width"
+msgstr ""
+
+#: admin/partials/view-wptables-edit-table.php:50
+msgid "CSS Class"
+msgstr ""
+
+#: admin/partials/view-wptables-edit-table.php:79
+msgid "Default"
+msgstr ""
+
+#: admin/partials/view-wptables-edit-table.php:80
+msgid "Left"
+msgstr ""
+
+#: admin/partials/view-wptables-edit-table.php:81
+msgid "Center"
+msgstr ""
+
+#: admin/partials/view-wptables-edit-table.php:82
+msgid "Right"
+msgstr ""
+
+#: admin/partials/view-wptables-edit-table.php:108
+msgid "Allow Sorting"
+msgstr ""
+
+#: admin/partials/view-wptables-edit-table.php:115
+msgid "Allow Selecting"
+msgstr ""
+
+#: admin/partials/view-wptables-edit-table.php:122
+msgid "Show Header"
+msgstr ""
+
+#: admin/partials/view-wptables-edit-table.php:129
+msgid "Paging"
+msgstr ""
+
+#: admin/partials/view-wptables-edit-table.php:135
+msgid "rows per page"
+msgstr ""
+
+#: admin/partials/view-wptables-edit-table.php:144
+msgid "Save"
+msgstr ""
+
+#: admin/partials/view-wptables-edit-table.php:147
+msgid "Table Preview"
+msgstr ""
+
+#: admin/partials/view-wptables-edit-table.php:170
+msgid "Please copy and insert this shortcode to your page"
+msgstr ""
+
+#: admin/partials/view-wptables-list-tables.php:15
+#: admin/partials/view-wptables-list-tables.php:52
+msgid "ID"
+msgstr ""
+
+#: admin/partials/view-wptables-list-tables.php:18
+#: admin/partials/view-wptables-list-tables.php:55
+msgid "Author"
+msgstr ""
+
+#: admin/partials/view-wptables-list-tables.php:19
+#: admin/partials/view-wptables-list-tables.php:56
+msgid "Date"
+msgstr ""
+
+#: admin/partials/view-wptables-list-tables.php:34
+msgid "Edit"
+msgstr ""
+
+#: admin/partials/view-wptables-list-tables.php:37
+msgid "Delete"
+msgstr ""
+
+#: admin/partials/view-wptables-list-tables.php:44
+msgid "Modified"
+msgstr ""
+
+#: admin/partials/view-wptables-list-tables.php:71
+msgid "Do you really want to delete this table?"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WordPress Tables"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://example.com/plugin-name-uri/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Description"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Ian Sadovy"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://example.com/"
+msgstr ""

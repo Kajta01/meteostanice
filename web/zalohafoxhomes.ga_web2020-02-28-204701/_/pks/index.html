@@ -1,0 +1,276 @@
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>DNS</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" Content="">
+<meta name="description" Content="">
+
+<style>
+
+p {font-family:Verdana;font-size:12;text-align:justify}
+ul,ol {font-family:Verdana;font-size:12}
+h1 {font-family:Verdana;font-size:20}
+h2 {font-family:Verdana;font-size:18}
+h3 {font-family:Verdana;font-size:15}
+h4 {font-family:Verdana;font-size:12}
+#code {font-family:monospace;font-size:15}
+</style>
+
+</head>
+
+<body marginwidth="20" marginheight="5" link="#333333" vlink="#333333" alink="#C0C0C0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top" bgcolor="#2696B8" width="19" height="10"></td>
+  </tr>
+</table>
+<table width="100%" height="76" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+
+    <td width="100%">
+      <div align="center"><font color="#333333" size="6" face="Impact">DNS</font></div>
+    </td>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="1">
+  <tr>
+    <td valign="top" bgcolor="#2696B8" width="100%" height="20"></td>
+  </tr>
+  <tr>
+    <td valign="top" bgcolor="#31404E" width="100%" height="5"></td>
+  </tr>
+</table>
+<table width="100%" height="488" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="15%" height="488" valign="top">
+      <table width="142" border="0" cellspacing="1" cellpadding="2">
+        <tr>
+          <td height="22" valign="middle" bgcolor="#2696B8"> <div align="center" class="bodytxt"><strong><font color="#FFFFFF" size="2" face="Verdana">Menu</font></strong></div></td>
+        </tr>
+        <tr>
+          <td height="171" valign="top" bgcolor="#f5f5f5"><div align="center">
+              <p align="left"><br>
+              <font size="4" face="Verdana">
+
+              </font><strong><a href="#dns"><font face="Verdana" size="3">DNS</font></a></strong><font size="4" face="Verdana"><br>
+
+               </font><strong><a href="#konfigurace"><font face="Verdana" size="3">Konfigurace</font></a></strong><font size="4" face="Verdana"><br>
+
+               </font><strong><a href="#zdroje"><font face="Verdana" size="3">Zdroje</font></a></strong><font size="4" face="Verdana"><br>
+
+              </font> </div></td>
+        </tr>
+      </table>
+
+
+<br> <table width="142" border="0" cellspacing="1" cellpadding="2">
+        <tr>
+          <td height="22" valign="middle" bgcolor="#2696B8"> <div align="center" class="bodytxt"><strong><font color="#FFFFFF" face="Verdana" size="2">Autor</font></strong></div></td>
+        </tr>
+        <tr>
+          <td height="206" valign="top" bgcolor="#f5f5f5"> <div align="center">
+              <p align="left"><span class="bodytxt"><br>
+<font face="Verdana" size="3">
+Kamila Chmelařová
+<br><br>CHM0060
+</font>
+
+
+ </span></div></td>
+        </tr>
+      </table>
+
+    </td>
+
+  <td width="510" valign="top">
+    <div id="dns">
+      <h1>DNS - Domain name system</h1>
+      <ul>
+        <li>je hierarchický systém doménových jmen, který je realizován servery DNS a protokolem DNS, kterým si vyměňují informace</li>
+        <li>hlavním úkolem a příčinou vzniku jsou vzájemné převody doménových jmen na IP adresy</li>
+        <li>protokol DNS pracuje způsobem dotaz-odpoveď</li>
+        <li>protokol DNS je protokol aplikační vrstvy, neřeší proto otázku vlastního přenosu paketu</li>
+        <li>DNS server naslouchá na portu 53 </li>
+      </ul>
+
+      <p>
+
+  DNS (Domain Name System) je hierarchický systém doménových jmen, který je realizován servery DNS a protokolem stejného jména,
+ kterým si vyměňují informace. Jeho hlavním úkolem a příčinou vzniku jsou vzájemné převody doménových jmen a IP adres uzlů sítě.
+ Později ale přibral další funkce (např. pro elektronickou poštu či IP telefonii).
+        </p>
+<p>Protokol používá porty TCP/53 i UDP/53. Servery DNS jsou organizovány hierarchicky, stejně jako jsou
+   hierarchicky tvořeny názvy domén. Jména domén umožňují lepší orientaci lidem, adresy pro stroje jsou však vyjádřeny pomocí
+   adres 32bitových (IPv4) A záznam nebo 128bitových (IPv6) - AAAA záznam. Systém DNS umožňuje efektivně udržovat decentralizované
+   databáze doménových jmen a jejich překlad na IP adresy. Stejně tak zajišťuje zpětný překlad IP adresy na doménové jméno - PTR záznam..
+  </p>
+  <img src="strom.jpg" alt="strom" align="middle" margin-left="10px">
+  <h2>Jak DNS funguje</h2>
+  <p>
+  Prostor doménových jmen tvoří strom s jedním kořenem. Každý uzel tohoto stromu obsahuje informace o části jména (doméně), které je mu přiděleno a odkazy na své podřízené domény. Kořenem stromu je tzv. kořenová doména, která se zapisuje jako samotná tečka. Pod ní se v hierarchii nacházejí tzv. domény nejvyšší úrovně (Top-Level Domain, TLD). Ty jsou buď tematické (com pro komerci, edu pro vzdělávací instituce atd.) nebo státní (cz pro Česko, sk pro Slovensko, jo pro Jordánsko atd.).
+</p>
+<p>
+Strom lze administrativně rozdělit do zón, které spravují jednotliví správci (organizace nebo i soukromé osoby), přičemž taková zóna obsahuje autoritativní informace o spravovaných doménách. Tyto informace jsou poskytovány autoritativním DNS serverem.
+</p>
+<p>
+Výhoda tohoto uspořádání spočívá v možnosti zónu rozdělit a správu její části svěřit někomu dalšímu. Nově vzniklá zóna se tak stane autoritativní pro přidělený jmenný prostor. Právě možnost delegování pravomocí a distribuovaná správa tvoří klíčové vlastnosti DNS a jsou velmi podstatné pro jeho úspěch. Ve vyšších patrech doménové hierarchie platí, že zóna typicky obsahuje jednu doménu. Koncové zóny přidělené organizacím připojeným k Internetu pak někdy obsahují několik domén – například doména kdesi.cz a její poddomény vyroba.kdesi.cz, marketing.kdesi.cz a obchod.kdesi.cz mohou být obsaženy v jedné zóně a obhospodařovány stejným serverem.
+</p>
+<h2>DNS servery (name servery)</h2>
+<p>
+DNS server může hrát vůči doméně (přesněji zóně, ale ve většině případů jsou tyto pojmy zaměnitelné) jednu ze tří rolí:
+</p>
+<ul>
+  <li><strong>Primární server </strong>je ten, na němž data vznikají. Pokud je třeba provést v doméně změnu, musí se editovat data na jejím primárním serveru.
+    Každá doména má právě jeden primární server.
+    </li>
+<li><strong>Sekundární server</strong> je automatickou kopií primárního. Průběžně si aktualizuje data a slouží jednak jako záloha pro případ výpadku primárního
+  serveru, jednak pro rozkládání zátěže u frekventovaných domén. Každá doména musí mít alespoň jeden sekundární server.
+  </li>
+<li><strong>Pomocný (caching only) server</strong> slouží jako vyrovnávací paměť pro snížení zátěže celého systému. Uchovává si odpovědi a poskytuje je při
+  opakování dotazů, dokud nevyprší jejich životnost.
+  </li>
+</ul>
+<p>Odpověď pocházející přímo od primárního či sekundárního serveru je autoritativní, čili je brána za správnou.
+  Z hlediska věrohodnosti odpovědí není mezi primárním a sekundárním serverem rozdíl, oba jsou autoritativní.
+  Naproti tomu odpověď poskytnutá z vyrovnávací paměti není autoritativní. Klient může požádat o autoritativní
+   odpověď, v běžných případech ale stačí jakákoli.</p>
+<h2>Postup při řešení DNS dotazu</h2>
+
+<ol>
+  <li>Uživatel zadal do svého WWW klienta doménové jméno www.wikipedia.org. Resolver v počítači se obrátil na lokální DNS server s dotazem
+    na IP adresu pro www.wikipedia.org.
+    </li>
+      <li>
+Lokální DNS server tuto informaci nezná. Má však k dispozici adresy kořenových serverů. Na jeden z nich se obrátí (řekněme na 193.0.14.129)
+a dotaz mu přepošle.
+</li><li>
+Kořenový server také nezná odpověď. Ví však, že existuje doména nejvyšší úrovně org, a jaké jsou její autoritativní servery,
+ jejichž adresy tazateli poskytne.
+ </li><li>
+Lokální server jeden z nich vybere (řekněme, že zvolí tld1.ultradns.net s IP adresou 204.74.112.1) a pošle mu dotaz na IP adresu
+ke jménu www.wikipedia.org.
+</li><li>
+Oslovený server informaci opět nezná, ale poskytne IP adresy autoritativních serverů pro doménu wikipedia.org.
+ Jsou to ns0.wikimedia.org (207.142.131.207), ns1.wikimedia.org (211.115.107.190) a ns2.wikimedia.org (145.97.39.158).
+ </li><li>
+Lokální server opět jeden z nich vybere a pošle mu dotaz na IP adresu ke jménu www.wikipedia.org.
+</li><li>
+Jelikož toto jméno se již nachází v doméně wikipedia.org, dostane od jejího serveru nepochybně autoritativní odpověď,
+ že hledaná IP adresa zní 145.97.39.155
+ </li><li>
+Lokální DNS server tuto odpověď předá uživatelskému počítači, který se na ni ptal.
+</li>
+</ol>
+<h2>Typy záznamů</h2>
+<h3>Záznam A</h3>
+<p>
+Tento záznam se používá, pokud pracujeme s nastavením webových stránek. Je to ten nejobyčejnější typ záznamů, slouží jen k zamaskování IP adresy za hezkou doménu, dají se zde tvořit subdomény.
+</p>
+<h3>Záznam AAAA</h3>
+<p>
+Je to záznam vlastnostmi skoro totožný s obyčejným záznamem A. Je zde pouze drobná úprava kvůli novému systému IP adres, konkrétně IVv6. Tyto IP řeší problém s nedostatkem tehdejších, ale zatím využívaných IPv4.
+</p>
+<h3>Záznam CNAME</h3>
+<p>
+
+Je to způsob jak již v DNS nastavit nasměrování na jinou doménu, či subdoménu. Může se jednat jak o doménu, která je totožná s tou ze které směrujete, ale bude mít jen jinou předponu, ale může to být i jiná doména s úplně jinou subdoménou.
+Z http://nasedomena.cz/ směrujeme na http://sub.nasedomena.cz/
+Z http://nasedomena.cz/ směrujeme na http://jinadomena.cz/
+</p>
+<h3>Záznam MX</h3>
+<p>
+
+Tento typ záznamu využijeme, když budeme chtít nastavit v DNS emailový server. Pro obsluhu tohoto záznamu budu předpokládat, že máte vytvořený a funkční záznam A. Co se záznamem vlastně můžeme docílit? Můžeme nastavit, kam se bude směrovat pošta. Výhodou tohoto záznamu je to, že můžeme udělat více serverů a hlavně můžeme udělat i subdoménové maily. Více serverů se využije, pokud budete mít nějaký primární a pak rezervní server. Subdoménové emaily se využijí, například když máte ve firmě několik oddělení a každé má svou subdoménu, budete potřebovat pro ně maily. Ovšem Josef Novák bude ve firmě dvakrát, jednou na prvním a jednou na druhém oddělení. Budeme mít maily novak@1.domena.cz a novak@2.domena.cz. Účty budou rozdílné a rovnou se odesílateli mailu řekne, kde daný pracuje a usnadní to komunikaci.
+</p>
+<h3>Záznam TXT</h3>
+<p>
+TXT záznam (text record) je další možný typ, ovšem není moc potřebný pro základní nastavení. Active24 radí jeho používání jen těm zdatnějším uživatelům. Slouží k uchování textového řetězce v systému DNS. Text, který tento kód vyjadřuje, může být dlouhý maximálně 255 znaků. Mezi tyto znaky patří písmena bez diakritiky, číslice, spaciální znaky (+, -, =, %, @, ?, !). Jak se tento záznam dá využít? Příkladem využití TXT záznamu je možnost definice, které servery smí odesílat emaily s adresou odesílatele v této doméně.
+</p>
+<h3>Záznam NS</h3>
+<p>
+
+NS záznam, neboli Name Server záznam nám určuje server/y, na kterých jsou spravovány DNS údaje domény. Název DNS serveru/ů sdělují poskytovatelé webhostingových služeb.
+
+
+      </div>
+      <div id="konfigurace">
+        <h1>Konfigurace</h1>
+<h4>1. Instalace Bind9</h4>
+<p id="code">
+  sudo -i <br>
+  apt-get install bind9
+  <p>
+
+  <h4>2. Otevřít soubor named.conf.local a upravit</h4>
+  <p id="code">
+    nano /etc/bind/named.conf.local
+    </p>
+  <p> Přepsat na:</p>
+  <p id="code">
+  zone "domena.cz" {<br>
+type master;<br>
+file "/etc/bind/zones/domena.cz.db";<br>
+};<br>
+ <br>
+zone "3.2.1.in-addr.arpa" {<br>
+type master;<br>
+file "/etc/bind/zones/rev.3.2.1.in-addr.arpa";<br>
+};   <br>
+<br>
+
+4.1.1.0.0.0.0.0.0.0.0.0.0.0.0.0.6.c.2.0.1.0.0.1.8.1.7.0.1.0.0.2
+</p>
+<h4>3. Vytvoření primární zóny</h4>
+<p id="code">
+  mkdir zones <br>
+  cd zones<br>
+  nano domena.cz.db<br>
+  </p>
+<p>Napsat:</p>
+<p>
+<a href="domena.txt">txt</a>
+</p>
+  <img src="domena.png" alt="domena" align="middle" margin-left="10px">
+  <h4>4. Vytvoření reverzní zóny</h4>
+  <p>
+  <a href="revdomena.txt">txt</a>
+  </p>
+<img src="revdomena.png" alt="domena" align="middle" margin-left="10px">
+
+<h4>6. Restart</h4>
+<p>
+Nyní restartujeme bind a můžeme vše otestovat
+</p>
+<p id="code">
+/etc/init.d/bind9 restart
+</p>
+    </div>
+
+
+    <div id="zdroje">
+      <h1>Zdroje</h1>
+      <a href="http://www.servermom.org/how-to-install-and-setup-bind9-on-ubuntu-server/136/">http://www.servermom.org/how-to-install-and-setup-bind9-on-ubuntu-server/136/</a><br>
+
+      <a href="http://access.fel.cvut.cz/view.php?nazevclanku=prakticke-provedeni-konfigurace-dns-serveru-a-koncovych-stanic-v-siti-ip-verze-6&cisloclanku=2012090004">http://access.fel.cvut.cz/view.php?nazevclanku=prakticke-provedeni-konfigurace-dns</a><br>
+
+      <a href="http://cs.wikipedia.org/wiki/Domain_Name_System">http://cs.wikipedia.org/wiki/Domain_Name_System</a>
+
+      </div>
+
+    </td>
+
+
+<table width="100%" height="21" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td bgcolor="#31404E" height="21">
+<div align="center"><font face="Arial" size="1"><span id="pos7"><font color="#C0C0C0">Vytvořeno v rámci předmětu Praktikum komunikačních sítí I, Letní semestr 2018/2019 </font>
+      </div>
+    </td>
+  </tr>
+</table>
+
+
+</body>
+</html>

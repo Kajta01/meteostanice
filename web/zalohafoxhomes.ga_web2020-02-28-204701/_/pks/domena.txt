@@ -1,0 +1,12 @@
+$ORIGIN domema.cz.
+$TTL 3600
+
+@   IN    SOA     dns1.domema.cz.     hostmaster.domema.cz. (
+                2010111213      ; serial
+                6h              ; refresh
+                1h              ; retry
+                1h              ; expire
+                1d )            ; minimum
+
+IN        NS    dns1.domena.cz
+IN      AAAA		2001:718:1001:2c6::114

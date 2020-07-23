@@ -1,0 +1,5298 @@
+# Copyright (C) 2018 Ad Inserter
+# This file is distributed under the same license as the Ad Inserter package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ad Inserter 2.4.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ad-inserter\n"
+"POT-Creation-Date: 2018-12-25 11:49:30+00:00\n"
+"PO-Revision-Date: 2018-12-25 12:54+0100\n"
+"Last-Translator: Igor Funa\n"
+"Language-Team: \n"
+"Language: sl_SI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100>=3 && n"
+"%100<=4 ? 2 : 3);\n"
+
+#: ad-inserter.php:275
+msgctxt "Menu item"
+msgid "Debugging DEMO"
+msgstr "DEMO Razhroščevanje"
+
+#: ad-inserter.php:291
+msgctxt "Menu item"
+msgid "Label Blocks"
+msgstr "Označi bloke"
+
+#: ad-inserter.php:298
+msgctxt "Menu item"
+msgid "Show Positions"
+msgstr "Pokaži položaje"
+
+#: ad-inserter.php:369
+msgctxt "Menu item"
+msgid "Show HTML Tags"
+msgstr "Pokaži HTML značke"
+
+#: ad-inserter.php:376
+msgctxt "Menu item"
+msgid "Disable Insertion"
+msgstr "Onemogoči vstavljanje"
+
+#: ad-inserter.php:385
+msgctxt "Menu item"
+msgid "Ad Blocking Status"
+msgstr "Status blokiranja oglasov"
+
+#: ad-inserter.php:392
+msgctxt "Menu item"
+msgid "Simulate Ad Blocking"
+msgstr "Simuliraj blokiranje oglasov"
+
+#: ad-inserter.php:402
+msgctxt "Menu item"
+msgid "Log Processing"
+msgstr "Beleži procesiranje"
+
+#. translators: Debugging position name Before HTML element
+#: ad-inserter.php:925
+msgid "Before"
+msgstr "Pred"
+
+#. translators: Debugging position name After HTML element
+#: ad-inserter.php:930
+msgid "After"
+msgstr "Za"
+
+#. translators: Debugging position name Prepend content of HTML element (before
+#. the content of the HTML element)
+#: ad-inserter.php:935 strings.php:95
+msgid "Prepend content"
+msgstr "Dodaj pred vsebino"
+
+#. translators: Debugging position name Append content of HTML element (after
+#. the content of the HTML element)
+#: ad-inserter.php:940 strings.php:96
+msgid "Append content"
+msgstr "Dodaj za vsebino"
+
+#. translators: Debugging position name Replace content of HTML element
+#: ad-inserter.php:945 strings.php:97
+msgid "Replace content"
+msgstr "Nadomesti vsebino"
+
+#. translators: Debugging position name Replace HTML element
+#: ad-inserter.php:950 strings.php:147
+msgid "Replace"
+msgstr "Nadomesti"
+
+#. translators: Debugging message when output buffering is enabled
+#: ad-inserter.php:995
+msgid "OUTPUT BUFFERING"
+msgstr "PREDPOMNJENJE IZHODA"
+
+#. translators: Debugging position
+#: ad-inserter.php:999
+msgid "Above Header"
+msgstr "Nad Glavo"
+
+#: ad-inserter.php:1200
+msgctxt "Menu item"
+msgid "Log In"
+msgstr "Prijava"
+
+#. translators: %s: Ad Inserter
+#: ad-inserter.php:1469 ad-inserter.php:2327
+msgid "%s Settings"
+msgstr "%s Nastavitve"
+
+#. translators: AD BLOCKING DETECTED, PAGE VIEWS: n - NO ACTION
+#: ad-inserter.php:1902
+msgid "AD BLOCKING DETECTED, PAGE VIEWS"
+msgstr "BLOKIRANJE OGLASOV ZAZNANO, OGLEDI STRANI"
+
+#: ad-inserter.php:1902
+msgid "NO ACTION"
+msgstr "NI AKCIJE"
+
+#: ad-inserter.php:1903
+msgid "AD BLOCKING DETECTED, COOKIE DETECTED - NO ACTION"
+msgstr "BLOKIRANJE OGLASOV ZAZNANO, PIŠKOTEK ZAZNAN, NI AKCIJE"
+
+#: ad-inserter.php:1904
+msgid "AD BLOCKING DETECTED - ACTION"
+msgstr "BLOKIRANJE OGLASOV ZAZNANO - AKCIJA"
+
+#: ad-inserter.php:1905
+msgid "AD BLOCKING NOT DETECTED"
+msgstr "BLOKIRANJE OGLASOV NI ZAZNANO"
+
+#: ad-inserter.php:1906
+msgid "AD BLOCKING DETECTION COOKIES DELETED"
+msgstr "PIŠKOTKI ZA ZAZNAVANJE BLOKIRANJA OGLASOV POBRISANI"
+
+#: ad-inserter.php:1907
+msgid "AD BLOCKING DETECTED - NO ACTION"
+msgstr "BLOKIRANJE OGLASOV ZAZNANO - NI AKCIJE"
+
+#. Translators: 1: number of blocks, 2: Ad Inserter
+#: ad-inserter.php:2098
+msgid "Hey, you are now using %1$s %2$s block."
+msgid_plural "Hey, you are now using %1$s %2$s blocks."
+msgstr[0] "Hej, trenutno uporabljate %1$s %2$s blok."
+msgstr[1] "Hej, trenutno uporabljate %1$s %2$s bloka."
+msgstr[2] "Hej, trenutno uporabljate %1$s %2$s bloke."
+msgstr[3] "Hej, trenutno uporabljate %1$s %2$s blokov."
+
+#: ad-inserter.php:2099 includes/functions.php:1337
+msgid "No, thank you."
+msgstr "Ne, hvala."
+
+#. Translators: %s: Ad Inserter
+#: ad-inserter.php:2102
+msgid ""
+"Hey, you've been using %s for a while now, and I hope you're happy with it."
+msgstr "Hej, %s uporabljate že kar nekaj časa. Upam, da ste zadovoljni z njim."
+
+#: ad-inserter.php:2103 includes/functions.php:1339
+msgid "Not now, maybe later."
+msgstr "Ne zdaj, mogoče kasneje."
+
+#: ad-inserter.php:2113
+msgid ""
+"I would really appreciate it if you could give the plugin a 5-star rating on "
+"WordPres."
+msgstr ""
+"Res bi bili vesel, če bi lahko na WordPress-u vtičnik ocenili s 5-imi "
+"zvezicami."
+
+#: ad-inserter.php:2115
+msgid ""
+"Positive reviews are a great incentive to fix bugs and to add new features "
+"for better monetization of your website. Thank you, Igor"
+msgstr ""
+"Pozitivne ocene so velika vzpodbuda za odpravo hroščev in dodajanje novih "
+"funkcij za boljšo monetizacijo vašega spletnega mesta. Hvala, Igor"
+
+#. translators: %s: Ad Inserter
+#: ad-inserter.php:2121
+msgid "Rate %s"
+msgstr "Oceni %s"
+
+#: ad-inserter.php:2126
+msgid "I already did."
+msgstr "Sem že."
+
+#: ad-inserter.php:2140
+msgctxt "Menu item"
+msgid "Settings"
+msgstr "Nastavitve"
+
+#. translators: %s: Ad Inserter
+#: ad-inserter.php:2214
+msgctxt "Meta box name"
+msgid "%s Individual Exceptions"
+msgstr "Posamezne Izjeme za %s"
+
+#: ad-inserter.php:2243 ad-inserter.php:7546 class.php:1903
+#: includes/preview.php:1759 includes/preview.php:1803
+#: includes/preview.php:1840 settings.php:3151 strings.php:3
+msgid "Block"
+msgstr "Blok"
+
+#: ad-inserter.php:2244 settings.php:3152 settings.php:3226
+msgid "Name"
+msgstr "Ime"
+
+#: ad-inserter.php:2245 settings.php:943 settings.php:3154
+msgid "Automatic insertion"
+msgstr "Samodejno vstavljanje"
+
+#: ad-inserter.php:2248
+msgid "Default insertion for pages"
+msgstr "Privzeto vstavljanje za strani"
+
+#: ad-inserter.php:2249
+msgid "Default insertion for posts"
+msgstr "Privzeto vstavljanje za prispevke"
+
+#. translators: For this post or page
+#: ad-inserter.php:2252
+msgctxt "Page"
+msgid "For this"
+msgstr "Za to"
+
+#: ad-inserter.php:2253
+msgctxt "Post"
+msgid "For this"
+msgstr "Za ta"
+
+#: ad-inserter.php:2261
+msgctxt "Enabled/disabled on all"
+msgid "pages"
+msgstr "straneh"
+
+#: ad-inserter.php:2262
+msgctxt "Default insertion for"
+msgid "pages"
+msgstr "strani"
+
+#: ad-inserter.php:2266
+msgctxt "Enabled/disabled on all"
+msgid "posts"
+msgstr "prispevkih"
+
+#: ad-inserter.php:2267
+msgctxt "Default insertion for"
+msgid "posts"
+msgstr "prispevke"
+
+#: ad-inserter.php:2286 ad-inserter.php:2299 strings.php:153
+msgid "Enabled"
+msgstr "Omogočeno"
+
+#. translators: Menu items
+#: ad-inserter.php:2286 ad-inserter.php:2299 includes/functions.php:1905
+#: strings.php:16
+msgid "Disabled"
+msgstr "Onemogočeno"
+
+#. translators: Enabled on all pages or posts
+#: ad-inserter.php:2289
+msgid "Enabled on all"
+msgstr "Omogočeno na vseh"
+
+#. translators: Disabled on all pages or posts
+#: ad-inserter.php:2291
+msgid "Disabled on all"
+msgstr "Onemogočeno na vseh"
+
+#. translators: No individual exceptions enabled for pages or posts
+#: ad-inserter.php:2319
+msgid "No individual exceptions enabled for"
+msgstr "Ni omogočenih posameznih izjem za"
+
+#. translators: 1: pages or posts, 2: Ad Inserter Settings (page)
+#: ad-inserter.php:2324
+msgid ""
+"Default insertion for %1$s can be configured for each block on %2$s page - "
+"selection next to <strong>Posts</strong> / <strong>Static pages</strong> "
+"checkbox.<br />"
+msgstr ""
+"Privzeto vstavljanje za %1$s se lahko nastavi za vsak blok na strani %2$s - "
+"izbira poleg kljukice za vklop <strong>Prispevki</strong> / <strong>Statične "
+"strani</strong>.<br />"
+
+#: ad-inserter.php:2329
+msgid ""
+"Default value is <strong>blank</strong> and means no individual exceptions "
+"(even if previously defined here).<br />"
+msgstr ""
+"Privzeta vrednost je <strong>prazno</strong> in pomeni brez posameznih izjem "
+"(tudi, če so bile predhodno nsatavljene tukaj).<br />"
+
+#: ad-inserter.php:2332
+msgctxt "Pages"
+msgid ""
+"Set to <strong>Individually disabled</strong> or <strong>Individually "
+"enabled</strong> to enable individual exception settings on this page.<br />"
+msgstr ""
+"Nastavite na <strong>Posamezno onemogočene</strong> ali <strong>Posamezno "
+"omogočene</strong> za vklop nastavitev posameznih izjem na tej strani.<br />"
+
+#: ad-inserter.php:2333
+msgctxt "Posts"
+msgid ""
+"Set to <strong>Individually disabled</strong> or <strong>Individually "
+"enabled</strong> to enable individual exception settings on this page.<br />"
+msgstr ""
+"Nastavite na <strong>Posamezno onemogočeni</strong> ali <strong>Posamezno "
+"omogočeni</strong> za vklop nastavitev posameznih izjem na tej strani.<br />"
+
+#: ad-inserter.php:2335
+msgid "For more information check page %s"
+msgstr "Za več informacij poglejte stran %s"
+
+#. translators: Ad Inserter Exceptions documentation page
+#: ad-inserter.php:2337
+msgid "Individual Exceptions"
+msgstr "Posamezne Izjeme"
+
+#: ad-inserter.php:2382
+msgid "STATIC PAGE"
+msgstr "STATIČNA STRAN"
+
+#: ad-inserter.php:2385
+msgid "POST"
+msgstr "PRISPEVEK"
+
+#: ad-inserter.php:2388
+msgid "HOMEPAGE"
+msgstr "DOMAČA STRAN"
+
+#: ad-inserter.php:2391
+msgid "CATEGORY PAGE"
+msgstr "STRAN KATEGORIJE"
+
+#: ad-inserter.php:2394
+msgid "SEARCH PAGE"
+msgstr "STRAN ISKANJE"
+
+#: ad-inserter.php:2397
+msgid "ARCHIVE PAGE"
+msgstr "STRAN ARHIV"
+
+#: ad-inserter.php:2400
+msgid "ERROR 404 PAGE"
+msgstr "STRAN NAPAKA 404"
+
+#: ad-inserter.php:2403
+msgid "AJAX CALL"
+msgstr "AJAX KLIC"
+
+#: ad-inserter.php:2406
+msgid "UNKNOWN PAGE TYPE"
+msgstr "NEZNAN TIP STRANI"
+
+#: ad-inserter.php:2423
+msgid "Click to delete ad blocking detection cokies"
+msgstr "Klikni za brisanje piškotkov za zaznavanje blokiranja oglasov"
+
+#: ad-inserter.php:2424
+msgid "AD BLOCKING STATUS UNKNOWN"
+msgstr "NEZNAN STATUS BLOKIRANJA OGLASOV"
+
+#. translators: %s: AdSense Auto Ads
+#: ad-inserter.php:2444
+msgid ""
+"Code for %s detected - Code will automatically insert AdSense ads at optimal "
+"positions"
+msgstr ""
+"Zaznana koda za %s - Koda bo samodejno vstavila oglase AdSense na optimalne "
+"položaje"
+
+#: ad-inserter.php:2578
+msgid "Code for insertion"
+msgstr "Koda za vstavljanje"
+
+#: ad-inserter.php:2578
+msgid "character"
+msgid_plural "characters"
+msgstr[0] "znak"
+msgstr[1] "znaka"
+msgstr[2] "znaki"
+msgstr[3] "znakov"
+
+#: ad-inserter.php:2587
+msgid "Header code"
+msgstr "Koda v glavi"
+
+#: ad-inserter.php:2587
+msgctxt "Header code"
+msgid "DISABLED"
+msgstr "ONEMOGOČENA"
+
+#: ad-inserter.php:2587 ad-inserter.php:2782
+msgid "character inserted"
+msgid_plural "characters inserted"
+msgstr[0] "znak vstavljen"
+msgstr[1] "znaka vstavljena"
+msgstr[2] "znaki vstavljeni"
+msgstr[3] "znakov vstavljenih"
+
+#: ad-inserter.php:2604
+msgid "Automatically placed by AdSense Auto ads code"
+msgstr "Samodejno postavila koda za oglase AdSense Auto ads"
+
+#: ad-inserter.php:2767
+msgid "JAVASCRIPT NOT WORKING"
+msgstr "JAVASCRIPT NE DELA"
+
+#: ad-inserter.php:2767
+msgid "JAVASCRIPT WORKING"
+msgstr "JAVASCRIPT DELA"
+
+#: ad-inserter.php:2782
+msgid "Footer code"
+msgstr "Koda v nogi"
+
+#: ad-inserter.php:2782
+msgctxt "Footer code"
+msgid "DISABLED"
+msgstr "ONEMOGOČENA"
+
+#. translators: block name (block with default settings)
+#: ad-inserter.php:4791
+msgctxt "Block name"
+msgid "Default"
+msgstr "Privzeti"
+
+#. translators: %s: Ad Inserter
+#: ad-inserter.php:5341
+msgid "Error importing %s settings."
+msgstr "Napaka pri uvozu %s nastavitev."
+
+#: ad-inserter.php:5342
+msgid "Error importing settings for block"
+msgid_plural "Error importing settings for blocks:"
+msgstr[0] "Napaka pri uvozu nastavitev za blok"
+msgstr[1] "Napaka pri uvozu nastavitev za bloka:"
+msgstr[2] "Napaka pri uvozu nastavitev za bloke:"
+msgstr[3] "Napaka pri uvozu nastavitev za bloke:"
+
+#: ad-inserter.php:5391
+msgid "Settings saved."
+msgstr "Nastavitve shranjene."
+
+#: ad-inserter.php:5476
+msgid "Settings cleared."
+msgstr "Nastavitve ponastavljene."
+
+#: ad-inserter.php:5809 ad-inserter.php:5811 ad-inserter.php:5822
+msgid "word"
+msgid_plural "words"
+msgstr[0] "beseda"
+msgstr[1] "besedi"
+msgstr[2] "besede"
+msgstr[3] "besed"
+
+#: ad-inserter.php:5838 ad-inserter.php:5949
+msgid "HTML TAGS REMOVED"
+msgstr "HTML ZNAČKE ODSTRANJENE"
+
+#: ad-inserter.php:6025
+msgid "BEFORE COMMENTS"
+msgstr "PRED KOMENTARJI"
+
+#: ad-inserter.php:6133
+msgid "AFTER COMMENTS"
+msgstr "PO KOMETARJIH"
+
+#: ad-inserter.php:6196
+msgid "BETWEEN COMMENTS"
+msgstr "MED KOMENTARJI"
+
+#: ad-inserter.php:7200
+msgid "requires WordPress 4.0 or newer"
+msgstr "potrebuje WordPress 4.0 ali novejši"
+
+#: ad-inserter.php:7200
+msgid "Please update!"
+msgstr "Prosimo, posodobite!"
+
+#. translators: Opt-in message: Thank you for installing Ad Inserter (plugin
+#. name with HTML tags will be added)
+#: ad-inserter.php:7419
+msgid "Thank you for installing"
+msgstr "Hvala za namestitev vtičnika"
+
+#. translators: Opt-in message: %s: HTML tags
+#: ad-inserter.php:7421
+msgid ""
+"We would like to %s track its usage %s on your site. This is completely "
+"optional and can be disabled at any time."
+msgstr ""
+"Radi bi %s sledili njegovi uporabi %s na vašem spletnem mestu. To je povsem "
+"izbirno in se lahko izključi kadarkoli."
+
+#: ad-inserter.php:7423
+msgid ""
+"We don't record any sensitive data, only information regarding the WordPress "
+"environment and plugin usage, which will help us to make improvements to the "
+"plugin."
+msgstr ""
+"Ne beležimo občutljivh podatkov, samo informacije glede okolja WordPress in "
+"uporabe vtičnika, kar nam bo omogočilo izdelavo izboljšav za vtičnik."
+
+#. translators: Deactivation message: %s: HTML tags
+#: ad-inserter.php:7460
+msgid ""
+"Looking for %s Documentation, %s %s Common Settings, %s %s Quick Start %s or "
+"help for %s AdSense ads? %s The plugin doesn't work with your theme? %s Let "
+"us know %s and we'll try to help you."
+msgstr ""
+"Iščete %s Dokumentacijo, %s %s Pogoste Nastavitve, %s %s Hiter Začetek, %s "
+"ali pomoč za %s oglase AdSense? %s Vtičnik ne dela z vašo temo? %s Sporočite "
+"nam %s in poskušali vam bomo pomagati."
+
+#. translators: %s: Ad Inserter
+#: ad-inserter.php:7503
+msgid "%s block."
+msgstr "%s blok."
+
+#. translators: widget title
+#: ad-inserter.php:7519 ad-inserter.php:7555
+msgid "Processing log"
+msgstr "Dnevnik procesiranja"
+
+#. translators: widget title
+#: ad-inserter.php:7521 ad-inserter.php:7556
+msgid "Dummy widget"
+msgstr "Prazen gradnik"
+
+#. translators: widget title
+#: ad-inserter.php:7523 ad-inserter.php:7554
+msgid "Debugging tools"
+msgstr "Orodja za razhroščevanje"
+
+#. translators: block status (widget title)
+#: ad-inserter.php:7530
+msgctxt "block"
+msgid "PAUSED"
+msgstr "USTAVLJEN"
+
+#: ad-inserter.php:7531
+msgid "WIDGET DISABLED"
+msgstr "GRADNIK ONEMOGOČEN"
+
+#: ad-inserter.php:7532
+msgid "Unknown block"
+msgstr "Neznan blok"
+
+#: ad-inserter.php:7541 includes/functions.php:2357 settings.php:1089
+msgid "Title"
+msgstr "Naslov"
+
+#: ad-inserter.php:7563
+msgctxt "Widget"
+msgid "Sticky"
+msgstr "Lepljiv"
+
+#: ad-inserter.php:7612
+msgid ""
+"Ad Inserter can't be used while Ad Inserter Pro is active! To activate Ad "
+"Inserter you need to first deactivate Ad Inserter Pro."
+msgstr ""
+"Vtičnika Ad Inserter ni mogoče uporabljati dokler je Ad Inserter Pro "
+"aktiven! Za aktivacijo vtičnika Ad Inserter morate najprej onemogočiti Ad "
+"Inserter Pro."
+
+#: ad-inserter.php:7613
+msgid ""
+"<strong>WARNING</strong>: Please note that saving settings in Ad Inserter "
+"will clear all settings that are available only in the Pro version (blocks "
+"17 - 96, additional block and plugin settings)!"
+msgstr ""
+"<strong>OPOZORILO</strong>: Prosimo vedite, da bo shranjevanje nastavitev v "
+"vtičniku Ad Inserter pobrisalo vse nastavitve, ki so na razpolago samo v Pro "
+"različici (bloki 17 - 96, dodatne nastavitve blokov in vtičnika)!"
+
+#. translators: %s: Ad Inserter
+#: class.php:448 class.php:457 class.php:460
+msgid "PHP error in %s block"
+msgstr "PHP napaka v bloku %s"
+
+#: class.php:1869
+msgid "Counters"
+msgstr "Števci"
+
+#: class.php:1873
+msgid "Content"
+msgstr "Vsebina"
+
+#: class.php:1878
+msgid "Excerpt"
+msgstr "Izvleček"
+
+#: class.php:1883 strings.php:17
+msgid "Before post"
+msgstr "Pred prispevkom"
+
+#: class.php:1888 strings.php:18
+msgid "After post"
+msgstr "Za prispevkom"
+
+#: class.php:1893 settings.php:1576 settings.php:3158
+msgid "Widget"
+msgstr "Gradnik"
+
+#: class.php:1898 settings.php:3156
+msgid "PHP function call"
+msgstr "Klic PHP funkcije"
+
+#: class.php:1932
+msgid "AJAX REQUEST"
+msgstr "AJAX ZAHTEVEK"
+
+#: class.php:1946
+msgid "Ajax request url"
+msgstr "Url Ajax zahteve"
+
+#: class.php:1946
+msgid "IN THE LOOP"
+msgstr "V ZANKI"
+
+#: class.php:1946
+msgid "YES"
+msgstr "DA"
+
+#: class.php:1946
+msgid "NO"
+msgstr "NE"
+
+#. translators: %s: list parameters and type
+#: class.php:2285
+msgid "parameters='%s' type='%s'"
+msgstr "parametri='%s' tip='%s'"
+
+#. translators: %s: list parameters and type
+#: class.php:2287
+msgid "referers='%s' type='%s'"
+msgstr "napotitelji='%s' tip='%s'"
+
+#. translators: %s: list parameters and type
+#: class.php:2348
+msgid "countries='%s' type='%s'"
+msgstr "države='%s' tip='%s'"
+
+#. translators: %s: list parameters and type
+#: class.php:2350
+msgid "ip addresses='%s' type='%s'"
+msgstr "ip naslovi='%s' tip='%s'"
+
+#: class.php:2534
+msgid "WIDGET"
+msgstr "GRADNIK"
+
+#: class.php:2534
+msgid "BLOCK"
+msgstr "BLOK"
+
+#: class.php:2534
+msgctxt "block or widget"
+msgid "INSERTED BUT NOT VISIBLE"
+msgstr "VSTAVLJEN, VENDAR NI VIDEN"
+
+#: class.php:2707 strings.php:212
+msgid "BEFORE"
+msgstr "PRED"
+
+#: class.php:2715 strings.php:214
+msgid "PREPEND CONTENT"
+msgstr "DODAJ PRED VSEBINO"
+
+#: class.php:2719 strings.php:215
+msgid "APPEND CONTENT"
+msgstr "DODAJ ZA VSEBINO"
+
+#: class.php:2723 strings.php:216
+msgid "REPLACE CONTENT"
+msgstr "NADOMESTI VSEBINO"
+
+#: class.php:2727 strings.php:217
+msgid "REPLACE ELEMENT"
+msgstr "NADOMESTI ELEMENT"
+
+#: class.php:2738 strings.php:213
+msgid "AFTER"
+msgstr "ZA"
+
+#: class.php:2805
+msgctxt "JavaScript"
+msgid "script"
+msgstr "skripta"
+
+#: class.php:2807 settings.php:1845
+msgid "for"
+msgstr "za"
+
+#: class.php:5288 class.php:5340
+msgctxt "category name"
+msgid "Uncategorized"
+msgstr "Nekategorizirano"
+
+#: class.php:5828
+msgid ""
+"ERROR: class DOMDocument not found. Your webhost needs to install the DOM "
+"extension for PHP."
+msgstr ""
+"NAPAKA: razred DOMDocument ni bil najden. Vaš ponudnik gostovanja mora "
+"namestiti DOM razširitev za PHP."
+
+#: includes/editor.php:7 includes/placeholders.php:345
+#: includes/preview.php:1745 strings.php:219
+msgid "Use"
+msgstr "Uporabi"
+
+#: includes/editor.php:8 includes/preview.php:1746
+msgid "Reset"
+msgstr "Ponastavi"
+
+#: includes/editor.php:9 includes/placeholders.php:347
+#: includes/preview.php:1748 strings.php:193 strings.php:218
+msgid "Cancel"
+msgstr "Prekliči"
+
+#: includes/editor.php:74
+msgid "Visual Code Editor"
+msgstr "Vizualni Urejevalnik Kode"
+
+#: includes/editor.php:262 includes/preview-adb.php:289
+#: includes/preview.php:1735
+msgid ""
+"This page was not loaded properly. Please check browser, plugins and ad "
+"blockers."
+msgstr ""
+"Ta stran se ni naložila pravilno. Prevrrite brskalnik, vtičnike in "
+"blokiranje oglasov."
+
+#: includes/editor.php:264 settings.php:203
+msgid "Error loading page"
+msgstr "Napaka pri nalaganju strani"
+
+#: includes/editor.php:264 includes/preview-adb.php:291
+#: includes/preview.php:1737
+msgid "PAGE BLOCKED"
+msgstr "STRAN BLOKIRANA"
+
+#: includes/functions.php:255
+msgid "Online documentation"
+msgstr "Spletna Dokumentacija"
+
+#: includes/functions.php:255 settings.php:168
+msgid "Documentation"
+msgstr "Dokumentacija"
+
+#: includes/functions.php:268 settings.php:171
+msgid "Blocks"
+msgstr "Bloki"
+
+#. translators: %s: Ad Inserter Pro
+#: includes/functions.php:291
+msgid ""
+"Import %s settings when saving - if checked, the encoded settings below will "
+"be imported for all blocks and settings"
+msgstr ""
+"Uvozi %s nastavitve pri shranjevanju - če je odkljukano, se bodo kodirane "
+"nastavitve spodaj uvozile za vse bloke in nastavitve"
+
+#: includes/functions.php:291
+msgid "Import Settings for"
+msgstr "Uvozi Nastavitve za"
+
+#: includes/functions.php:295
+msgid "Saved settings for"
+msgstr "Shranjene nastavitve za"
+
+#: includes/functions.php:310
+msgid "License Key"
+msgstr "Licenčni Ključ"
+
+#: includes/functions.php:313
+msgid "License Key for"
+msgstr "Licenčni Ključ za"
+
+#: includes/functions.php:330
+msgid "Main content element"
+msgstr "Glavni element vsebine"
+
+#: includes/functions.php:333
+msgid ""
+"Main content element (#id or .class) for 'Stick to the content' position. "
+"Leave empty unless position is not properly calculated."
+msgstr ""
+"Glavni element vsebine (#id ali .razred) za položaj 'Lepljiv na vsebino'. "
+"Pustite prazno razen v primeru, ko položaj ni pravilno izračunan."
+
+#: includes/functions.php:334 settings.php:1125 settings.php:2398
+msgid "Open HTML element selector"
+msgstr "Odpri izbirnik HTML elementa"
+
+#: includes/functions.php:339
+msgid "Lazy loading offset"
+msgstr "Zamik za leno nalaganje"
+
+#: includes/functions.php:342
+msgid "Offset of the block from the visible viewport when it should be loaded"
+msgstr "Zamik bloka od vidnega pogleda, ko bi ta moral biti naložen"
+
+#: includes/functions.php:353
+msgid "Export / Import Block Settings"
+msgstr "Izvozi / Uvozi Nastavitve Bloka"
+
+#: includes/functions.php:368
+msgid "Track impressions and clicks for this block"
+msgstr "Sledi prikazom in klikom za ta blok"
+
+#: includes/functions.php:368
+msgid " - global tracking disabled"
+msgstr " - globalno sledenje onemogočeno"
+
+#: includes/functions.php:377
+msgid "Toggle Ad Blocking Statistics"
+msgstr "Preklopi Statistiko Blokiranja Oglasov"
+
+#: includes/functions.php:386 includes/functions.php:2227
+msgid "Toggle Statistics"
+msgstr "Preklopi Statistiko"
+
+#. translators: %s: Ad Inserter Pro
+#: includes/functions.php:402
+msgid "%s license key is not set. Continue?"
+msgstr "%s licenčni ključ ni nastavljen. Nadaljujem?"
+
+#. translators: %s: Ad Inserter Pro
+#: includes/functions.php:406
+msgid "Invalid %s license key. Continue?"
+msgstr "Neveljaven %s licenčni ključ. Nadaljujem?"
+
+#. translators: %s: Ad Inserter Pro
+#: includes/functions.php:410
+msgid "%s license overused. Continue?"
+msgstr "%s licenca prekomerno uporabljena. Nadaljujem?"
+
+#: includes/functions.php:414 settings.php:1915
+msgid "Save Settings"
+msgstr "Sharani Nastavitve"
+
+#: includes/functions.php:474 includes/preview.php:1880
+msgid "Horizontal position"
+msgstr "Vodoravni položaj"
+
+#: includes/functions.php:497
+msgid ""
+"Horizontal margin from the content or screen edge, empty means default value "
+"from CSS"
+msgstr ""
+"Vodoravni odmik od vsebine ali roba zaslona, prazno pomeni privzeta vrednost "
+"iz CSS"
+
+#: includes/functions.php:505 includes/preview.php:1935
+msgid "Vertical position"
+msgstr "Navpični položaj"
+
+#: includes/functions.php:520
+msgid ""
+"Vertical margin from the top or bottom screen edge, empty means default "
+"value from CSS"
+msgstr ""
+"Navpični odmik od roba vrha ali dna zaslona, prazno pomeni privzeta vrednost "
+"iz CSS"
+
+#: includes/functions.php:545 includes/preview.php:1986
+msgid "Animation"
+msgstr "Animacija"
+
+#: includes/functions.php:563
+msgid "Trigger"
+msgstr "Sporžilec"
+
+#: includes/functions.php:572
+msgid ""
+"Trigger value: page scroll in %, page scroll in px or element with selector "
+"(#id or .class) becomes visible"
+msgstr ""
+"Sprožilna vrednost: pomik strani v %, pomik strani v px ali element s "
+"selektorjem (#id ali .razred) postane viden"
+
+#: includes/functions.php:576
+msgid "Offset"
+msgstr "Zamik"
+
+#: includes/functions.php:576
+msgid "Offset of trigger element"
+msgstr "Zamik sprožilnega elementa"
+
+#: includes/functions.php:580
+msgid "Delay"
+msgstr "Zakasnitev"
+
+#: includes/functions.php:580
+msgid "Delay animation after trigger condition"
+msgstr "Zakasni animacijo po izpolnitvi pogoja sprožilca"
+
+#: includes/functions.php:584
+msgid "Trigger once"
+msgstr "Sproži enkrat"
+
+#: includes/functions.php:586
+msgid "Trigger animation only once"
+msgstr "Sproži animacijo samo enkrat"
+
+#: includes/functions.php:625
+msgid "Tracking is globally disabled"
+msgstr "Sledenje je globalno onemogočeno"
+
+#: includes/functions.php:629
+msgid "Tracking for this block is disabled"
+msgstr "Sledenje za ta blok je onemogočeno"
+
+#: includes/functions.php:639 settings.php:2919 settings.php:2955
+#: strings.php:203
+msgid "Loading..."
+msgstr "Nalagam..."
+
+#: includes/functions.php:655
+msgid ""
+"Clear statistics data for the selected range - clear both dates to delete "
+"all data for this block"
+msgstr ""
+"Pobriši podatke o statistiki za izbrano obdobje - pobriši oba datuma za "
+"brisanje vseh podatkov za ta blok"
+
+#: includes/functions.php:659
+msgid "Auto refresh data for the selected range every 60 seconds"
+msgstr "Samodejna osvežitev podatkov za izbrano obdobje vsakih 60 sekund"
+
+#: includes/functions.php:662
+msgid "Load data for last month"
+msgstr "Naloži podatke za zadnji mesec"
+
+#: includes/functions.php:662
+msgid "Last Month"
+msgstr "Zadnji Mesec"
+
+#: includes/functions.php:665
+msgid "Load data for this month"
+msgstr "Naloži podatke za ta mesec"
+
+#: includes/functions.php:665
+msgid "This Month"
+msgstr "Ta Mesec"
+
+#: includes/functions.php:668
+msgid "Load data for this year"
+msgstr "Naloži podatke za to leto"
+
+#: includes/functions.php:668
+msgid "This Year"
+msgstr "To Leto"
+
+#: includes/functions.php:671
+msgid "Load data for the last 15 days"
+msgstr "Naloži podatke za zadnjih 15 dni"
+
+#: includes/functions.php:674
+msgid "Load data for the last 30 days"
+msgstr "Naloži podatke za zadnjih 30 dni"
+
+#: includes/functions.php:677
+msgid "Load data for the last 90 days"
+msgstr "Naloži podatke za zadnjih 90 dni"
+
+#: includes/functions.php:680
+msgid "Load data for the last 180 days"
+msgstr "Naloži podatke za zadnjih 180 dni"
+
+#: includes/functions.php:683
+msgid "Load data for the last 365 days"
+msgstr "Naloži podatke za zadnjih 365 dni"
+
+#: includes/functions.php:693
+msgid "Load data for the selected range"
+msgstr "Naloži podatke za izbrano obdobje"
+
+#: includes/functions.php:709
+msgid ""
+"Import settings when saving - if checked, the encoded settings below will be "
+"imported for this block"
+msgstr ""
+"Uvozi nastavitve pri shranjevanju - če je odkljukano, se bodo kodirane "
+"nastavitve spodaj uvozile za ta blok"
+
+#: includes/functions.php:709
+msgid "Import settings for block"
+msgstr "Uvozi nastavitve za blok"
+
+#: includes/functions.php:713
+msgid ""
+"Import block name when saving - if checked and 'Import settings for block' "
+"is also checked, the name from encoded settings below will be imported for "
+"this block"
+msgstr ""
+"Uvozi ime bloka pri shranjevanju - če je odkljukano in je tudi 'Uvozi "
+"nastavitve za blok' odkljukano, se bo ime iz kodiranih nastavitev spodaj "
+"uvozilo za ta blok"
+
+#: includes/functions.php:713
+msgid "Import block name"
+msgstr "Uvozi ime bloka"
+
+#: includes/functions.php:717
+msgid "Saved settings for block"
+msgstr "Shranjene nastavitve za blok"
+
+#: includes/functions.php:730
+msgid "Export / Import Ad Inserter Pro Settings"
+msgstr "Izvozi / Uvozi Ad Inserter Pro Nastavitve"
+
+#: includes/functions.php:739
+msgid "Are you sure you want to clear all statistics data for all blocks?"
+msgstr ""
+"Ali ste prepričani, da želite pobrisati vse podatke o statistiki za vse "
+"bloke?"
+
+#: includes/functions.php:741
+msgid "Clear All Statistics Data"
+msgstr "Pobriši Vse Podatke o Statistiki"
+
+#: includes/functions.php:768
+msgid "IP Addresses"
+msgstr "IP Naslovi"
+
+#: includes/functions.php:771
+msgid "Toggle IP address editor"
+msgstr "Preklopi urejevalnik IP nslovov"
+
+#: includes/functions.php:774
+msgid ""
+"Comma separated IP addresses, you can also use partial IP addresses with * "
+"(ip-address-start*. *ip-address-pattern*, *ip-address-end)"
+msgstr ""
+"Z vejico ločeni IP naslovi, uporabite lahko tudi delne IP naslove z * (ip-"
+"naslov-začetek*. *ip-naslov-vzorec*, *ip-naslov-konec)"
+
+#: includes/functions.php:778
+msgid "Blacklist IP addresses"
+msgstr "Črni seznam IP naslovov"
+
+#: includes/functions.php:782
+msgid "Whitelist IP addresses"
+msgstr "Beli seznam IP naslovov"
+
+#: includes/functions.php:793
+msgid "Countries"
+msgstr "Države"
+
+#: includes/functions.php:796 includes/functions.php:2187
+msgid "Toggle country editor"
+msgstr "Preklopi urejevalnik držav"
+
+#: includes/functions.php:799 includes/functions.php:2190
+msgid "Comma separated country ISO Alpha-2 codes"
+msgstr "Z vejico ločene ISO Alpha-2 kode držav"
+
+#: includes/functions.php:803
+msgid "Blacklist countries"
+msgstr "Črni seznam držav"
+
+#: includes/functions.php:807
+msgid "Whitelist countries"
+msgstr "Beli seznam držav"
+
+#: includes/functions.php:1112
+msgid "Enter License Key"
+msgstr "Vnesite Licenčni Ključ"
+
+#. translators: %s: Ad Inserter Pro
+#: includes/functions.php:1114
+msgid "%s license key is not set - updates disabled."
+msgstr "%s licenčni ključ ni nastavljen - posodobitve onemogočene."
+
+#: includes/functions.php:1122
+msgid "Check License Key"
+msgstr "Preverite Licenčni Ključ"
+
+#. translators: %s: Ad Inserter Pro
+#: includes/functions.php:1124
+msgid "Invalid %s license key. Please check."
+msgstr "Neveljaven %s licenčni ključ. Prosimo, preverite."
+
+#. translators: %s: Ad Inserter Pro
+#: includes/functions.php:1129
+msgid "Renew License"
+msgstr "Obnovite Licenco"
+
+#. translators: %s: Ad Inserter Pro
+#: includes/functions.php:1131
+msgid "%s license expired. Please renew the license to enable updates."
+msgstr ""
+"%s licenca je potekla. Prosimo, obnovite licenco, da bi omogočili "
+"posodobitve."
+
+#: includes/functions.php:1136
+msgid "Upgrade License"
+msgstr "Nadgradite Licenco"
+
+#. translators: %s: Ad Inserter Pro
+#: includes/functions.php:1138
+msgid "%s license overused. Please upgrade the license to enable updates."
+msgstr ""
+"%s licenca je prekomerno uporabljena. Prosimo, nadgradite licenco, da bi "
+"omogočili posodobitve."
+
+#. translators: 1, 2, 4, 5: HTML tags, 3: Ad Inserter Pro
+#: includes/functions.php:1298
+msgid ""
+"%1$s Warning: %2$s %3$s license key %4$s not set %5$s - plugin functionality "
+"limited."
+msgstr ""
+"%1$s Opozorilo: %2$s %3$s licenčni ključ %4$s ni vnešen %5$s - "
+"funkcionalnost vtičnika omejena."
+
+#. translators: 1, 2, 4, 5: HTML tags, 3: Ad Inserter Pro
+#: includes/functions.php:1307
+msgid ""
+"%1$s Warning: %2$s Invalid %3$s license key - updates disabled. Please %4$s "
+"check license key. %5$s"
+msgstr ""
+"%1$s Opozorilo: %2$s Neveljaven %3$s licenčni ključ - posodobitve "
+"onemogočene. Prosimo, %4$s preverite licenčni ključ. %5$s"
+
+#. translators: 2, 3: HTML tags, 1: Ad Inserter Pro
+#: includes/functions.php:1323
+msgid ""
+"Hey, %1$s license has expired - plugin updates are now disabled. Please "
+"renew the license to enable updates. Check %2$s what you are missing. %3$s"
+msgstr ""
+"Hej, %1$s licenca je potekla - posodobitve vtičnika so zdaj onemogočene. "
+"Prosimo, obnovite licenco, da bi omogočili posodobitve. Preverite %2$s kaj "
+"pogrešate. %3$s"
+
+#. translators: 1, 3: HTML tags, 2: percentage
+#: includes/functions.php:1330
+msgid ""
+"During the license period and 30 days after the license has expired we offer "
+"%1$s %2$s discount on all license renewals and license upgrades. %3$s"
+msgstr ""
+"V obdobju licence in 30 dni po tem, ko licenca poteče, vam ponujamo %1$s "
+"%2$s popust na vse obnovitve in nadgradnje licenc. %3$s"
+
+#: includes/functions.php:1353
+msgid "Renew the licence"
+msgstr "Obnovi licenco"
+
+#: includes/functions.php:1355
+msgid "Update license status"
+msgstr "Posodobi status licence"
+
+#. translators: 1, 2, 4, 5: HTML tags, 3: Ad Inserter Pro
+#: includes/functions.php:1365
+msgid ""
+"%1$s Warning: %2$s %3$s license overused - updates disabled. Please %4$s "
+"upgrade the license. %s"
+msgstr ""
+"%1$s Opozorilo: %2$s %3$s licenca prekomerno uporabljena - posodobitve "
+"onemogočene. Prosimo, %4$s nadgradite licenco. %5$s"
+
+#. Translators: %s: HTML tag
+#: includes/functions.php:1385
+msgid "Warning: %s MaxMind IP geolocation database not found."
+msgstr "Opozorilo: %s MaxMind IP geolocijska podatkovna baza ni najdena."
+
+#: includes/functions.php:1834
+msgid "Geolocation"
+msgstr "Geolokacija"
+
+#: includes/functions.php:1838
+msgid "Exceptions"
+msgstr "Izjeme"
+
+#: includes/functions.php:1843
+msgid "Multisite"
+msgstr "Multisite"
+
+#: includes/functions.php:1848
+msgid "Tracking"
+msgstr "Sledenje"
+
+#. translators: %d: days, hours, minutes
+#: includes/functions.php:1879
+msgid "Scheduled in %d days %d hours %d minutes"
+msgstr "Planirano v %d dneh %d urah %d minutah"
+
+#. translators: %s: HTML dash separator, %d: days, hours, minutes, &mdash; is
+#. HTML code for long dash separator
+#: includes/functions.php:1888
+msgid "Active %s expires in %d days %d hours %d minutes"
+msgstr "Aktivno %s poteče v %d dneh %d urah %d minutah"
+
+#: includes/functions.php:1892
+msgid "Expired"
+msgstr "Poteklo"
+
+#: includes/functions.php:1900 settings.php:1229 settings.php:1244
+#: settings.php:1831
+msgid "and"
+msgstr "in"
+
+#: includes/functions.php:1903
+msgid "fallback"
+msgstr "rezerva"
+
+#: includes/functions.php:1904
+msgid "Block to be used when scheduling expires"
+msgstr "Blok, ki se bo uporabil, ko urnik poteče"
+
+#: includes/functions.php:1933 includes/placeholders.php:382
+msgid "Width"
+msgstr "Širina"
+
+#: includes/functions.php:1934
+msgid "iframe width"
+msgstr "iframe širina"
+
+#: includes/functions.php:1940 includes/placeholders.php:377
+msgid "Height"
+msgstr "Višina"
+
+#: includes/functions.php:1941
+msgid "iframe height"
+msgstr "iframe višina"
+
+#: includes/functions.php:1955 includes/functions.php:3298
+#: includes/functions.php:3361 settings.php:1948
+msgid "Ad Blocking"
+msgstr "Blokiranje Oglasov"
+
+#. translators: 1, 2 and 3, 4: HTML tags
+#: includes/functions.php:1964
+msgid ""
+"%1$s WARNING: %2$s %3$s No wrapping %4$s style has no wrapping code needed "
+"for tracking!"
+msgstr ""
+"%1$s OPOZORILO: %2$s stil %3$s Brez ovijanja %4$s nima kode za ovijanje, ki "
+"je potrebna za sledenje!"
+
+#. translators: 1, 2, 4, 5: HTML tags, 3: Scroll with the content, 6: Above
+#. header
+#: includes/functions.php:1973
+msgid ""
+"%1$s WARNING: %2$s vertical position %3$s needs %4$s Output buffering %5$s "
+"enabled and automatic insertion %6$s!"
+msgstr ""
+"%1$s OPOZORILO: %2$s vertikalni položaj %3$s potrebuje %4$s Predpomnjenje "
+"izhoda %5$s omogočeno in samodejno vstavljanje %6$s!"
+
+#: includes/functions.php:1991
+msgid "When ad blocking is detected"
+msgstr "Ko je blokiranje oglasov zaznano"
+
+#: includes/functions.php:2000
+msgid "replacement"
+msgstr "nadomestek"
+
+#: includes/functions.php:2002
+msgid "Block to be shown when ad blocking is detected"
+msgstr "Blok, ki naj bo prikazan, ko je zaznano blokiranje oglasov"
+
+#: includes/functions.php:2003
+msgctxt "replacement"
+msgid "None"
+msgstr "Noben"
+
+#: includes/functions.php:2020
+msgid "Close button"
+msgstr "Gumb Zapri"
+
+#: includes/functions.php:2067
+msgid "Lazy loading"
+msgstr "Leno nalaganje"
+
+#. Translators: %s MaxMind
+#: includes/functions.php:2122
+msgid "This product includes GeoLite2 data created by %s"
+msgstr "Ta izdelek vsebuje %s GeoLite2 podatke"
+
+#: includes/functions.php:2133
+msgid "IP geolocation database"
+msgstr "Podatkovna baza za IP geolokacijo"
+
+#: includes/functions.php:2136
+msgid "Select IP geolocation database."
+msgstr "Izberite podatkovno bazo za IP geolokacijo."
+
+#: includes/functions.php:2147
+msgid "Automatic database updates"
+msgstr "Samodejna posodobitev podatkovne baze"
+
+#: includes/functions.php:2150
+msgid ""
+"Automatically download and update free GeoLite2 IP geolocation database by "
+"MaxMind"
+msgstr ""
+"Samodejno prenesi in posodobi prostodostopno GeoLite2 IP geolokacijsko "
+"podatkovno bazo MaxMind"
+
+#: includes/functions.php:2158
+msgid "Database"
+msgstr "Podatkovna baza"
+
+#: includes/functions.php:2161
+msgid ""
+"Aabsolute path starting with '/' or relative path to the MaxMind database "
+"file"
+msgstr ""
+"Absolutna pot, ki se začne z '/' ali relativna pot do MaxMind datoteke "
+"podatkovne baze"
+
+#. translators: %d: group number
+#: includes/functions.php:2179
+msgid "Group %d"
+msgstr "Skupina %d"
+
+#: includes/functions.php:2185
+msgid "countries"
+msgstr "države"
+
+#: includes/functions.php:2220
+msgid "Enable tracking"
+msgstr "Omogoči sledenje"
+
+#: includes/functions.php:2235
+msgid "Impression and Click Tracking"
+msgstr "Sledenje Prikazov in Klikov"
+
+#: includes/functions.php:2249
+msgid "Internal"
+msgstr "Notranje"
+
+#: includes/functions.php:2253
+msgid "Track impressions and clicks with internal tracking and statistics"
+msgstr "Sledi prikazom in klikom z notranjim sledenjem in statistiko"
+
+#: includes/functions.php:2258
+msgid "External"
+msgstr "Zunanje"
+
+#: includes/functions.php:2262
+msgid ""
+"Track impressions and clicks with Google Analytics or Matomo (needs tracking "
+"code installed)"
+msgstr ""
+"Sledi prikazom in klikom z Google Analytics ali Matomo (potrebuje nameščeno "
+"kodo za sledenje)"
+
+#: includes/functions.php:2267
+msgid "Track Pageviews"
+msgstr "Sledi Ogledom Strani"
+
+#: includes/functions.php:2273
+msgid "Track Pageviews by Device (as configured for viewports)"
+msgstr "Sledi Ogledom Strani po Napravah (kot so nastavljene za poglede)"
+
+#: includes/functions.php:2283
+msgid "Track for Logged in Users"
+msgstr "Sledi za Prijavljene Upor."
+
+#: includes/functions.php:2289
+msgid "Track impressions and clicks from logged in users"
+msgstr "Sledi prikazom in klikom neprijavljenih uporabnikov"
+
+#: includes/functions.php:2299
+msgid "Click Detection"
+msgstr "Zaznavanje klikov"
+
+#: includes/functions.php:2305
+msgid ""
+"Standard method detects clicks only on banners with links, Advanced method "
+"can detect clicks on any kind of ads, but it is slightly less accurate"
+msgstr ""
+"Standardni način zazna klike samo na pasicah s povezavami, Napredni način "
+"lahko zazna klike na kateremkoli oglasu, ampak je rahlo manj zanesljiv"
+
+#: includes/functions.php:2344
+msgid "Are you sure you want to clear all exceptions for block"
+msgstr "Ali ste prepričani, da želite pobrisati vse izjeme za blok"
+
+#: includes/functions.php:2345 settings.php:1092
+msgid "Clear all exceptions for block"
+msgstr "Pobriši vse izjeme za blok"
+
+#: includes/functions.php:2352
+msgid "Are you sure you want to clear all exceptions?"
+msgstr "Ali ste prepričani, da želite pobrisati vse izjeme?"
+
+#: includes/functions.php:2352
+msgid "Clear all exceptions for all blocks"
+msgstr "Pobriši vse izjeme za vse bloke"
+
+#: includes/functions.php:2357 settings.php:3228
+msgid "Type"
+msgstr "Vrsta"
+
+#: includes/functions.php:2375
+msgid "View"
+msgstr "Poglej"
+
+#: includes/functions.php:2376 includes/placeholders.php:346
+#: includes/preview.php:2048 settings.php:1008
+msgid "Edit"
+msgstr "Uredi"
+
+#: includes/functions.php:2406
+msgid "Are you sure you want to clear all exceptions for"
+msgstr "Ali ste prepričani, da želite pobrisati vse izjeme za"
+
+#: includes/functions.php:2407
+msgid "Clear all exceptions for"
+msgstr "Pobriši vse izjeme za"
+
+#: includes/functions.php:2420
+msgid "No exceptions"
+msgstr "Brez izjem"
+
+#. translators: %s: Ad Inserter Pro
+#: includes/functions.php:2431
+msgid "%s options for network blogs"
+msgstr "%s izbire za omrežne bloge"
+
+#. translators: %s: Ad Inserter Pro
+#: includes/functions.php:2436
+msgid "Enable %s widgets for sub-sites"
+msgstr "Omogoči %s gradnik za pod-spletišča"
+
+#: includes/functions.php:2436
+msgid "Widgets"
+msgstr "Gradniki"
+
+#: includes/functions.php:2441
+msgid "Enable PHP code processing for sub-sites"
+msgstr "Omogoči procesiranje PHP kode za pod-spletišča"
+
+#: includes/functions.php:2441
+msgid "PHP Processing"
+msgstr "PHP Procesiranje"
+
+#. translators: %s: Ad Inserter Pro
+#: includes/functions.php:2446
+msgid "Enable %s block exceptions in post/page editor for sub-sites"
+msgstr ""
+"Omogoči %s izjeme blokov v urejevalniku prispevkov/strani za pod-spletišča"
+
+#: includes/functions.php:2446
+msgid "Post/Page exceptions"
+msgstr "Izjeme prispevkov/strani"
+
+#. translators: %s: Ad Inserter Pro
+#: includes/functions.php:2451
+msgid "Enable %s settings page for sub-sites"
+msgstr "Omogoči nastavitveno stran %s za pod-spletišča"
+
+#: includes/functions.php:2451
+msgid "Settings page"
+msgstr "Stran z nastavitvami"
+
+#. translators: %s: Ad Inserter Pro
+#: includes/functions.php:2456
+msgid "Enable %s settings of main site to be used for all blogs"
+msgstr "Omogoči %s nastavitve glavnega spletišča za uporabo na vseh blogih"
+
+#: includes/functions.php:2456
+msgid "Main site settings used for all blogs"
+msgstr "Nastavitve glavnega spletišča uporabljene na vseh blogih"
+
+#: includes/functions.php:2467 settings.php:2356
+msgid "Ad Blocking Detection"
+msgstr "Zaznavanje Blokiranja Oglasov"
+
+#: includes/functions.php:2473
+msgid ""
+"Standard method is reliable but should be used only if Advanced method does "
+"not work. Advanced method recreates files used for detection with random "
+"names, however, it may not work if the scripts in the upload folder are not "
+"publicly accessible"
+msgstr ""
+"Običajen način je zanesljiv, vendar naj se uporabi samo, ko način Napredno "
+"ne deluje. Način Napredno poustvari datoteke za zaznavanje z naključnimi "
+"imeni in mogoče ne bo deloval s skriptami v upload mapi, če ta ni javno "
+"dostopna"
+
+#: includes/functions.php:2861 includes/functions.php:2942
+#: includes/functions.php:2962
+msgid "AD BLOCKING"
+msgstr "BLOKIRANJE OGLASOV"
+
+#: includes/functions.php:2862 includes/functions.php:2893
+#: includes/functions.php:2936 includes/functions.php:2963
+msgid "BLOCK INSERTED BUT NOT VISIBLE"
+msgstr "BLOK VSTAVLJEN, VENDAR NI VIDEN"
+
+#: includes/functions.php:2865 includes/functions.php:2935
+#: includes/functions.php:2969
+msgid "NO AD BLOCKING"
+msgstr "NI BLOKIRANJA OGLASOV"
+
+#: includes/functions.php:2892 includes/functions.php:2899
+msgid "AD BLOCKING REPLACEMENT"
+msgstr "NADOMESTEK V PRIMERU BLOKIRANJA OGLASOV"
+
+#: includes/functions.php:3297
+msgctxt "Version"
+msgid "Unknown"
+msgstr "Neznana"
+
+#: includes/functions.php:3297
+msgctxt "Times"
+msgid "DISPLAYED"
+msgstr "PRIKAZANO"
+
+#: includes/functions.php:3297
+msgid "No version"
+msgstr "Brez različice"
+
+#: includes/functions.php:3298
+msgctxt "Times"
+msgid "BLOCKED"
+msgstr "BLOKIRANO"
+
+#: includes/functions.php:3360
+msgid "Pageviews"
+msgstr "Ogledov strani"
+
+#: includes/functions.php:3360
+msgid "Impressions"
+msgstr "Prikazi"
+
+#: includes/functions.php:3361 includes/functions.php:3362
+#: includes/functions.php:3370
+msgid "Clicks"
+msgstr "Kliki"
+
+#: includes/functions.php:3362
+msgid "events"
+msgstr "dogodki"
+
+#: includes/functions.php:3363
+msgid "Ad Blocking Share"
+msgstr "Delež blokiranja oglasov"
+
+#. translators: CTR as Click Through Rate
+#: includes/functions.php:3363 includes/functions.php:3375
+msgid "CTR"
+msgstr "CTR"
+
+#: includes/functions.php:3457
+msgid "pageviews"
+msgid_plural "pageviews"
+msgstr[0] "ogled strani"
+msgstr[1] "ogleda strani"
+msgstr[2] "ogledi strani"
+msgstr[3] "ogledov strani"
+
+#: includes/functions.php:3457
+msgid "impressions"
+msgid_plural "impressions"
+msgstr[0] "prikaz"
+msgstr[1] "prikaza"
+msgstr[2] "prikazi"
+msgstr[3] "prikazov"
+
+#: includes/functions.php:3461
+msgid "event"
+msgid_plural "events"
+msgstr[0] "dogodek"
+msgstr[1] "dogodka"
+msgstr[2] "dogodki"
+msgstr[3] "dogodkov"
+
+#: includes/functions.php:3461
+msgid "click"
+msgid_plural "clicks"
+msgstr[0] "klik"
+msgstr[1] "klika"
+msgstr[2] "kliki"
+msgstr[3] "klikov"
+
+#: includes/functions.php:3529
+msgctxt "Impressions"
+msgid "Average"
+msgstr "Povprečni"
+
+#: includes/functions.php:3547
+msgctxt "Clicks"
+msgid "Average"
+msgstr "Povprečni"
+
+#: includes/functions.php:3564
+msgctxt "Ad Blocking Share / CTR"
+msgid "Average"
+msgstr "Povprečni"
+
+#: includes/placeholders.php:19
+msgid "Custom"
+msgstr "Po meri"
+
+#: includes/placeholders.php:102
+msgid "Placeholder Editor"
+msgstr "Urejevalnik Polnila"
+
+#: includes/placeholders.php:345
+msgid "Select placeholder"
+msgstr "Izberi polnilo"
+
+#: includes/placeholders.php:346
+msgid "Edit placeholder size, colors and text"
+msgstr "Uredi velikost, barve in besedilo polnila"
+
+#: includes/placeholders.php:347
+msgid "Close placeholder editor"
+msgstr "Zapri urejevalnik polnila"
+
+#: includes/placeholders.php:351
+msgid "Placeholder"
+msgstr "Polnilo"
+
+#: includes/placeholders.php:356 settings.php:774 settings.php:3229
+msgid "Size"
+msgstr "Velikost"
+
+#: includes/placeholders.php:372
+msgid "Background color"
+msgstr "Barva ozadja"
+
+#: includes/placeholders.php:391
+msgid "Text"
+msgstr "Besedilo"
+
+#: includes/placeholders.php:396
+msgid "Text color"
+msgstr "Barva besedila"
+
+#: includes/placeholders.php:405
+msgid ""
+"Here you can create a universal placeholder image that can be used in place "
+"of ads when they are not available yet.\n"
+"Placeholder images created here will behave as any other image. You can also "
+"save them to local computer or server."
+msgstr ""
+"Tukaj lahko ustvarite univerzalno slikovno polnilo, ki se lahko uporabi "
+"namesto oglasov, ko še niso na razpolago.\n"
+"Slikovna polnila, ki jih ustvarite tukaj, se bodo obnašala kot katerakoli "
+"slika. Lahko jih tudi shranite na lokalni računalnik ali strežnik."
+
+#: includes/placeholders.php:410
+msgid ""
+"Choose between common ad sizes 300x250, 336x280, 728x90, 468x60, 250x250, "
+"300x600 or define custom size.\n"
+"Default placeholders are gray with size as placeholder text but you can use "
+"any color or text you want. Click on <strong>Edit</strong> button to edit "
+"placeholder size, color or text.\n"
+"You can also create blank solid color rectangles by clearing placeholder "
+"text."
+msgstr ""
+"Izberite med pogostimi velikostmi oglasov 300x250, 336x280, 728x90, 468x60, "
+"250x250, 300x600 ali pa ustvarite velikost po meri. \n"
+"Privzeta polnila so siva z velikostjo kot besedilom polnila, lahko pa "
+"uporabite katerokoli barvo ali besedilo. Kliknite na gumb <strong>Uredi</"
+"strong> za urejanje velikosti, barve ali besedila polnila.\n"
+"Lahko naredite tudi prazen pravokotnik z enotno barvo tako, da pobrišete "
+"besedilo polnila."
+
+#: includes/placeholders.php:414
+msgid ""
+"<strong>Please note</strong>: if you have active rotation editor the code "
+"window shows only the code for the currently selected option.\n"
+"Therefore, code generator will in such case import or generate code for the "
+"currently selected option."
+msgstr ""
+"<strong>Vedite</strong>: če imate aktiven urejevalnik rotacij, okno kode "
+"prikazuje samo kodo trenutno izbrane različice.\n"
+"Zato bo generator kode v tem primeru uvozil ali generiral kodo za trenutno "
+"izbrano različico."
+
+#: includes/placeholders.php:417
+msgid ""
+"Code generator for banners and AdSense generates the code only when you "
+"click on the button Generate code.\n"
+"It is a tool that can help you to create code for AdSense or banners with "
+"links. So if you are using rotation editor and switch between options, you "
+"need to (optionally) import and generate code for each rotation option."
+msgstr ""
+"Generator kode za pasice in AdSense generira kodo samo, ko kliknete na gumb "
+"Generiraj kodo.\n"
+"Je orodje, ki vam lahko pomaga ustvariti kodo za AdSense in pasice s "
+"povezavami. Če uporabljate urejevalnik rotacij in preklapljate med "
+"različicami, morate tudi (po potrebi) uvoziti in generirati kodo za vsako "
+"različico rotacije."
+
+#: includes/placeholders.php:420
+msgid ""
+"Ad Inserter has a simple code generator for banners and placeholders.\n"
+"You can select banner image (or placeholder), optionally define link (web "
+"page address that will open when the banner will be clicked) and select "
+"whether to open link in a new tab."
+msgstr ""
+"Ad Inserter ima preprost generator kode za pasice in polnila.\n"
+"Izberete lahko sliko pasice (ali polnilo), po potrebi določite povezavo "
+"(naslov spletne strani, ki se bo odprla s klikom na pasico) in izberete, ali "
+"naj se povezava odpre v novem zavihku."
+
+#: includes/preview-adb.php:7
+msgid "Add dummy paragraph"
+msgstr "Dodaj testni odstavek"
+
+#: includes/preview-adb.php:8
+msgid "Remove dummy paragraph"
+msgstr "Odstrani testni odstavek"
+
+#: includes/preview-adb.php:9 includes/preview.php:1745
+msgid "Use current settings"
+msgstr "Uporabi trenutne nastavitve"
+
+#: includes/preview-adb.php:9
+msgctxt "Button"
+msgid "Use"
+msgstr "Uporabi"
+
+#: includes/preview-adb.php:10
+msgid "Reset to the saved settings"
+msgstr "Ponastavi na shranjene nastavitve"
+
+#: includes/preview-adb.php:10
+msgctxt "Button"
+msgid "Reset"
+msgstr "Ponastavi"
+
+#: includes/preview-adb.php:11
+msgid "Reset to the default settings"
+msgstr "Ponastavi na privzete nastavitve"
+
+#: includes/preview-adb.php:11
+msgctxt "Button"
+msgid "Default"
+msgstr "Privzeto"
+
+#: includes/preview-adb.php:12 includes/preview.php:1748
+msgid "Close preview window"
+msgstr "Zapri okno predogleda"
+
+#: includes/preview-adb.php:12
+msgctxt "Button "
+msgid "Cancel"
+msgstr "Prekliči"
+
+#: includes/preview-adb.php:60
+msgid "Ad Blocking Detected Message Preview"
+msgstr "Predogled Sporočila ko je Zaznano Blokiranje Oglasov"
+
+#: includes/preview-adb.php:348 settings.php:2473
+msgid "Message CSS"
+msgstr "CSS sporočila"
+
+#: includes/preview-adb.php:353 settings.php:2481
+msgid "Overlay CSS"
+msgstr "CSS prevleke"
+
+#: includes/preview.php:137
+msgid "Sticky Code Preview"
+msgstr "Predogled Lepljive Kode"
+
+#: includes/preview.php:137
+msgid "Code Preview"
+msgstr "Predogled Kode"
+
+#: includes/preview.php:1743
+msgid "Highlight inserted code"
+msgstr "Označi vstavljeno kodo"
+
+#: includes/preview.php:1743
+msgid "Highlight"
+msgstr "Označi"
+
+#: includes/preview.php:1746
+msgid "Reset to block settings"
+msgstr "Ponastavi na nastavitve bloka"
+
+#: includes/preview.php:1757 settings.php:930 settings.php:2460
+msgid "Preview"
+msgstr "Predogled"
+
+#: includes/preview.php:1761
+msgid "AdSense ad unit"
+msgstr "Oglasna enota AdSense"
+
+#: includes/preview.php:1829
+msgid "wrapping div"
+msgstr "div za ovijanje"
+
+#: includes/preview.php:1834 includes/preview.php:1841
+msgid "background"
+msgstr "ozadje"
+
+#: includes/preview.php:1859 includes/preview.php:2005 settings.php:972
+msgid "Alignment and style"
+msgstr "Poravnava in slog"
+
+#: includes/preview.php:1927
+msgid "Horizontal margin"
+msgstr "Vodoravni odmik"
+
+#: includes/preview.php:1976
+msgid "Vertical margin"
+msgstr "Navpični odmik"
+
+#: includes/preview.php:1998
+msgid "Animate"
+msgstr "Animiraj"
+
+#: includes/preview.php:2057
+msgid ""
+"This is a preview of the code between dummy paragraphs. Here you can test "
+"various block alignments, visually edit margin and padding values of the "
+"wrapping div\n"
+"or write CSS code directly and watch live preview. Highlight button "
+"highlights background, wrapping div margin and code area, while Reset button "
+"restores all the values to those of the current block."
+msgstr ""
+"To je predogled kode med testnimi odstavki. Tukaj lahko preizkusite različne "
+"poravnave, vizualno urejujete vredosti margin in padding div-a za ovijanje\n"
+"ali neposredno napišete kodo CSS in opazujete predogled v živo. Gumb Označi "
+"označi ozadje, margin območje div-a za ovijanje in območje kode, gumb "
+"Ponastavi pa vrne vse vrednosti na tiste od trenutnega bloka."
+
+#: includes/preview.php:2060
+msgid ""
+"This is a preview of the saved block between dummy paragraphs. It shows the "
+"code with the alignment and style as it is set for this block. Highlight "
+"button highlights background, wrapping div margin and code area."
+msgstr ""
+"To je predogled shranjenega bloka med testnimi odstavki. Prikazuje kodo s "
+"poravnavo in slogom kot je nastavljen za ta blok. Gump Označi označi ozadje, "
+"margin območje div-a za ovijanje in območje kode."
+
+#: includes/preview.php:2062
+msgid ""
+"This is a preview of AdSense ad block between dummy paragraphs. AdSense ad "
+"code was loaded from your AdSense account. The ad block is displayed on a "
+"dummy page so it may be blank (no ads). Click on the Highlight button to "
+"highlight ad block."
+msgstr ""
+"To je predogled oglasnega bloka AdSense med testnimi odstavki. Koda AdSense "
+"je bila naložena z vašega računa AdSense. Oglasni blok je prikazan med "
+"testnimi odstavki, zato je lahko prazen (brez oglasov). Kliknite na gumb "
+"Označi za označitev bloka."
+
+#: includes/preview.php:2068
+msgid ""
+"You can resize the window (and refresh the page to reload ads) to check "
+"display with different screen widths.\n"
+"Once you are satisfied with alignment click on the Use button and the "
+"settings will be copied to the active block."
+msgstr ""
+"Velikost okna lahko spremenite (in osvežite stran, da se oglasi ponovno "
+"naložijo) in tako lahko preverite prikaz pri različnih velikostih zaslona.\n"
+"Ko ste zadovoljni s poravnavo kliknite na gumb Uporabi in nastavitve se bodo "
+"prenesle v aktivni blok."
+
+#: includes/preview.php:2070
+msgid ""
+"Please note that the code, block name, alignment and style are taken from "
+"the current block settings (may not be saved).\n"
+"<strong>No wrapping</strong> style inserts the code as it is so margin and "
+"padding can't be set. However, you can use own HTML code for the block."
+msgstr ""
+"Prosimo vedite, da so koda, ime bloka, poravnava in slog vzeti s trenutnih "
+"nastavitev bloka (te mogoče niso shranjene).\n"
+"Slog <strong>Brez ovijanja</strong> vstavi kodo kot je, zato vrednosti "
+"margin in padding ne morete nastaviti. Seveda pa lahko uporabite lastno HTML "
+"kodo za blok."
+
+#: includes/preview.php:2075 includes/preview.php:2089
+#: includes/preview.php:2099 includes/preview.php:2109
+#: includes/preview.php:2119
+msgid ""
+"Ad Inserter can be configured to insert any code anywhere on the page. Each "
+"code with it's settings is called a block.\n"
+"Free Ad Inserter supports 16 blocks, Ad Inserter Pro supports up to 96 "
+"blocks (depending on the license type).\n"
+"The settings page is divided into tabs - 16 blocks and general plugin "
+"settings. Black number means inactive block (code is not inserted "
+"anywhere),\n"
+"red number means block is using automatic insertion, blue number means block "
+"is using manual insertion while violet number means block is using automatic "
+"and manual insertion."
+msgstr ""
+"Ad Inserter se lahko nastavi za vstavljanje katerekoli kode kjerkoli na "
+"strani. Vsaka koda s svojimi nastavitvami se imenuje blok.\n"
+"Brezplačni Ad Inserter podpira 16 blokov, Ad Inserter Pro pa do 96 blokov "
+"(odvisno od vrste licence).\n"
+"Stran z nastavitvami je razdeljena na zavihke - 16 blokov in splošne "
+"nastavitve vtičnika. Črna številka pomeni neaktiven blok (koda ni nikjer "
+"vstavljena),\n"
+"rdeča številka pomeni, da blok uporablja samodejno vstavljanje, modra "
+"številka pomeni, da blok uporablja ročno vstavljanje, medtem ko vijolična "
+"številka pomeni, da blok uporablja samodejno in ročno vstavljanje."
+
+#: includes/preview.php:2080 includes/preview.php:2094
+#: includes/preview.php:2104 includes/preview.php:2114
+#: includes/preview.php:2124
+msgid ""
+"Few very important things you need to know in order to insert code and "
+"display some ad:\n"
+"Enable and use at least one insertion option (Automatic insertion, Widget, "
+"Shortcode, PHP function call).\n"
+"Enable insertion on at least one WordPress page type (Posts, Static pages, "
+"Homepage, Category pages, Search pages, Archive pages).\n"
+"Single pages (posts and static pages) have also additional setting for "
+"individual exceptions. Use default blank value unless you are using "
+"individual post/page exceptions."
+msgstr ""
+"Nekaj pomembnih stvari, ki jih morate vedeti, da bi lahko vstavili kodo in "
+"prikazali nek oglas:\n"
+"Omogočite in uporabite vsaj eno možnost vstavljanja (Samodejno vstavljanje, "
+"Gradnik, Kratka koda, Klic funkcije PHP).\n"
+"Omogočite vstavljanje vsaj za eno vrsto WordPress strani (Prispevki, "
+"Statične strani, Domača stran, Strani kategorij, Iskalne strani, Strani "
+"arhiva).\n"
+"Enojne strani (prispevki in statične strani) imajo tudi dodatne nastavitve "
+"za posamezne izjeme. Uporabite privzeto prazno vrednost, razen, če "
+"uporabljate posamezne izjeme za prispevke/strani."
+
+#: includes/preview.php:2086
+msgid ""
+"This is a preview of the code for sticky ads. Here you can test various "
+"horizontal and vertical alignments, close button locations, visually edit "
+"margin values\n"
+"or write CSS code directly and watch live preview. Highlight button "
+"highlights background, margin and code area, while Reset button restores all "
+"the values to those of the current block."
+msgstr ""
+"To je predogled kode za lepljive oglase. Tukaj lahko preizkusite različne "
+"vodoravne in navpične poravnave, položaj gumba za zapiranje, vizualno "
+"urejate vredosti odmika\n"
+"ali pa neposredno napišete kodo CSS in v živo opazujete predogled. Gumb "
+"Označi označi ozadje, območje odmika in območje kode, medtem ko gumb "
+"Ponastavi vrne vse vrednosti na tiste od trenutnega bloka."
+
+#: settings.php:168
+msgid "Online Documentation"
+msgstr "Spletna Dokumentacija"
+
+#: settings.php:169
+msgid ""
+"support forum - if you have issues using the plugin go here, check existing "
+"threads and open a new one if you don't find answers for your issue."
+msgstr ""
+"podporni forum - če imate težave z uporabo vtičnika pojdite sem, preverite "
+"obstoječe niti in odprite novo, če ne nejdete odgovorov za vašo težavo."
+
+#: settings.php:169
+msgid "Support Forum"
+msgstr "Podporni Forum"
+
+#: settings.php:170
+msgid ""
+"Need more blocks, sticky ads, GEO targeting, impression and click tracking? "
+"Upgrade to Ad Inserter Pro"
+msgstr ""
+"Potrebujete več blokov, lepljive oglase, GEO targetiranje, sledenje prikazom "
+"in klikom? Nadgradite v Ad Inserter Pro"
+
+#: settings.php:171
+msgid "Show list of all blocks"
+msgstr "Prikaži seznam vseh blokov"
+
+#: settings.php:181
+msgid "Loaded plugin JavaScript file version"
+msgstr "Naložena različica JavaScript datoteke vtičnika"
+
+#. translators: %s: HTML tags
+#: settings.php:183
+msgid ""
+"Wrong or %s missing version parameter %s of the JavaScript file, probably "
+"due to inappropriate caching."
+msgstr ""
+"Napačen ali %s manjkajoč parameter verzije %s JavaScript datoteke, najbrž "
+"zaradi nepravilnega predpomnjenja."
+
+#: settings.php:184
+msgid ""
+"Missing version parameter of the JavaScript file, probably due to "
+"inappropriate caching."
+msgstr ""
+"Manjka parameter verzije JavaScript datoteke, najbrž zaradi nepravilnega "
+"predpomnjenja."
+
+#: settings.php:185
+msgid ""
+"Incompatible (old) JavaScript file loaded, probably due to inappropriate "
+"caching."
+msgstr ""
+"Naložena je nezdružljiva (stara) različica JavaScript datoteke, najbrž "
+"zaradi nepravilnega predpomnjenja."
+
+#: settings.php:186 settings.php:197
+msgid ""
+"Please delete browser's cache and all other caches used and then reload this "
+"page."
+msgstr ""
+"Prosimo, pobrišite predpomnilnik brskalnika in vse druge predpomnilnike ter "
+"potem na novo naložite to stran."
+
+#: settings.php:192
+msgid "Loaded plugin CSS file version"
+msgstr "Naložena različica CSS datoteke vtičnika"
+
+#. translators: %s: HTML tags
+#: settings.php:194
+msgid ""
+"Wrong or %s missing version parameter %s of the CSS file, probably due to "
+"inappropriate caching."
+msgstr ""
+"Napačen ali %s manjkajoč parameter verzije %s CSS datoteke, najbrž zaradi "
+"nepravilnega predpomnjenja."
+
+#: settings.php:195
+msgid ""
+"Missing version parameter of the CSS file, probably due to inappropriate "
+"caching."
+msgstr ""
+"Manjka parameter verzije JavaScript datoteke, najbrž zaradi nepravilnega "
+"predpomnjenja."
+
+#: settings.php:196
+msgid ""
+"Incompatible (old) CSS file loaded, probably due to inappropriate caching."
+msgstr ""
+"Naložena je nezdružljiva (stara) različica CSS datoteke, najbrž zaradi "
+"nepravilnega predpomnjenja."
+
+#: settings.php:203 settings.php:215
+msgid "WARNING"
+msgstr "OPOZORILO"
+
+#. translators: %s: HTML tags
+#: settings.php:205
+msgid "Page may %s not be loaded properly. %s"
+msgstr "Stran mogoče %s ni naložena pravilno. %s"
+
+#: settings.php:206
+msgid ""
+"Check ad blocking software that may block CSS, JavaScript or image files."
+msgstr ""
+"Preverite programe za blokiranje oglasov, ki lahko onemogočijo CSS, "
+"JavaScript ali slikovne datoteke."
+
+#: settings.php:215
+msgid ""
+"To disable debugging functions and to enable insertions go to tab &#9881; / "
+"tab Debugging"
+msgstr ""
+"Za izključitev razhroščevalnih funkcij in za vključitev vstavljanja pojdite "
+"na zavihek &#9881; / zavihek Razhroščevanje"
+
+#: settings.php:217
+msgid "Debugging functions enabled - some code is not inserted"
+msgstr "Vključene so funkcije za razhroščevanje - nekatera koda ni vstavljena"
+
+#: settings.php:234
+msgid "Option Name"
+msgstr "Ime Različice"
+
+#: settings.php:240
+msgid "Share"
+msgstr "Delež"
+
+#: settings.php:243
+msgid ""
+"Option share in percents - 0 means option is disabled, if share for one "
+"option is not defined it will be calculated automatically. Leave all share "
+"fields empty for equal option shares."
+msgstr ""
+"Delež različice v odstotkih - 0 pomeni onemogočeno različico, če delež za "
+"eno različico ni določen bo izračunan samodejno. Pustite vsa polja za deleže "
+"prazne za enakomerno porazdelitev deležev različic."
+
+#: settings.php:246
+msgid "Time"
+msgstr "Čas"
+
+#: settings.php:249
+msgid ""
+"Option time in seconds - 0 means option is disabled and will be skipped. "
+"Leave all time fields empty for no timed rotation."
+msgstr ""
+"Čas različice v sekundah - 0 pomeni, da je različica onemogočena in bo "
+"preskočena. Pustite vse polja za čas prazna za rotacijo brez časov."
+
+#: settings.php:401
+msgid "General Settings"
+msgstr "Splošne Nastavitve"
+
+#: settings.php:562 settings.php:2232 settings.php:2290 settings.php:2453
+msgid "Toggle Syntax Highlighting / Simple editor for mobile devices"
+msgstr ""
+"Preklopi Poudarjanje Sintakse / Preprost urejevalnik za mobilne naprave"
+
+#: settings.php:569
+msgid "Toggle tools"
+msgstr "Preklopi orodja"
+
+#: settings.php:577
+msgid "Process PHP code in block"
+msgstr "Procesiraj PHP kodo v bloku"
+
+#: settings.php:584
+msgid "Disable insertion of this block"
+msgstr "Onemogoči vstavljanje tega bloka"
+
+#: settings.php:596
+msgid "Toggle code generator"
+msgstr "Preklopi generator kode"
+
+#: settings.php:600
+msgid "Toggle rotation editor"
+msgstr "Preklopi urejevalnik rotacije"
+
+#: settings.php:604
+msgid "Open visual HTML editor"
+msgstr "Odpri vizualni HTML urejevalnik"
+
+#: settings.php:614
+msgid "Show AdSense ad units"
+msgstr "Pokaži oglasne enote AdSense"
+
+#: settings.php:623
+msgid "Clear block"
+msgstr "Počisti blok"
+
+#: settings.php:628 settings.php:3123
+msgid "Copy block"
+msgstr "Kopiraj blok"
+
+#: settings.php:632
+msgid "Paste name"
+msgstr "Prilepi ime"
+
+#: settings.php:636
+msgid "Paste code"
+msgstr "Prilepi kodo"
+
+#: settings.php:640
+msgid "Paste settings"
+msgstr "Prilepi nastavitve"
+
+#: settings.php:644
+msgid "Paste block (name, code and settings)"
+msgstr "Prilepi blok (ime, kodo in nastavitve)"
+
+#: settings.php:663
+msgid "Remove option"
+msgstr "Odstrani različico"
+
+#: settings.php:667
+msgid "Add option"
+msgstr "Dodaj različico"
+
+#: settings.php:682
+msgid "Import code"
+msgstr "Uvozi kodo"
+
+#: settings.php:686
+msgid "Generate code"
+msgstr "Generiraj kodo"
+
+#: settings.php:691
+msgid "Banner"
+msgstr "Pasica"
+
+#: settings.php:702
+msgid "Image"
+msgstr "Slika"
+
+#: settings.php:710
+msgid "Link"
+msgstr "Povezava"
+
+#: settings.php:721
+msgid "Open link in a new tab"
+msgstr "Odpri povezavo v novem zavihku"
+
+#: settings.php:722
+msgid "Select Image"
+msgstr "Izberi Sliko"
+
+#: settings.php:723
+msgid "Select Placeholder"
+msgstr "Izberi Polnilo"
+
+#: settings.php:735
+msgid "Comment"
+msgstr "Komentar"
+
+#: settings.php:744
+msgctxt "AdSense"
+msgid "Publisher ID"
+msgstr "ID založnika"
+
+#: settings.php:753
+msgctxt "AdSense"
+msgid "Ad Slot ID"
+msgstr "ID mesta"
+
+#: settings.php:762
+msgid "Ad Type"
+msgstr "Vrsta"
+
+#: settings.php:786
+msgid "AMP Ad"
+msgstr "AMP Oglas"
+
+#: settings.php:803
+msgid "Show ad units from your AdSense account"
+msgstr "Prikaži oglasne enote s tvojega AdSense računa"
+
+#: settings.php:803
+msgid "AdSense ad units"
+msgstr "Oglasne enote AdSense"
+
+#: settings.php:820
+msgctxt "AdSense"
+msgid "Layout"
+msgstr "Postavitev"
+
+#: settings.php:829
+msgctxt "AdSense"
+msgid "Layout Key"
+msgstr "Ključ postavitve"
+
+#: settings.php:926
+msgid ""
+"White/Black-list Category, Tag, Taxonomy, Post ID, Url, Url parameter, "
+"Cookie or Referer (domain)"
+msgstr ""
+"Bel/Črn seznam Kategorij, Oznak, Taksonomij, ID Prispevkov, Url-jev, Url "
+"parametrov, Piškotkov ali napotiteljev (domen)"
+
+#: settings.php:926
+msgid "Lists"
+msgstr "Seznami"
+
+#: settings.php:927
+msgid "Widget, Shortcode and PHP function call"
+msgstr "Gradnik, Kratka koda in Klic PHP funkcije"
+
+#: settings.php:927
+msgid "Manual"
+msgstr "Ročno"
+
+#: settings.php:928
+msgid "Client/Server-side Device Detection (Desktop, Tablet, Phone,...)"
+msgstr ""
+"Zaznavanje Naprave na strani Strežnika/Klienta (Namizni, Tablica, Telefon)"
+
+#: settings.php:928
+msgid "Devices"
+msgstr "Naprave"
+
+#: settings.php:929
+msgid ""
+"Check for user status, Limit insertions (error 404 page, Ajax requests, RSS "
+"feeds), Filter, Scheduling, General tag"
+msgstr ""
+"Preveri status uporabnika, Omeji vstavljanja (napaka 404, zahteve Ajax, vir "
+"RSS), Filter, Urnik, Splošna oznaka"
+
+#: settings.php:929
+msgid "Misc"
+msgstr "Razno"
+
+#: settings.php:930
+msgid "Preview code and alignment"
+msgstr "Predogled kode in poravnave"
+
+#: settings.php:933 settings.php:1913
+msgid ""
+"Rotation editor active - rotation code not generated! Make sure no rotation "
+"editor is active before saving settings."
+msgstr ""
+"Aktiven urejevalnik rotacij - koda za rotacijo ni generirana! Poskrbite, da "
+"noben urejevalnik rotacij ni aktiven pred shranjevanjem nastavitev."
+
+#: settings.php:935
+msgid "Save All Settings"
+msgstr "Sharani Vse Nastavitve"
+
+#: settings.php:985 strings.php:179
+msgctxt "Button"
+msgid "Show"
+msgstr "Pokaži"
+
+#: settings.php:997
+msgid "Custom CSS code for the wrapping div"
+msgstr "CSS koda po meri za div za ovijanje"
+
+#: settings.php:1000 settings.php:1001 settings.php:1002 settings.php:1003
+#: settings.php:1004 settings.php:1005
+msgid "CSS code for the wrapping div, click to edit"
+msgstr "CSS koda za div za ovijanje, kliknite za urejanje"
+
+#: settings.php:1020
+msgid "Enable insertion on posts"
+msgstr "Omogoči vstavljanje na prispevkih"
+
+#: settings.php:1022 settings.php:1028
+msgid ""
+"Individual post exceptions (if enabled here) can be configured in post "
+"editor. Leave blank for no individual post exceptions."
+msgstr ""
+"Posamezne izjeme za prispevke (če so omogočene tukaj) se lahko nastavijo v "
+"urejevalniku prispevka. Pustite prazno za prispevke brez posameznih izjem."
+
+#: settings.php:1028
+msgid "Posts"
+msgstr "Prispevki"
+
+#: settings.php:1033
+msgid "Toggle list of individual exceptions"
+msgstr "Preklopi seznam posameznih izjem"
+
+#: settings.php:1043 settings.php:1044
+msgid ""
+"Enable insertion on homepage: latest posts (including on sub-pages), static "
+"page or theme homepage (available positions may depend on hooks used by the "
+"theme)"
+msgstr ""
+"Omogoči vstavljanje na domači strani: zadnji prispevki (vključno na "
+"podstraneh), statična stran ali domača stran teme (razpoložljivi položaji so "
+"lahko odvisni od ročic, ki jih tema uporablja)"
+
+#: settings.php:1044
+msgid "Homepage"
+msgstr "Domača stran"
+
+#: settings.php:1048 settings.php:1049
+msgid "Enable insertion on category blog pages (including sub-pages)"
+msgstr "Omogoči vstavljanje na straneh kategorij (vključno s podstranmi)"
+
+#: settings.php:1049
+msgid "Category pages"
+msgstr "Strani kategorij"
+
+#: settings.php:1056
+msgid "Enable insertion on static pages"
+msgstr "Omogoči vstavljanje na statičnih straneh"
+
+#: settings.php:1058 settings.php:1064
+msgid ""
+"Individual static page exceptions (if enabled here) can be configured in "
+"page editor. Leave blank for no individual page exceptions."
+msgstr ""
+"Posamezne izjeme za statične strani (če so omogočene tukaj) se lahko "
+"nastavijo v urejevalniku strani. Pustite prazno za strani brez posameznih "
+"izjem."
+
+#: settings.php:1064
+msgid "Static pages"
+msgstr "Statične strani"
+
+#: settings.php:1070 settings.php:1071
+msgid "Enable insertion on search blog pages"
+msgstr "Omogoči vstavljanje na iskalnih straneh"
+
+#: settings.php:1071
+msgid "Search pages"
+msgstr "Iskalne strani"
+
+#: settings.php:1075 settings.php:1076
+msgid "Enable insertion on tag or archive blog pages"
+msgstr "Omogoči vstavljanje na straneh oznak in arhivskih straneh"
+
+#: settings.php:1076
+msgid "Tag / Archive pages"
+msgstr "Strani oznak / arhiva"
+
+#: settings.php:1089
+msgctxt "post"
+msgid "Type"
+msgstr "Vrsta"
+
+#. translators: %d: block number
+#: settings.php:1091
+msgid "Are you sure you want to clear all exceptions for block %d?"
+msgstr "Ali ste prepričani, da želite pobrisati vse izjeme za blok %d?"
+
+#: settings.php:1121
+msgid "HTML element"
+msgstr "HTML element"
+
+#: settings.php:1134
+msgid "HTML element selector or comma separated list of selectors"
+msgstr "Selektor HTML elementa ali z vejicami ločen seznam selektorjev"
+
+#: settings.php:1140 settings.php:2366
+msgid "Action"
+msgstr "Akcija"
+
+#: settings.php:1151 settings.php:1707
+msgid "Insertion"
+msgstr "Vstavljanje"
+
+#: settings.php:1152
+msgid ""
+"Client-side insertion uses JavaScript to insert block when the page loads. "
+"Server-side insertion inserts block when the page is generated but needs "
+"Output buffering enabled."
+msgstr ""
+"Vstavljanje na strani klienta uporablja JavaScrit za vstavljanje bloka, ko "
+"se stran naloži. Vstavljanje na strani strežnika vstavi blok, ko se stran "
+"ustvari, vendar potrebuje omogočeno Predpomnjenje izhoda."
+
+#: settings.php:1162
+msgid "JavaScript code position"
+msgstr "Položaj JavaScript kode"
+
+#: settings.php:1163
+msgid ""
+"Page position where the JavaScript code for client-side insertion will be "
+"inserted. Should be after the HTML element if not waiting for DOM ready."
+msgstr ""
+"Položaj na strani kjer bo vstavljena JavaScript koda za vstavljanje na "
+"strani klienta. Biti mora za HTML elementom, če se ne čaka na pripravljen "
+"DOM."
+
+#: settings.php:1177
+msgid "Paragraphs"
+msgstr "Odstavki"
+
+#: settings.php:1183
+msgid ""
+"Paragraph number or comma separated paragraph numbers: 1 to N means "
+"paragraph number, %N means every N paragraphs, empty means all paragraphs, 0 "
+"means random paragraph, value between 0 and 1 means relative position on the "
+"page (0.2 means paragraph at 20% of page paragraphs, 0.5 means paragraph "
+"halfway down the page, 0.9 means paragraph at 90% of page paragraphs, etc.), "
+"negative number means counting from the opposite direction"
+msgstr ""
+"Številka odstavka ali z vejico ločene številke odstavkov: 1 do N pomeni "
+"številko odstavka, %N pomeni vsakih N odstavkov, prazno pomeni vse odstavke, "
+"0 pomeni naključni odstavek, vrednost med 0 in 1 pomeni relativen položaj na "
+"strani (0.2 pomeni odstavek pri 20% odstavkov strani, 0.5 pomeni odstavek na "
+"polovici strani, 0.9 pomeni odstavek pri 90% odstavkov strani...), negativno "
+"število pomeni štetje z nasprotne smeri"
+
+#: settings.php:1189
+msgid "Counting"
+msgstr "Štetje"
+
+#: settings.php:1190
+msgid "Clearance"
+msgstr "Izogibanje"
+
+#: settings.php:1199
+msgid "Count"
+msgstr "Štej"
+
+#: settings.php:1205
+msgid "paragraphs with tags"
+msgstr "odstavke z značkami"
+
+#: settings.php:1211
+msgid "Comma separated HTML tag names, usually only 'p' tags are used"
+msgstr ""
+"Z vejico ločena imena HTML značk, običajno so uporabljene samo značke 'p'"
+
+#: settings.php:1220
+msgid "that have between"
+msgstr "ki imajo med"
+
+#: settings.php:1226
+msgid "Minimum number of paragraph words, leave empty for no limit"
+msgstr "Najmanjše število besed v odstavkih, prazno pomeni brez omejitev"
+
+#: settings.php:1235
+msgid "Maximum number of paragraph words, leave empty for no limit"
+msgstr "Največje število besed v odstavkih, prazno pomeni brez omejitev"
+
+#: settings.php:1238 settings.php:1833
+msgid "words"
+msgstr "besed"
+
+#: settings.php:1253 settings.php:1319 settings.php:1345
+msgid "Comma separated texts"
+msgstr "Z vejico ločena besedila"
+
+#: settings.php:1262
+msgid "Minimum number of paragraphs"
+msgstr "Najmanjše število odstavkov"
+
+#. translators: %s: list of HTML tags
+#: settings.php:1277
+msgid ""
+"Count also paragraphs inside %s elements - defined on general plugin "
+"settings page - tab &#9881; / tab General"
+msgstr ""
+"Štej tudi odstavke znotraj elementov %s - določeni na strani splošnih "
+"nastavitev vtičnika - zavihek &#9881; / zavihek Splošno"
+
+#: settings.php:1277
+msgid "Count inside special elements"
+msgstr "Štej znotraj posebnih elementov"
+
+#: settings.php:1288
+msgid "Minimum number of words in paragraphs above"
+msgstr "Najmanjše število besed v odstavkih zgoraj"
+
+#: settings.php:1294
+msgid ""
+"Used only with automatic insertion After paragraph and empty paragraph "
+"numbers"
+msgstr ""
+"Uporabljeno samo s samodejnim vstavljanjem Za odstavkom in s praznimi "
+"številkami odstavkov"
+
+#: settings.php:1304 settings.php:1330
+msgid "In"
+msgstr "V"
+
+#: settings.php:1310
+msgid "Number of paragraphs above to check, leave empty to disable checking"
+msgstr "Število odstavkov zgoraj za preverjanje, prazno onemogoči preverjanje"
+
+#: settings.php:1313
+msgid "paragraphs above avoid"
+msgstr "odstavkih zgoraj se izogni"
+
+#: settings.php:1336
+msgid "Number of paragraphs below to check, leave empty to disable checking"
+msgstr "Število odstavkov spodaj za preverjanje, prazno onemogoči preverjanje"
+
+#: settings.php:1339
+msgid "paragraphs below avoid"
+msgstr "odstavkih spodaj se izogni"
+
+#: settings.php:1355
+msgid "If text is found"
+msgstr "Če je besedilo najdeno"
+
+#: settings.php:1362
+msgid "check up to"
+msgstr "preveri do"
+
+#: settings.php:1370
+msgctxt "check up to"
+msgid "paragraphs"
+msgstr "odstavkov"
+
+#: settings.php:1386
+msgid "Categories"
+msgstr "Kategorije"
+
+#: settings.php:1389
+msgid "Toggle category editor"
+msgstr "Preklopi urejevalnik kategorij"
+
+#: settings.php:1392
+msgid "Comma separated category slugs"
+msgstr "Z vejico ločeni ključi kategorij"
+
+#: settings.php:1396
+msgid "Blacklist categories"
+msgstr "Črni seznam kategorij"
+
+#: settings.php:1400
+msgid "Whitelist categories"
+msgstr "Beli seznam kategorij"
+
+#: settings.php:1412
+msgid "Tags"
+msgstr "Oznake"
+
+#: settings.php:1415
+msgid "Toggle tag editor"
+msgstr "Preklopi urejevalnik oznak"
+
+#: settings.php:1418
+msgid "Comma separated tag slugs"
+msgstr "Z vejico ločeni ključi oznak"
+
+#: settings.php:1422
+msgid "Blacklist tags"
+msgstr "Črni seznam oznak"
+
+#: settings.php:1426
+msgid "Whitelist tags"
+msgstr "Beli seznam oznak"
+
+#: settings.php:1438
+msgid "Taxonomies"
+msgstr "Taksonomije"
+
+#: settings.php:1441
+msgid "Toggle taxonomy editor"
+msgstr "Preklopi urejevalnik taksonomij"
+
+#: settings.php:1444
+msgid "Comma separated slugs: taxonomy, term or taxonomy:term"
+msgstr "Z vejico ločeni ključi: taksonomija, izraz ali taksonomija:izraz"
+
+#: settings.php:1448
+msgid "Blacklist taxonomies"
+msgstr "Črni seznam taksonomij"
+
+#: settings.php:1452
+msgid "Whitelist taxonomies"
+msgstr "Beli seznam taksonomij"
+
+#: settings.php:1464
+msgid "Post IDs"
+msgstr "ID-ji prispevkov"
+
+#: settings.php:1467
+msgid "Toggle post/page ID editor"
+msgstr "Preklopi urejevalnik ID-jev prispevkov/strani"
+
+#: settings.php:1470
+msgid "Comma separated post/page IDs"
+msgstr "Z vejico ločeni ID-ji prispevkov/strani"
+
+#: settings.php:1474
+msgid "Blacklist IDs"
+msgstr "Črni seznam ID-jev"
+
+#: settings.php:1478
+msgid "Whitelist IDs"
+msgstr "Beli seznam ID-jev"
+
+#: settings.php:1490
+msgid "Urls"
+msgstr "Url-ji"
+
+#: settings.php:1493
+msgid "Toggle url editor"
+msgstr "Preklopi urejevalnik url-jev"
+
+#: settings.php:1496
+msgid ""
+"Comma separated urls (page addresses) starting with / after domain name (e."
+"g. /permalink-url, use only when you need to taget a specific url not "
+"accessible by other means). You can also use partial urls with * (/url-"
+"start*. *url-pattern*, *url-end)"
+msgstr ""
+"Z vejico ločeni url-ji (naslovi strani) začenši z / po imenu domene (na "
+"primer: /permalink-url, uporabite samo, ko želite nasloviti posamezen "
+"nsalov, ki drugače ni dostopen). Uporabite lahko tudi delne url-je z * (/url-"
+"začetek*. *url-vzorec*, *url-konec)"
+
+#: settings.php:1500
+msgid "Blacklist urls"
+msgstr "Črni seznam url-jev"
+
+#: settings.php:1504
+msgid "Whitelist urls"
+msgstr "Beli seznam url-jev"
+
+#: settings.php:1515
+msgid "Url parameters"
+msgstr "Url parametri"
+
+#: settings.php:1519
+msgid "Toggle url parameter and cookie editor"
+msgstr "Preklopi urejevalnik url parametrov in piškotkov"
+
+#: settings.php:1522
+msgid ""
+"Comma separated url query parameters or cookies with optional values (use "
+"'prameter', 'prameter=value', 'cookie' or 'cookie=value')"
+msgstr ""
+"Z vejico ločeni url parametri poizvedbe ali piškotki z neobveznimi "
+"vrednostmi (uporabite 'prameter', 'prameter=vrednost', 'piškotek' or "
+"'piškotek=vrednost')"
+
+#: settings.php:1526
+msgid "Blacklist url parameters"
+msgstr "Črni seznam url parametrov"
+
+#: settings.php:1530
+msgid "Whitelist url parameters"
+msgstr "Beli seznam url parametrov"
+
+#: settings.php:1541
+msgid "Referers"
+msgstr "Napotitelji"
+
+#: settings.php:1544
+msgid "Toggle referer editor"
+msgstr "Preklopi urejevalnik napotiteljev"
+
+#: settings.php:1547
+msgid "Comma separated domains, use # for no referer"
+msgstr "Z vejico ločene domene, uporabite # za primer, ko ni napotitelja"
+
+#: settings.php:1551
+msgid "Blacklist referers"
+msgstr "Črni seznam napotiteljev"
+
+#: settings.php:1555
+msgid "Whitelist referers"
+msgstr "Beli seznam napotiteljev"
+
+#: settings.php:1575
+msgid "Enable widget for this block"
+msgstr "Omogočite gradnik za ta blok"
+
+#: settings.php:1587
+msgid "Enable shortcode for manual insertion of this block in posts and pages"
+msgstr ""
+"Omogočite kratko kodo za ročno vstavljanje tega bloka v prispevke in strani"
+
+#: settings.php:1588 settings.php:3157
+msgid "Shortcode"
+msgstr "Kratka koda"
+
+#: settings.php:1603
+msgid ""
+"Enable PHP function call to insert this block at any position in theme file. "
+"If function is disabled for block it will return empty string."
+msgstr ""
+"Omogočite klic PHP funkcije za vstavljanje tega bloka na kateremkoli "
+"položaju v datoteki teme. Če je funkcija za blok onemogočena, bo vrnila "
+"prazen niz."
+
+#: settings.php:1604
+msgid "PHP function"
+msgstr "PHP funkcija"
+
+#: settings.php:1619
+msgid "Client-side device detection"
+msgstr "Zaznavanje naprave na strani klienta"
+
+#: settings.php:1620
+msgid "Server-side device detection"
+msgstr "Zaznavanje naprave na strani strežnika"
+
+#: settings.php:1627
+msgid "Use client-side detection to"
+msgstr "Uporabi zaznavanje na strani klienta in"
+
+#. Translators: only on (the following devices): viewport names (devices)
+#. listed
+#: settings.php:1634
+msgid "only on"
+msgstr "samo na"
+
+#: settings.php:1664
+msgid "Device min width %s px"
+msgstr "Najmanjša širina naprave %s px"
+
+#: settings.php:1689
+msgid "Use server-side detection to insert block only for"
+msgstr "Uporabi zaznavanje na strani strežnika za vstavljanje bloka samo za"
+
+#: settings.php:1708
+msgid "Filter"
+msgstr "Filter"
+
+#: settings.php:1709
+msgid "Word Count"
+msgstr "Število Besed"
+
+#: settings.php:1710
+msgid "Scheduling"
+msgstr "Urnik"
+
+#: settings.php:1711
+msgid "Display"
+msgstr "Prikaz"
+
+#: settings.php:1713 settings.php:1941
+msgid "General"
+msgstr "Splošno"
+
+#: settings.php:1725
+msgid "Old settings for AMP pages detected"
+msgstr "Zaznane stare nastavitve za AMP strani"
+
+#: settings.php:1725
+msgid ""
+"To insert different codes on normal and AMP pages separate them with "
+"[ADINSERTER AMP] separator. Here you can enable insertion on AMP pages only "
+"when you need to insert THE SAME CODE also on AMP pages (no AMP separator)."
+msgstr ""
+"Za vstavljanje različnih kod na normalnih in AMP straneh jih ločite z "
+"[ADINSERTER AMP] separatorjem. Tukaj lahko omogočite vstavljanje na AMP "
+"straneh samo, ko želite vstaviti ISTO KODO tudi na AMP straneh (brez AMP "
+"separatorja)."
+
+#: settings.php:1725
+msgid "AMP pages"
+msgstr "AMP strani"
+
+#: settings.php:1730
+msgid "Enable insertion for Ajax requests"
+msgstr "Omogoči vstavljanje v Ajax zahtevah"
+
+#: settings.php:1730
+msgid "Ajax requests"
+msgstr "Ajax zahteve"
+
+#: settings.php:1735
+msgid "Enable insertion in RSS feeds"
+msgstr "Omogoči vstavljanje v RSS virih"
+
+#: settings.php:1735
+msgid "RSS Feed"
+msgstr "RSS Vir"
+
+#: settings.php:1740
+msgid "Enable insertion on page for Error 404: Page not found"
+msgstr "Omogoči vstavljanje na strani za napako 404: Stran ne obstaja"
+
+#: settings.php:1740
+msgid "Error 404 page"
+msgstr "Stran napake 404"
+
+#: settings.php:1752
+msgid "Maximum number of insertion of this block. Empty or 0 means no limit."
+msgstr ""
+"Največje število vstavljanj tega bloka. Prazno ali 0 pomeni brez omejitev."
+
+#: settings.php:1753
+msgid "Max"
+msgstr "Največ"
+
+#: settings.php:1753
+msgid "insertions"
+msgstr "vstavljanj"
+
+#: settings.php:1755
+msgid ""
+"Count this block for Max blocks per page limit (defined on the tab &#9881; / "
+"tab General)"
+msgstr ""
+"Štej ta blok za omejitev Največ blokov na stran (določena na zavihku "
+"&#9881; / zavihek Splošno)"
+
+#: settings.php:1758 settings.php:2099
+msgid "Max blocks per page"
+msgstr "Največ blokov na stran"
+
+#: settings.php:1770
+msgid "Insert for"
+msgstr "Vstavi za"
+
+#: settings.php:1778
+msgid ""
+"Insert block only when WP function in_the_loop () returns true (WP loop is "
+"currently active). Might speed up insertion on content pages when "
+"the_content filter is called multiple times."
+msgstr ""
+"Vstavi blok samo, ko WP funkcija in_the_loop () vrne true (WP zanka je "
+"trenutno aktivna). Lahko pospeši vstavljanje na določenih straneh, ko je "
+"filter the_content večkrat klican."
+
+#: settings.php:1781
+msgid "Insert only in the loop"
+msgstr "Vstavi samo v zanki"
+
+#: settings.php:1787
+msgid ""
+"Disable caching for WP Super Cache, W3 Total Cache and WP Rocket plugins"
+msgstr ""
+"Onemogoči predpomnenje za vtičnike WP Super Cache, W3 Total Cache in WP "
+"Rocket"
+
+#: settings.php:1787
+msgid "Disable caching"
+msgstr "Onemogoči predpomnjenje"
+
+#: settings.php:1799
+msgid "Filter insertions"
+msgstr "Filtriraj vstavljanja"
+
+#: settings.php:1802
+msgid ""
+"Filter multiple insertions by specifying wanted insertions for this block - "
+"single number, comma separated numbers or %N for every N insertions - empty "
+"means all insertions / no filter. Set Counter for filter to Auto if you are "
+"using only one insertion type."
+msgstr ""
+"Filtrirajte večkratna vstavljanja z določitvijo želenih vstavljanj za ta "
+"blok - eno število, z vejico ločena števila ali %N za vsako N-to vstavljanje "
+"- prazno pomeni vsa vstavljanja / brez filtra. Nastavite Števec za filter na "
+"Samodejni števec, če uporabljate samo eno vrsto vstavljanja."
+
+#: settings.php:1805
+msgid "using"
+msgstr "z uporabo"
+
+#: settings.php:1823
+msgid "Checked means specified calls are unwanted"
+msgstr "Odkljukano pomeni, da so našteti klici neželjeni"
+
+#: settings.php:1823
+msgid "Invert filter"
+msgstr "Obrni filter"
+
+#: settings.php:1829
+msgid "Post/Static page must have between"
+msgstr "Prispevek/Statična stran mora imeti med"
+
+#: settings.php:1830
+msgid "Minimum number of post/static page words, leave empty for no limit"
+msgstr ""
+"Najmanjše število besed v prispevkih/statičnih straneh, prazno pomeni brez "
+"omejitev"
+
+#: settings.php:1832
+msgid "Maximum number of post/static page words, leave empty for no limit"
+msgstr ""
+"Največje število besed v prispevkih/statičnih straneh, prazno pomeni brez "
+"omejitev"
+
+#: settings.php:1845
+msgid "days after publishing"
+msgstr "dni po objavi"
+
+#: settings.php:1847
+msgid "Not available"
+msgstr "Ni na razpolago"
+
+#: settings.php:1860 settings.php:2091
+msgid "Ad label"
+msgstr "Oznaka oglasa"
+
+#: settings.php:1879
+msgid "General tag"
+msgstr "Splošna oznaka"
+
+#: settings.php:1883
+msgid "Used for [adinserter data=''] shortcodes when no data is found"
+msgstr "Uporabljeno za kratke kode [adinserter data=''] ko ni podatkov"
+
+#. translators: %s: HTML tags
+#: settings.php:1892
+msgid ""
+"%s WARNING: %s No Wrapping %s style has no wrapping code needed for client-"
+"side device detection!"
+msgstr ""
+"%s OPOZORILO: slog %s Brez Ovijanja %s nima kode za ovijanje , ki je "
+"potrebna za zaznavanje naprave na strani klienta!"
+
+#: settings.php:1904
+msgid "Settings"
+msgstr "Nastavitve"
+
+#: settings.php:1907
+msgid "Settings timestamp"
+msgstr "Časovni žig nastavitev"
+
+#: settings.php:1919
+msgid "Are you sure you want to reset all settings?"
+msgstr "Ali ste prepričani, da želite ponastaviti vse nastavitve?"
+
+#: settings.php:1919
+msgid "Reset All Settings"
+msgstr "Ponastavi Vse Nastavitve"
+
+#: settings.php:1942
+msgid "Viewports"
+msgstr "Pogledi"
+
+#: settings.php:1943
+msgid "Hooks"
+msgstr "Ročice"
+
+#: settings.php:1944
+msgid "Header"
+msgstr "Glava"
+
+#: settings.php:1945 strings.php:30
+msgid "Footer"
+msgstr "Noga"
+
+#: settings.php:1950
+msgid "Debugging"
+msgstr "Razhroščevanje"
+
+#: settings.php:1960
+msgid "Plugin priority"
+msgstr "Prednost vtičnika"
+
+#: settings.php:1968
+msgid "Output buffering"
+msgstr "Predpomnjenje izhoda"
+
+#: settings.php:1971
+msgid "Needed for position Above header but may not work with all themes"
+msgstr "Potrebno za položaj Nad glavo, ampak lahko, da ne dela z vsemi temami"
+
+#: settings.php:1979
+msgid "Syntax highlighting theme"
+msgstr "Tema za poudarjanje sintakse"
+
+#: settings.php:1986
+msgctxt "no syntax highlighting themes"
+msgid "None"
+msgstr "Brez"
+
+#: settings.php:1987
+msgid "No Syntax Highlighting"
+msgstr "Brez Poudarjanja Sintakse"
+
+#: settings.php:1989
+msgctxt "syntax highlighting themes"
+msgid "Light"
+msgstr "Svetle"
+
+#: settings.php:2004
+msgctxt "syntax highlighting themes"
+msgid "Dark"
+msgstr "Temne"
+
+#: settings.php:2030
+msgid "Min. user role for ind. exceptions editing"
+msgstr "Najm. uporabniška vloga za urejanje izjem"
+
+#: settings.php:2040
+msgid "Sticky widget mode"
+msgstr "Način za lepljive gradnike"
+
+#: settings.php:2043
+msgid ""
+"CSS mode is the best approach but may not work with all themes. JavaScript "
+"mode works with most themes but may reload ads on page load."
+msgstr ""
+"Način CSS je najboljši pristop, ampak lahko, da ne bo delal z vsemi temami. "
+"Način JavaScript dela z večino tem, ampak lahko ponovno naloži oglase pri "
+"nalaganju strani."
+
+#: settings.php:2051
+msgid "Sticky widget top margin"
+msgstr "Zgornji rob za lepljiv gradnik"
+
+#: settings.php:2059
+msgid "Dynamic blocks"
+msgstr "Dinamični bloki"
+
+#: settings.php:2072
+msgid "Functions for paragraph counting"
+msgstr "Funkcije za štetje odstavkov"
+
+#: settings.php:2075
+msgid ""
+"Standard PHP functions are faster and work in most cases, use Multibyte "
+"functions if paragraphs are not counted properly on non-english pages."
+msgstr ""
+"Običajne PHP funkcije so hitrejše in delajo v večini primerov, uporabite "
+"Večznakovne funkcije, če na ne-angleških straneh odstavki niso pravilno "
+"šteti."
+
+#: settings.php:2083
+msgid "No paragraph counting inside"
+msgstr "Ni štetja odstavkov znotraj"
+
+#: settings.php:2094
+msgid "Label text or HTML code"
+msgstr "Besedilo oznake ali HTML koda"
+
+#: settings.php:2102
+msgid ""
+"Maximum number of inserted blocks per page. You need to enable Max page "
+"insertions (button Misc / tab Insertion) to count block for this limit."
+msgstr ""
+"Največje število vstavljenih blokov na strani. Omogočiti morate Največ "
+"blokov na stran (gumb Razno / zavihek Vstavljanje), da bo blok štel za to "
+"omejitev."
+
+#: settings.php:2116
+msgid "Plugin usage tracking"
+msgstr "Sledenje uporabe vtičnika"
+
+#. translators: %s: Ad Inserter
+#: settings.php:2119
+msgid ""
+"Enable tracking of %s usage and help us to make improvements to the plugin. "
+"Only information regarding the WordPress environment and %s usage is "
+"recorded (once per month and on events like plugin activation/deactivation)."
+msgstr ""
+"Omogočite sledenje uporabe %s-ja in nam pomagajte izboljšati vtičnik. "
+"Beležijo se samo informacije glede okolja WordPress in uporabe %s-ja (enkrat "
+"mesečno in ob dogodkih kot so aktivacija/deaktivacija)."
+
+#: settings.php:2137
+msgid "CSS class name for the wrapping div"
+msgstr "Ime CSS razreda za div za ovijanje"
+
+#: settings.php:2137
+msgid "Block class name"
+msgstr "Ime razreda za blok"
+
+#: settings.php:2141
+msgid "Include general plugin block class"
+msgstr "Vključi splošni razred vtičnika za blok"
+
+#: settings.php:2141
+msgid "Block class"
+msgstr "Razred bloka"
+
+#: settings.php:2146
+msgid "Include block number class"
+msgstr "Vključi razred številke bloka"
+
+#: settings.php:2146
+msgid "Block number class"
+msgstr "Razred številke bloka"
+
+#: settings.php:2151
+msgid ""
+"Instead of alignment classes generate inline alignment styles for blocks"
+msgstr ""
+"Namesto razredov za poravnavo ustvari medvrstične sloge za poravnavo blokov"
+
+#: settings.php:2151
+msgid "Inline styles"
+msgstr "Medvrstični slogi"
+
+#: settings.php:2157
+msgid "Preview of the block wrapping code"
+msgstr "Predogled kode za ovijanje blokov"
+
+#: settings.php:2158
+msgid "Wrapping div"
+msgstr "div za ovijanje"
+
+#: settings.php:2159 settings.php:2556
+msgid "BLOCK CODE"
+msgstr "KODA BLOKA"
+
+#: settings.php:2167
+msgid "Viewport Settings used for client-side device detection"
+msgstr ""
+"Nastavitve Pogledov, uporabljene za zaznavanje naprav na strani klienta"
+
+#. Translators: %d: viewport number
+#: settings.php:2174
+msgid "Viewport %d name"
+msgstr "Ime pogleda %d"
+
+#: settings.php:2177
+msgid "min width"
+msgstr "najmanjša širina"
+
+#: settings.php:2188
+msgid "Custom Hooks"
+msgstr "Ročice Po Meri"
+
+#. translators: %d: hook number
+#: settings.php:2202
+msgid "Hook %d name"
+msgstr "Ime ročice %d"
+
+#: settings.php:2205
+msgid "Hook name for automatic insertion selection"
+msgstr "Ime ročice za izbiro samodejnega vstavljanja"
+
+#: settings.php:2208
+msgid "action"
+msgstr "akcija"
+
+#: settings.php:2211
+msgid "Action name as used in the do_action () function"
+msgstr "Ime akcije kot je uporabljena v do_action () funkciji"
+
+#: settings.php:2214
+msgid "priority"
+msgstr "prednost"
+
+#: settings.php:2217
+msgid "Priority for the hook (default is 10)"
+msgstr "Prednost za ročico (privzeta je 10)"
+
+#: settings.php:2237
+msgid "Enable insertion of this code into HTML page header"
+msgstr "Omogoči vstavljanje te kode v glavi HTML strani"
+
+#: settings.php:2241 settings.php:2299 settings.php:2458
+msgid "Process PHP code"
+msgstr "Procesiraj PHP kodo"
+
+#: settings.php:2245
+msgid "HTML Page Header Code"
+msgstr "Koda v Glavi HTML Strani"
+
+#: settings.php:2253
+msgid "Code in the %s section of the HTML page"
+msgstr "Koda v %s delu HTML strani"
+
+#: settings.php:2254 settings.php:2312
+msgctxt "code in header or footer"
+msgid "DISABLED"
+msgstr "ONEMOGOČENA"
+
+#: settings.php:2267 settings.php:2325
+msgid "Use server-side detection to insert code only for"
+msgstr "Zaznavanje na strani strežnika za vstavljanje samo za"
+
+#: settings.php:2280
+msgid ""
+"Enable insertion of this code into HTML page header on page for Error 404: "
+"Page not found"
+msgstr ""
+"Omogoči vstavljanje te kode v HTML glavo na strani za napako 404: Stran ne "
+"obstaja"
+
+#: settings.php:2280 settings.php:2338
+msgid "Insert on Error 404 page"
+msgstr "Vstavi na strani Napake 404"
+
+#: settings.php:2295
+msgid "Enable insertion of this code into HTML page footer"
+msgstr "Omogoči vstavljanje te kode v HTML nogi"
+
+#: settings.php:2303
+msgid "HTML Page Footer Code"
+msgstr "Koda v Nogi HTML Strani"
+
+#. translators: %s: HTML tags
+#: settings.php:2311
+msgid "Code before the %s tag of the the HTML page"
+msgstr "Koda pred %s značko HTML strani"
+
+#: settings.php:2338
+msgid ""
+"Enable insertion of this code into HTML page footer on page for Error 404: "
+"Page not found"
+msgstr ""
+"Omogoči vstavljanje te kode v nogo HTML strani na strani za napako 404: "
+"Stran ne obstaja"
+
+#: settings.php:2352
+msgid "Enable detection of ad blocking"
+msgstr "Omogoči zaznavanje blokiranja oglasov"
+
+#: settings.php:2369
+msgid "Global action when ad blocking is detected"
+msgstr "Globalna akcija, ko je zaznano blokiranje oglasov"
+
+#: settings.php:2378
+msgid "Delay Action"
+msgstr "Zakasni Akcijo"
+
+#: settings.php:2381
+msgid ""
+"Number of page views to delay action when ad blocking is detected. Leave "
+"empty for no delay (action fires on first page view). Sets cookie."
+msgstr ""
+"Število ogledov strani za zakasnitev akcije, ko je zaznano blokiranje "
+"oglasov. Prazno pomeni brez zakasnitve (akcija se sproži pri prvem ogledu "
+"strani). Nastavi piškotek."
+
+#: settings.php:2381
+msgctxt "Delay Action for x "
+msgid "page views"
+msgstr "ogledov strani"
+
+#: settings.php:2386
+msgid "No Action Period"
+msgstr "Obdobje Brez Akcije"
+
+#: settings.php:2389
+msgid ""
+"Number of days to supress action when ad blocking is detected. Leave empty "
+"for no no-action period (action fires always after defined page view delay). "
+"Sets cookie."
+msgstr ""
+"Število dni za zadržanje akcije, ko je zaznano blokiranje oglasov. Prazno "
+"pomeni brez zadržanja (akcija se sproži vedno po določeni zakasnitvi ogledov "
+"strani). Nastavi piškotek."
+
+#: settings.php:2389
+msgctxt "no action period"
+msgid "days"
+msgstr "dni"
+
+#: settings.php:2394
+msgid "Custom Selectors"
+msgstr "Selektorji Po Meri"
+
+#: settings.php:2397
+msgid ""
+"Comma seprarated list of selectors (.class, #id) used for additional ad "
+"blocking detection. Invisible element or element with zero height means ad "
+"blocking is present."
+msgstr ""
+"Z vejico ločen seznam selektorjev (.razred, #id) uoprabljenih za dodatno "
+"zaznavanje blokiranja oglasov. Neviden element ali element z ničelno višino "
+"pomeni prisotnost blokiranja oglasov."
+
+#: settings.php:2409
+msgid "Redirection Page"
+msgstr "Stran za Preusmeritev"
+
+#: settings.php:2421
+msgid "Custom Url"
+msgstr "Url Po Meri"
+
+#: settings.php:2426
+msgid ""
+"Static page for redirection when ad blocking is detected. For other pages "
+"select Custom url and set it below."
+msgstr ""
+"Statična stran za preusmeritev, ko je zaznano blokiranje oglasov. Za druge "
+"strani izberite Url Po Meri in ga nastavite spodaj."
+
+#: settings.php:2435
+msgid "Custom Redirection Url"
+msgstr "Url za Preusmeritev Po Meri"
+
+#: settings.php:2447
+msgid "Message HTML code"
+msgstr "HTML koda sporočila"
+
+#: settings.php:2460
+msgid "Preview message when ad blocking is detected"
+msgstr "Predogled sporočila, ko je zaznano blokiranje oglasov"
+
+#: settings.php:2489
+msgid "Prevent visitors from closing the warning message"
+msgstr "Prepreči obiskovalcem, da zaprejo opozorilno sporočilo"
+
+#: settings.php:2489
+msgid "Undismissible Message"
+msgstr "Neodstranljivo Sporočilo"
+
+#: settings.php:2502
+msgid ""
+"Force showing admin toolbar for administrators when viewing site. Enable "
+"this option when you are logged in as admin and you don't see admin toolbar."
+msgstr ""
+"Vsili prikaz orodne vrstice za skrbnike pri ogledu strani. Omogočite to "
+"možnost, če ste prijavljeni kot skrbnik, pa ne vidite orodne vrstice za "
+"skrbnike."
+
+#: settings.php:2510
+msgid "Disable header code (Header tab)"
+msgstr "Onemogoči kodo v glavi (zavihek Glava)"
+
+#: settings.php:2514
+msgid "Disable footer code (Footer tab)"
+msgstr "Onemogoči kodo v nogi (zavihek Noga)"
+
+#. translators: %s: Ad Inserter
+#: settings.php:2518
+msgid "Disable %s JavaScript code"
+msgstr "Onemogoči %s JavaScript kodo"
+
+#. translators: %s: Ad Inserter
+#: settings.php:2522
+msgid "Disable %s CSS code"
+msgstr "Onemogoči %s CSS kodo"
+
+#: settings.php:2526
+msgid ""
+"Disable PHP code processing (in all blocks including header and footer code)"
+msgstr ""
+"Onemogoči procesiranje PHP kode (v vseh blokh vključno z glavo in nogo)"
+
+#: settings.php:2530
+msgid "Disable insertion of all blocks"
+msgstr "Onemogoči vstavljanje vseh blokov"
+
+#: settings.php:2534
+msgid "Disable insertions"
+msgstr "Onemogoči vstavljanja"
+
+#. translators: %s: Ad Inserter
+#: settings.php:2546
+msgid "%s CSS CODE"
+msgstr "%s CSS KODA"
+
+#: settings.php:2549
+msgid "HEADER CODE"
+msgstr "KODA GLAVE"
+
+#. translators: %s: PHP tags
+#: settings.php:2555
+msgid "BLOCK PHP CODE"
+msgstr "PHP KODA BLOKA"
+
+#. translators: %s: Ad Inserter
+#: settings.php:2561
+msgid "%s JS CODE"
+msgstr "%s JS KODA"
+
+#: settings.php:2564
+msgid "FOOTER CODE"
+msgstr "KODA NOGE"
+
+#: settings.php:2573
+msgid "Force showing admin toolbar when viewing site"
+msgstr "Vsili prikaz orodne vrstice za skrbnike pri ogledu strani"
+
+#: settings.php:2580
+msgid "Enable debugging functions in admin toolbar"
+msgstr "Omogoči funkcije za razhroščevanje v orodni vrstici za skrbnike"
+
+#: settings.php:2582
+msgid "Debugging functions in admin toolbar"
+msgstr "Funkcije za razhroščevanje v orodni vrstici za skrbnike"
+
+#: settings.php:2589
+msgid "Enable debugging functions in admin toolbar on mobile screens"
+msgstr ""
+"Omogoči funkcije za razhroščevanje v orodni vrstici za skrbnike na mobilnih "
+"zaslonih"
+
+#: settings.php:2591
+msgid "Debugging functions on mobile screens"
+msgstr "Funkcije za razhroščevanje na mobilnih zaslonih"
+
+#: settings.php:2598
+msgid ""
+"Enable Debugger widget and code insertion debugging (blocks, positions, "
+"tags, processing) by url parameters for non-logged in users. Enable this "
+"option to allow other users to see Debugger widget, labeled blocks and "
+"positions in order to help you to diagnose problems. For logged in "
+"administrators debugging is always enabled."
+msgstr ""
+"Omogočite gradnik Raazhroščevalnik in razhroščevanje vstavljanja kode "
+"(bloki, položaji, značke, procesiranje) z url parametri za neprijavljene "
+"uporabnike. Omogočite to možnost, da bi lahko tudi drugi uporabniki videli "
+"gradnik Raazhroščevalnik, označene bloke in položaje, da bi vam lahko "
+"pomagali diagnosticirati težave. Za prijavljene skrbnike je razhroščevanje "
+"vedno omogočeno."
+
+#: settings.php:2600
+msgid "Remote debugging"
+msgstr "Oddaljeno razhroščevanje"
+
+#: settings.php:2607
+msgid ""
+"Disable translation to see original texts for the settings and messages in "
+"English"
+msgstr ""
+"Onemogoči prevod za prikaz prvotnih besedil nastavitev in sporočil v "
+"angleščini"
+
+#: settings.php:2609
+msgid "Disable translation"
+msgstr "Onemogoči prevod"
+
+#: settings.php:2903
+msgid "Toggle active/all blocks"
+msgstr "Preklopi aktive/vse bloke"
+
+#: settings.php:2907 strings.php:198
+msgid "Rearrange block order"
+msgstr "Preuredi vrstni red blokov"
+
+#: settings.php:2912
+msgid "Save new block order"
+msgstr "Shrani vrstni red blokov"
+
+#: settings.php:2912
+msgid "Save Changes"
+msgstr "Sharani Nastavitve"
+
+#: settings.php:2937
+msgid "Toggle active/all ad units"
+msgstr "Preklopi aktivne/vse oglasne enote"
+
+#: settings.php:2941
+msgid "Reload AdSense ad units"
+msgstr "Ponovno naloži oglasne enote AdSense"
+
+#: settings.php:2945
+msgid "Clear authorization to access AdSense account"
+msgstr "Odstrani avtorizacijo za dostop do računa AdSense"
+
+#: settings.php:2949 settings.php:3314 settings.php:3381 strings.php:206
+msgid "Google AdSense Homepage"
+msgstr "Google AdSense Domača Stran"
+
+#: settings.php:3126
+msgid "Preview block"
+msgstr "Predogled bloka"
+
+#: settings.php:3135
+msgid "Insertion disabled"
+msgstr "Vstavljanje onemogočeno"
+
+#: settings.php:3155
+msgid "Alignment"
+msgstr "Poravnava"
+
+#: settings.php:3159
+msgid "Widget positions"
+msgstr "Položaji gradnikov"
+
+#: settings.php:3225
+msgid "Ad unit"
+msgstr "Enota"
+
+#: settings.php:3227
+msgid "Slot ID"
+msgstr "ID mesta"
+
+#: settings.php:3253
+msgid "Copy AdSense code"
+msgstr "Kopiraj kodo AdSense"
+
+#: settings.php:3256
+msgid "Preview AdSense ad"
+msgstr "Predogled oglasa AdSense"
+
+#: settings.php:3259
+msgid "Get AdSense code"
+msgstr "Pridobi kodo AdSense"
+
+#. translators: %s: HTML tags
+#: settings.php:3291
+msgid ""
+"Please %s clear authorization %s with the button %s above and once again "
+"authorize access to your AdSense account."
+msgstr ""
+"Prosimo, %s odstranite avtorizacijo %s z gumbom %s zgoraj in še enkrat "
+"avtorizirajte dostop do vašega računa AdSense."
+
+#: settings.php:3310
+msgid "AdSense Integration"
+msgstr "Integracija AdSense"
+
+#: settings.php:3312
+msgid "AdSense Integration - Step 2"
+msgstr "Integracija AdSense - Korak 2"
+
+#. translators: %s: HTML tags
+#: settings.php:3318
+msgid ""
+"Authorize %s to access your AdSense account. Click on the %s Get "
+"Authorization Code %s button to open a new window where you can allow "
+"access. When you get the code copy it to the field below and click on the "
+"button %s Authorize. %s"
+msgstr ""
+"Avtorizirajte %s za dostop do vašega računa AdSense. Kliknite na gumb %s "
+"Pridobi Avtorizacijsko Kodo, %s da se odpre novo okno kjer lahko dovolite "
+"dostop. Ko dobite kodo jo skopirajte v polje spodaj in kliknite na gumb %s "
+"Avtoriziraj. %s"
+
+#. translators: %s: HTML tags
+#: settings.php:3325
+msgid ""
+"If you get error, can't access ad units or would like to use own Google API "
+"IDs click on the button %s Use own API IDs %s to enter Client ID and Client "
+"Secret."
+msgstr ""
+"Če se pojavi napaka, ne morete dostopati do oglasnih enot ali bi radi "
+"uporabili lastne Google API ID-je, kliknite na gumb %s Uporabi lastne API ID-"
+"je %s za vnos podatkov ID Klienta in Skrivnost Klienta."
+
+#. translators: %s: HTML tags
+#: settings.php:3327
+msgid ""
+"Now you can authorize %s to access your AdSense account. Click on the %s Get "
+"Authorization Code %s button to open a new window where you can allow "
+"access. When you get the code copy it to the field below and click on the "
+"button %s Authorize. %s"
+msgstr ""
+"Zdaj lahko avtorizirate %s za dostop do vašega AdSense računa. Kliknite na "
+"gumb %s Pridobi Avtorizacijsko Kodo %s, da se odpre novo okno kjer lahko "
+"dovolite dostop. Ko dobite kodo, jo skopirajte v polje spodaj in kliknite na "
+"gumb %s Avtoriziraj. %s"
+
+#. translators: %s: HTML tags
+#: settings.php:3334
+msgid ""
+"If you get error %s invalid client %s click on the button %s Clear and "
+"return to Step 1 %s to re-enter Client ID and Client Secret."
+msgstr ""
+"Če se pojavi napaka %s neveljaven klient %s, kliknite na gumb %s Odstrani in "
+"se vrni na Korak 1 %s za ponoven vnos ID klienta in Skrivnost Klienta."
+
+#: settings.php:3345
+msgid "Get Authorization Code"
+msgstr "Pridobi Avtoriazcijsko Kodo"
+
+#: settings.php:3348
+msgid "Enter Authorization Code"
+msgstr "Vnesi Avorizacijsko Kodo"
+
+#: settings.php:3358
+msgid "Use own API IDs"
+msgstr "Uporabi lastne API ID-je"
+
+#: settings.php:3360
+msgid "Clear and return to Step 1"
+msgstr "Odstrani in se vrni na Korak 1"
+
+#: settings.php:3364
+msgid "Authorize"
+msgstr "Avtoriziraj"
+
+#: settings.php:3380
+msgid "AdSense Integration - Step 1"
+msgstr "Integracija AdSense - Korak 1"
+
+#. translators: %s: Ad Inserter
+#: settings.php:3384
+msgid ""
+"Here can %s list configured AdSense ad units and get code for AdSense ads. "
+"To do this you need to authorize %s to access your AdSense account. The "
+"first step is to create a Google API project in order to get Client ID and "
+"Client Secret."
+msgstr ""
+"Tukaj lahko %s izpiše nastavljene oglasne enote AdSense in pridobi kodo za "
+"oglase AdSense. Za to morate avtorizirati %s za dostop do vašega računa "
+"AdSense. Prvi korak je ustvaritev Google API projekta, da bi lahko dobili ID "
+"Klienta in Skrivnost Klienta."
+
+#. translators: %s: HTML tags
+#: settings.php:3393
+msgid "Go to %s Google APIs and Services console %s"
+msgstr "Pojdite na %s konzolo Google API-ji in Storitve %s"
+
+#. translators: %1: Ad Inserter, 2, 3: HTML tags
+#: settings.php:3394
+msgid ""
+"Create %1$s project - if the project and IDs are already created click on "
+"the %2$s Credentials %3$s in the sidebar and go to step 16"
+msgstr ""
+"Ustvarite projekt %1$s - če so projekt in ID-ji že ustvarjeni, kliknite na "
+"%2$s Pooblastila %3$s v stranski vrstici in pojdite na korak 16"
+
+#. translators: %s: HTML tags
+#: settings.php:3395
+msgid ""
+"Click on project selection and then click on the %s NEW PROJECT %s button to "
+"create a new project"
+msgstr ""
+"Kliknite na izbor projekta in potem kliknite na gumb %s NOV PROJEKT %s za "
+"ustvaritev novega projekta"
+
+#. translators: 1: Ad Inserter, 2, 3: HTML tags
+#: settings.php:3396
+msgid "Enter %1$s for project name and click on the %2$s Create %3$s button"
+msgstr "Vnesite %1$s za ime projekta in kliknite na gumb %2$s Ustvari %3$s"
+
+#. translators: %s: HTML tags
+#: settings.php:3397
+msgid ""
+"Click on project selection, wait for the project to be created and then and "
+"select %s as the current project"
+msgstr ""
+"Kliknite na izbiro projekta, počakajte, da se projekt ustvari in potem "
+"izberite %s kot trenutni projekt"
+
+#. translators: %s: HTML tags
+#: settings.php:3398
+msgid "Click on %s ENABLE APIS AND SERVICES %s"
+msgstr "Klinkite na %s OMOGOČI API-je IN STORITVE %s"
+
+#. translators: %s: HTML tags
+#: settings.php:3399
+msgid "Search for adsense and enable %s"
+msgstr "Poiščite adsense in omogočite %s"
+
+#. translators: %s: HTML tags
+#: settings.php:3400
+msgid "Click on %s CREATE CREDENTIALS %s"
+msgstr "Klinkite na %s USTVARI POOBLASTILA %s"
+
+#. translators: %s: HTML tags
+#: settings.php:3401
+msgid "For %s Where will you be calling the API from? %s select %s Other UI %s"
+msgstr "Za %s Od kod boste klicali API-je? %s izberite %s Drugi UI %s"
+
+#. translators: %s: HTML tags
+#: settings.php:3402
+msgid "For %s What data will you be accessing? %s select %s User data %s"
+msgstr ""
+"Za %s Do katerih podatkov boste dostopali? %s izberite %s Uporabniški "
+"podatki %s"
+
+#. translators: %s: HTML tags
+#: settings.php:3403
+msgid "Click on %s What credentials do I need? %s"
+msgstr "Kliknite na %s Kakšna pooblastila potrebujem? %s"
+
+#. translators: %s: HTML tags
+#: settings.php:3404
+msgid ""
+"Create an OAuth 2.0 client ID: For %s OAuth 2.0 client ID %s name enter %s "
+"Ad Inserter client %s"
+msgstr ""
+"Ustvarite OAuth 2.0 ID klienta: za ime %s OAuth 2.0 ID klienta %s vnestite "
+"%s Ad Inserter klient %s"
+
+#. translators: %s: HTML tags
+#: settings.php:3405
+msgid ""
+"Set up the OAuth 2.0 consent screen: For %s Product name shown to users %s "
+"enter %s"
+msgstr ""
+"Nastavite OAuth 2.0 zaslon za soglasje: Za %s Ime izdelka, ki je prikazano "
+"uporabnikom %s vnesite %s"
+
+#. translators: %s: HTML tags
+#: settings.php:3406
+msgid "Click on %s Continue %s"
+msgstr "Kliknite na %s Nadaljuj %s"
+
+#. translators: %s: HTML tags
+#: settings.php:3407
+msgid "Click on %s Done %s"
+msgstr "Kliknite na %s Končaj %s"
+
+#. translators: %s: HTML tags
+#: settings.php:3408
+msgid ""
+"Click on %s Ad Inserter client %s to get %s Client ID %s and %s Client "
+"secret %s"
+msgstr ""
+"Kliknite na %s Ad Inserter klient, %s da bi dobili %s ID klienta %s in %s "
+"Skrivnost klienta %s"
+
+#: settings.php:3409
+msgid "Copy them to the appropriate fields below"
+msgstr "Skopirajte ju na ustrezni polji spodaj"
+
+#: settings.php:3415
+msgid "Client ID"
+msgstr "ID klienta"
+
+#: settings.php:3418
+msgid "Enter Client ID"
+msgstr "Vnesite ID klienta"
+
+#: settings.php:3423
+msgid "Client secret"
+msgstr "Skrivnost klienta"
+
+#: settings.php:3426
+msgid "Enter Client secret"
+msgstr "Vnesite Skrivnost klienta"
+
+#: settings.php:3436
+msgid "Use default API IDs"
+msgstr "Uporabi privzete API ID-je"
+
+#: settings.php:3441
+msgid "Save"
+msgstr "Shrani"
+
+#: settings.php:3603 settings.php:3616 settings.php:3629
+msgid "Blank ad blocks? Looking for AdSense alternative?"
+msgstr "Prazni oglasni bloki? Iščete alternativo za AdSense?"
+
+#: settings.php:3608 settings.php:3621 settings.php:3634 settings.php:3806
+#: settings.php:3808 settings.php:3829 settings.php:3832
+msgid "Looking for AdSense alternative?"
+msgstr "Iščete alternativo za AdSense?"
+
+#: settings.php:3644
+msgid "Try Infolinks Ads with Adsense or Media.net ads"
+msgstr "Poskusite oglase Infolinks z oglasi AdSense ali Media.net"
+
+#: settings.php:3649 settings.php:3802 settings.php:3804 settings.php:3835
+#: settings.php:3838
+msgid "Use Infolinks ads with Adsense to earn more"
+msgstr "Uporabite oglase Infolinks z AdSense za večji zaslužek"
+
+#: settings.php:3668 settings.php:3706
+msgid "Support plugin development"
+msgstr "Podprite razvoj vtičnika"
+
+#: settings.php:3669 settings.php:3707
+msgid ""
+"If you like Ad Inserter and have a moment, please help me spread the word by "
+"reviewing the plugin on WordPres"
+msgstr ""
+"Če vam je Ad Inserter všeč in imate trenutek časa, mi prosim pomagajte "
+"razširiti novico z oceno vtičnika na WordPress-u"
+
+#: settings.php:3669
+msgctxt "Review ad Inserter"
+msgid "Review"
+msgstr "Oceni"
+
+#: settings.php:3670
+msgid ""
+"Support free Ad Inserter development. If you are making money with Ad "
+"Inserter consider donating some small amount. Even 1 dollar counts. Thank "
+"you!"
+msgstr ""
+"Podprite razvoj brezplačnega Ad Inserter-ja. Če služite denar z Ad Inserter-"
+"jem razmislite o donaciji manjšega zneska. Tudi 1 evro šteje. Hvala!"
+
+#: settings.php:3670
+msgid "Donate"
+msgstr "Donirajte"
+
+#: settings.php:3677 settings.php:3722
+msgid "Average rating of the plugin - Thank you!"
+msgstr "Povprečna ocena vtičnika - Hvala!"
+
+#. translators: %s: Ad Inserter, HTML tags
+#: settings.php:3688
+msgid ""
+"You've been using %s for a while now, and I hope you're happy with it. "
+"Positive %s reviews %s are a great way to show your appreciation for my "
+"work. Besides being an incredible boost to my morale, they are also a great "
+"incentive to fix bugs and to add new features for better monetization of "
+"your website. %s Thank you!"
+msgstr ""
+"%s uporabljate že kar nekaj časa in upam, da ste z njim zadovoljni. "
+"Pozitivne %s ocene %s so odličen način, da pokažete vaše zadovoljstvo z "
+"mojim delom. Poleg tega, da prispevajo k dvigu samozavesti, so tudi velika "
+"vzpodbuda za odpravo hroščev in dodajanje novih funkcij za boljšo "
+"monetizacijo vašega spletnega mesta. %s Hvala!"
+
+#: settings.php:3707
+msgid "Review"
+msgstr "Ocena"
+
+#: settings.php:3711
+msgid "Ad Inserter on Twitter"
+msgstr "Ad Inserter na Twitter-ju"
+
+#: settings.php:3712
+msgid "Ad Inserter on Facebook"
+msgstr "Ad Inserter na Facebook-u"
+
+#: settings.php:3715
+msgid "Follow Ad Inserter"
+msgstr "Sledi Ad Inserter-ju"
+
+#. translators: %s: HTML tags
+#: settings.php:3742
+msgid ""
+"Need help with %s settings? %s Check %s Quick Start, %s %s Code Editing %s "
+"and %s Common Settings %s pages"
+msgstr ""
+"Potrebujete pomoč pri %s nastavitvah? %s Preverite %s Hiter Začetek, %s %s "
+"Urejanje Kode, %s %s Pogoste Nastavitve %s"
+
+#. translators: %s: HTML tags
+#: settings.php:3754
+msgid ""
+"%s New to %s AdSense? %s %s %s Connect your site %s - Advanced %s AdSense "
+"code: %s %s In-feed ads, %s %s Auto ads, %s %s AMP ads %s"
+msgstr ""
+"%s Novinec z %s AdSense? %s %s %s Povežite vaše spletišče %s - Napredna %s "
+"koda AdSense: %s %s oglasi V viru, %s %s Samodejni oglasi, %s %s AMP oglasi "
+"%s"
+
+#. translators: %s: HTML tags
+#: settings.php:3773
+msgid ""
+"Ads are not showing? Check %s troubleshooting guide %s to find out how to "
+"diagnose and fix the problem."
+msgstr ""
+"Oglasi se ne prikazujejo? Preverite %s vodič za odpravljanje težav %s za "
+"navodili za diagnozo in rešitvami za težave."
+
+#. translators: %s: HTML tags
+#: settings.php:3777
+msgid ""
+"If you need any kind of help or support, please do not hesitate to open a "
+"thread on the %s support forum. %s"
+msgstr ""
+"Če potrebujete kakršno koli pomoč ali podporo ne oklevajte in odprite novo "
+"nit na %s podpornem forumu. %s"
+
+#: settings.php:3817 settings.php:3852
+msgid "A/B testing - Track ad impressions and clicks"
+msgstr "A/B testiranje - Sledi prikazom in klikom"
+
+#: settings.php:3822 settings.php:3847
+msgid "Code preview with visual CSS editor"
+msgstr "Predogled kode z vizualnim CSS urejevalnikom"
+
+#: settings.php:3858
+msgid "Looking for Pro Ad Management plugin?"
+msgstr "Iščete Pro vtičnik za Upravljanje z Oglasi?"
+
+#: settings.php:3859
+msgid "To Optimally Monetize your WordPress website?"
+msgstr "Za optimalno monetizacijo vašega WordPress spletnega mesta?"
+
+#. translators: %s HTML tags
+#: settings.php:3862
+msgid "64 ad blocks (positions)"
+msgstr "64 oglasnih blokov (položajev)"
+
+#. translators: %s HTML tags
+#: settings.php:3863
+msgid "%s AdSense Integration %s"
+msgstr "%s Integracija AdSense %s"
+
+#. translators: %s HTML tags
+#: settings.php:3864
+msgid "Syntax highlighting %s editor %s"
+msgstr "%s Urejevalnik %s s poudarjanjem sintakse"
+
+#. translators: %s HTML tags
+#: settings.php:3865
+msgid "%s Code preview %s with visual CSS editor"
+msgstr "%s Predogled kode %s z vizualnim CSS urejevalnikom"
+
+#. translators: %s HTML tags
+#: settings.php:3866
+msgid "Simple user interface - all settings on a single page"
+msgstr "Preprost uporabniški vmesnik - vse nastavitve na eni strani"
+
+#. translators: %s HTML tags
+#: settings.php:3867
+msgid ""
+"%s Automatic insertion %s before or after post / content / %s paragraph %s / "
+"excerpt"
+msgstr ""
+"%s Samodejno vstavljanje %s pred ali za prispevkom / vsebino / %s odstavkom "
+"%s / izvlečkom"
+
+#. translators: %s HTML tags
+#: settings.php:3868
+msgid "%s Automatic insertion %s between posts on blog pages"
+msgstr "%s Samodejno vstavljanje %s med prispevki na straneh bloga"
+
+#. translators: %s HTML tags
+#: settings.php:3869
+msgid "%s Automatic insertion %s before, between and after comments"
+msgstr "%s Samodejno vstavljanje %s pred, med in po kometarjih"
+
+#. translators: %s HTML tags
+#: settings.php:3870
+msgid "%s Automatic insertion %s after %s or before %s tag"
+msgstr "%s Samodejno vstavljanje %s za %s ali pred %s začko"
+
+#. translators: %s HTML tags
+#: settings.php:3871
+msgid "Automatic insertion at %s custom hook positions %s"
+msgstr "Samodejno vstavljanje na %s položajih ročic po meri %s"
+
+#. translators: %s HTML tags
+#: settings.php:3872
+msgid ""
+"Insertion %s before or after any HTML element on the page %s (using CSS "
+"selectors)"
+msgstr ""
+"Vstavljanje %s pred ali za HTML elementom na strani %s (z uporabo CSS "
+"selektorjev)"
+
+#. translators: %s HTML tags
+#: settings.php:3873
+msgid "%s Insertion exceptions %s for individual posts and pages"
+msgstr "%s Izjeme vstavljanja %s za individualne prispevke in strani"
+
+#. translators: %s HTML tags
+#: settings.php:3874
+msgid "%s Manual insertion: %s widgets, shortcodes, PHP function call"
+msgstr "%s Ročno vstavljanje: %s gradniki, kratke kode in klic PHP funkcije"
+
+#. translators: %s HTML tags
+#: settings.php:3875
+msgid ""
+"%s Sticky ads %s with optional close button (ads stay fixed when the page "
+"scrolls)"
+msgstr ""
+"%s Lepljivi oglasi %s z izbirnim gumbom za zapiranje (oglasi so fiksni, ko "
+"se stran pomika)"
+
+#. translators: %s HTML tags
+#: settings.php:3876
+msgid "%s Sticky sidebar ads %s (stick to the screen or to the content)"
+msgstr ""
+"%s Lepljivi oglasi v stranski vrstici %s (lepljivi na zaslon ali vsebino)"
+
+#. translators: %s HTML tags
+#: settings.php:3877
+msgid "%s Sticky ad animations %s (fade, slide, turn, flip, zoom)"
+msgstr ""
+"%s Animacije lepljivih oglasov %s (uveni, drsaj, obrni, prekucni, približaj)"
+
+#. translators: %s HTML tags
+#: settings.php:3878
+msgid ""
+"%s Sticky ad trigger %s (page scroll in %% or px, HTML element becomes "
+"visible)"
+msgstr ""
+"%s Sprožilec lepljivih oglasov %s (pomik strani v %% ali px, HTML element "
+"postane viden)"
+
+#. translators: %s HTML tags
+#: settings.php:3879
+msgid ""
+"%s Sticky (fixed) widgets %s (sidebar does not move when the page scrolls)"
+msgstr ""
+"%s Lepljivi (fiksni) gradniki %s (stranska vrstica se ne premika pri pomiku "
+"strani)"
+
+#. translators: %s HTML tags
+#: settings.php:3880
+msgid "Block %s alignment and style %s customizations"
+msgstr "%s Poravnave in slogi %s bloka po meri"
+
+#. translators: %s HTML tags
+#: settings.php:3881
+msgid ""
+"%s Clearance %s options to avoid insertion near images or headers (AdSense "
+"TOS)"
+msgstr ""
+"%s Izogibanje %s vstavljanja oglasov zraven slik ali naslovov (AdSense TOS)"
+
+#. translators: %s HTML tags
+#: settings.php:3882
+msgid ""
+"Options to %s disable insertion %s on Ajax calls, 404 error pages or in RSS "
+"feeds"
+msgstr ""
+"%s Onemogočanje vstavljanja %s za Ajax klice, strani napake 404 ali v RSS "
+"virih"
+
+#. translators: %s HTML tags
+#: settings.php:3883
+msgid "%s Ad rotation %s (works also with caching)"
+msgstr "%s Rotacija oglasov %s (deluje tudi s predpomnjenjem)"
+
+#. translators: %s HTML tags
+#: settings.php:3884
+msgid ""
+"Ad impression and click %s tracking %s (works also with Javascript ads like "
+"AdSense)"
+msgstr ""
+"%s Sledenje %s prikazom in klikom (deluje tudi z Javascript oglasi kot je "
+"AdSense)"
+
+#. translators: %s HTML tags
+#: settings.php:3885
+msgid "Support for %s A/B testing %s"
+msgstr "Podpora za %s A/B testiranje %s"
+
+#. translators: %s HTML tags
+#: settings.php:3886
+msgid "Support for %s lazy loading %s"
+msgstr "Podpora za %s leno nalaganje %s"
+
+#. translators: %s HTML tags
+#: settings.php:3887
+msgid "Support for ads on %s AMP pages %s"
+msgstr "Podpora za oglase na %s AMP straneh %s"
+
+#. translators: %s HTML tags
+#: settings.php:3888
+msgid "Support for contextual %s Amazon Native Shopping Ads %s (responsive)"
+msgstr "Podpora za kontekstualne %s Amazon Native Shopping Ads %s (odzivni)"
+
+#. translators: %s HTML tags
+#: settings.php:3889
+msgid "Custom CSS class name for wrapping divs to avoid ad blockers"
+msgstr ""
+"Ime CSS razreda za div za ovijanje po meri za izogibanje blokiranju oglasov"
+
+#. translators: %s HTML tags
+#: settings.php:3890
+msgid "PHP code processing"
+msgstr "Procesiranje PHP kode"
+
+#. translators: %s HTML tags
+#: settings.php:3891
+msgid "%s Banner %s code generator"
+msgstr "Generator kode za %s pasice %s"
+
+#. translators: %s HTML tags
+#: settings.php:3892
+msgid "Support for %s header and footer %s code"
+msgstr "Podpora za kodo v %s glavi in nogi %s"
+
+#. translators: %s HTML tags
+#: settings.php:3893
+msgid "Support for Google Analytics, Matomo or any other web analytics code"
+msgstr ""
+"Podpora za Google Analytics, Matomo ali katerokoli drugo spletno analitiko"
+
+#. translators: %s HTML tags
+#: settings.php:3894
+msgid "Desktop, tablet and phone server-side %s device detection %s"
+msgstr ""
+"%s Zaznava namizne, tablične in telefonske naprave %s na strani strani "
+"strežnika"
+
+#. translators: %s HTML tags
+#: settings.php:3895
+msgid ""
+"Client-side %s mobile device detection %s (works with caching, 6 custom "
+"viewports)"
+msgstr ""
+"%s Zaznava mobilne naprave %s (deluje s predpomnjenjem, 6 pogledov po meri)"
+
+#. translators: %s HTML tags
+#: settings.php:3896
+msgid ""
+"%s Ad blocking detection %s - popup message, ad replacement, content "
+"protection"
+msgstr ""
+"%s Zaznavanje blokiranja oglasov %s - sporočilo, zamenjava oglasa, zaščita "
+"vsebine"
+
+#. translators: %s HTML tags
+#: settings.php:3897
+msgid "%s Ad blocking statistics %s"
+msgstr "%s Statistika blokiranja oglasov %s"
+
+#. translators: %s HTML tags
+#: settings.php:3898
+msgid ""
+"%s Black/White-list %s categories, tags, taxonomies, users, post IDs, urls, "
+"referers"
+msgstr ""
+"%s Črni/Beli seznam %s kategorij, oznak, taksonomij, uporabnikov, url-jev"
+
+#. translators: %s HTML tags
+#: settings.php:3899
+msgid ""
+"%s Black/White-list %s IP addresses or countries (works also with caching)"
+msgstr ""
+"%s Črni/Beli seznam %s IP naslovov ali držav (deluje tudi s predpomnjenjem)"
+
+#. translators: %s HTML tags
+#: settings.php:3900
+msgid "%s Multisite options %s to limit settings on the sites"
+msgstr "%s Multisite možnosti %s za omejitev nastavitev na spletiščih"
+
+#. translators: %s HTML tags
+#: settings.php:3901
+msgid "%s Import/Export %s block or plugin settings"
+msgstr "%s Uvoz/Izvoz %s nastavitve bloka ali vtičnika"
+
+#. translators: %s HTML tags
+#: settings.php:3902
+msgid "%s Insertion scheduling %s with fallback option"
+msgstr "%s Urnik vstavljanja %s z možnostjo rezerve"
+
+#. translators: %s HTML tags
+#: settings.php:3903
+msgid "Country-level %s GEO targeting %s (works also with caching)"
+msgstr "%s GEO ciljanje na ravni države %s (deluje tudi s predpomnjenjem)"
+
+#. translators: %s HTML tags
+#: settings.php:3904
+msgid "Simple troubleshooting with many %s debugging functions %s"
+msgstr ""
+"Preprosto odpravljanje napak z veliko %s funkcijami za razhroščevanje %s"
+
+#. translators: %s HTML tags
+#: settings.php:3905
+msgid "%s Visualization %s of inserted blocks or ads for easier placement"
+msgstr ""
+"%s Vizualizacija %s vstavljenih blokov ali oglasov za enostavno umeščanje"
+
+#. translators: %s HTML tags
+#: settings.php:3906
+msgid "%s Visualization %s of available positions for automatic ad insertion"
+msgstr ""
+"%s Vizualizacija %s razpoložljivih položajev za samodejno vstavljanje oglasov"
+
+#. translators: %s HTML tags
+#: settings.php:3907
+msgid ""
+"%s Visualization %s of HTML tags for easier ad placement between paragraphs"
+msgstr ""
+"%s Vizualizacija %s HTML značk za enostavno vstavljanje oglasov med odstavki"
+
+#. translators: %s HTML tags
+#: settings.php:3908
+msgid "%s Clipboard support %s to easily copy blocks or settings"
+msgstr ""
+"%s Podpora za odložišče %s za enostavno kopiranje blokov ali nastavitev"
+
+#. translators: %s HTML tags
+#: settings.php:3909
+msgid "No ads on the settings page"
+msgstr "Stran z nastavitvami brez oglasov"
+
+#. translators: %s HTML tags
+#: settings.php:3910 settings.php:3933
+msgid "Support via email"
+msgstr "Podpora prek elektronske pošte"
+
+#. translators: %s HTML tags
+#: settings.php:3913
+msgid ""
+"Ad Inserter Pro is a complete all-in-one ad management plugin for WordPress "
+"website with many advertising features to automatically insert adverts on "
+"posts and pages. With Ad Inserter Pro you also get <strong>one year of free "
+"updates and support via email</strong>. If you find Ad Inserter useful and "
+"need more blocks, ad statistics for impressions and clicks, A/B testing, "
+"sticky ads, slider ads, pop-up ads, geotargeting or geolocation to serve "
+"country-specific ads, to protect content or to serve different ads for users "
+"using ad blockers, multisite options to limit settings for ads, to block "
+"some IP addresses, to schedule ads, then you can simply upgrade to %s Ad "
+"Inserter Pro %s (existing settings will be preserved)."
+msgstr ""
+"Ad Inserter Pro je celovit vse-v-enem vtičnik za upravljanje z oglasi za "
+"WordPress spletno mesto z veliko oglaševalskimi funkcijami za samodejno "
+"vstavljanje oglasov v prispevke in strani. Z vtičnikom Ad Inserter Pro "
+"dobite tudi <strong>eno leto brezplačnih posodobitev in podpore prek "
+"elektronske pošte</strong>. Če se vam zdi Ad Inserter uporaben in "
+"potrebujete več blokov, statistiko oglasov za prikaze in klike, A/B "
+"testiranje, lepljive oglase, pojavne oglase, geotargetiranje ali geolokacijo "
+"za prikaz oglasov glede na državo, zaščito vsebine oz. prikaz drugačnih "
+"oglasov za uporabnike, ki uporabljajo blokiranje oglasov, multisite možnosti "
+"za omejitev nastavitev za oglase, blokiranje določenih IP naslovov, urnik "
+"vstavljanja oglasov, potem preprosto nadgradite v %s Ad Inserter Pro %s "
+"(obstoječe nastavitve se bodo ohranile)."
+
+#. translators: %s HTML tags
+#: settings.php:3926
+msgid "Looking for %s Pro Ad Management plugin? %s"
+msgstr "Iščete Pro vtičnik za %s Upravljanje z Oglasi? %s"
+
+#. translators: %s HTML tags
+#: settings.php:3931
+msgid "Ads between posts"
+msgstr "Oglasi med prispevki"
+
+#. translators: %s HTML tags
+#: settings.php:3932
+msgid "Ads between comments"
+msgstr "Oglasi med komentarji"
+
+#. translators: %s HTML tags
+#: settings.php:3939
+msgid "%s Sticky positions %s"
+msgstr "%s Lepljivi položaji %s"
+
+#. translators: %s HTML tags
+#: settings.php:3940
+msgid "%s Limit insertions %s"
+msgstr "%s Omeji vstavljanja %s"
+
+#. translators: %s HTML tags
+#: settings.php:3941
+msgid "%s Clearance %s options"
+msgstr "Možnosti %s izogibanja %s"
+
+#. translators: %s HTML tags
+#: settings.php:3947
+msgid "Ad rotation"
+msgstr "Vrtenje oglasov"
+
+#. translators: %s HTML tags
+#: settings.php:3948
+msgid "%s A/B testing %s"
+msgstr "%s A/B testiranje %s"
+
+#. translators: %s HTML tags
+#: settings.php:3949
+msgid "%s Ad tracking %s"
+msgstr "%s Sledenje oglasom %s"
+
+#. translators: %s HTML tags
+#: settings.php:3955
+msgid "Support for %s AMP pages %s"
+msgstr "Podpora za %s AMP strani %s"
+
+#. translators: %s HTML tags
+#: settings.php:3956
+msgid "%s Ad blocking detection %s"
+msgstr "%s Zaznavanje blokiranja oglasov %s"
+
+#. translators: %s HTML tags
+#: settings.php:3957
+msgid "%s Mobile device detection %s"
+msgstr "%s Zaznavanje mobilne naprave %s"
+
+#. translators: %s HTML tags
+#: settings.php:3964
+msgid "64 code blocks"
+msgstr "64 kodnih blokov"
+
+#. translators: %s HTML tags
+#: settings.php:3965
+msgid "%s GEO targeting %s"
+msgstr "%s GEO ciljanje %s"
+
+#. translators: %s HTML tags
+#: settings.php:3966
+msgid "%s Scheduling %s"
+msgstr "%s Urnik %s"
+
+#: strings.php:4
+msgid "Advertisements"
+msgstr "Oglasi"
+
+#: strings.php:5
+msgid ""
+"<p><strong>Blocked because of Ad Blocker</strong></p>\n"
+"<p>It seems that you are using some ad blocking software which is preventing "
+"the page from fully loading. Please whitelist this website or disable ad "
+"blocking software.</p>"
+msgstr ""
+"<p><strong>Onemogočeno zaradi Ad Blocker-ja</strong></p>\n"
+"<p>Zdi se, da uporabljate program za blokiranje oglasov, ki preprečuje, da "
+"bi se stran naložila v celoti. Prosimo, uvrstite to spletno mesto na beli "
+"seznam ali pa izključite program za blokiranje oglasov.</p>"
+
+#: strings.php:7
+msgctxt "Viewport name"
+msgid "Desktop"
+msgstr "Namizje"
+
+#: strings.php:8
+msgctxt "Viewport name"
+msgid "Tablet"
+msgstr "Tablica"
+
+#: strings.php:9
+msgctxt "Viewport name"
+msgid "Phone"
+msgstr "Telefon"
+
+#: strings.php:11
+msgctxt "ad-inserter"
+msgid "Group"
+msgstr "Skupina"
+
+#: strings.php:13
+msgid "Insert"
+msgstr "Vstavi"
+
+#: strings.php:19
+msgid "Before content"
+msgstr "Pred vsebino"
+
+#: strings.php:20
+msgid "After content"
+msgstr "Za vsebino"
+
+#: strings.php:21
+msgid "Before paragraph"
+msgstr "Pred odstavkom"
+
+#: strings.php:22
+msgid "After paragraph"
+msgstr "Za odstavkom"
+
+#: strings.php:23
+msgid "Before excerpt"
+msgstr "Pred izvlečkom"
+
+#: strings.php:24
+msgid "After excerpt"
+msgstr "Za izvlečkom"
+
+#: strings.php:25
+msgid "Between posts"
+msgstr "Med prispevki"
+
+#: strings.php:26
+msgid "Before comments"
+msgstr "Pred komentarji"
+
+#: strings.php:27
+msgid "Between comments"
+msgstr "Med komentarji"
+
+#: strings.php:28
+msgid "After comments"
+msgstr "Za komentarji"
+
+#: strings.php:29
+msgid "Above header"
+msgstr "Nad glavo"
+
+#: strings.php:31
+msgid "Before HTML element"
+msgstr "Pred HTML elementom"
+
+#: strings.php:32
+msgid "After HTML element"
+msgstr "Za HTML elementom"
+
+#: strings.php:33
+msgid "Inside HTML element"
+msgstr "V HTML element"
+
+#: strings.php:35
+msgid "do not insert"
+msgstr "ne vstavi"
+
+#: strings.php:36
+msgid "try to shift position"
+msgstr "poskusi premakniti položaj"
+
+#: strings.php:38
+msgid "above"
+msgstr "zgoraj"
+
+#: strings.php:39
+msgid "below"
+msgstr "spodaj"
+
+#: strings.php:40
+msgid "above and then below"
+msgstr "zgoraj in potem spodaj"
+
+#: strings.php:41
+msgid "below and then above"
+msgstr "spodaj in potem zgoraj"
+
+#: strings.php:43
+msgid "from top"
+msgstr "od zgoraj"
+
+#: strings.php:44
+msgid "from bottom"
+msgstr "od spodaj"
+
+#: strings.php:46
+msgctxt "paragraphs"
+msgid "contain"
+msgstr "vsebujejo"
+
+#: strings.php:47
+msgctxt "paragraphs"
+msgid "do not contain"
+msgstr "ne vsebujejo"
+
+#: strings.php:49
+msgctxt "insert for"
+msgid "all users"
+msgstr "vse uporabnike"
+
+#: strings.php:50
+msgctxt "insert for"
+msgid "logged in users"
+msgstr "prijavljene uporabnike"
+
+#: strings.php:51
+msgctxt "insert for"
+msgid "not logged in users"
+msgstr "neprijavljene uporabnike"
+
+#: strings.php:52
+msgctxt "insert for"
+msgid "administrators"
+msgstr "skrbnike"
+
+#: strings.php:54
+msgid "Black list"
+msgstr "Črni seznam"
+
+#: strings.php:55
+msgid "White list"
+msgstr "Beli seznam"
+
+#: strings.php:57
+msgctxt "alignment"
+msgid "Default"
+msgstr "Privzeta"
+
+#: strings.php:58
+msgid "Align left"
+msgstr "Leva poravnava"
+
+#: strings.php:59
+msgid "Align right"
+msgstr "Desna poravnava"
+
+#: strings.php:60
+msgid "Center"
+msgstr "Sredinska poravnava"
+
+#: strings.php:61
+msgid "Float left"
+msgstr "Plavajoče levo"
+
+#: strings.php:62
+msgid "Float right"
+msgstr "Plavajoče desno"
+
+#: strings.php:63
+msgid "No wrapping"
+msgstr "Brez ovijanja"
+
+#: strings.php:64
+msgid "Custom CSS"
+msgstr "CSS po meri"
+
+#: strings.php:65
+msgid "Sticky left"
+msgstr "Lepljiv levo"
+
+#: strings.php:66
+msgid "Sticky right"
+msgstr "Lepljiv desno"
+
+#: strings.php:67
+msgid "Sticky top"
+msgstr "Lepljiv zgoraj"
+
+#: strings.php:68
+msgid "Sticky bottom"
+msgstr "Lepljiv spodaj"
+
+#: strings.php:69
+msgctxt "alignment"
+msgid "Sticky"
+msgstr "Lepljiva"
+
+#: strings.php:71
+msgctxt "using"
+msgid "auto counter"
+msgstr "samodejnega števca"
+
+#: strings.php:72
+msgctxt "using"
+msgid "PHP function calls counter"
+msgstr "števca klicev PHP funkcije"
+
+#: strings.php:73
+msgctxt "using"
+msgid "content processing counter"
+msgstr "števca procesiranja vsebine"
+
+#: strings.php:74
+msgctxt "using"
+msgid "excerpt processing counter"
+msgstr "števca procesiranja izvlečkov"
+
+#: strings.php:75
+msgctxt "using"
+msgid "before post processing counter"
+msgstr "števca pred prispevkom"
+
+#: strings.php:76
+msgctxt "using"
+msgid "after post processing counter"
+msgstr "števca za prispevkom"
+
+#: strings.php:77
+msgctxt "using"
+msgid "widget drawing counter"
+msgstr "števca risanja gradnikov"
+
+#: strings.php:78
+msgctxt "using"
+msgid "subpages counter"
+msgstr "števca podstrani"
+
+#: strings.php:79
+msgctxt "using"
+msgid "posts counter"
+msgstr "števca prispevkov"
+
+#: strings.php:80
+msgctxt "using"
+msgid "paragraphs counter"
+msgstr "števca odstavkov"
+
+#: strings.php:81
+msgctxt "using"
+msgid "comments counter"
+msgstr "števca komentarjev"
+
+#: strings.php:83
+msgctxt "posts"
+msgid "Individually disabled"
+msgstr "Posamezno onemogočeni"
+
+#: strings.php:84
+msgctxt "posts"
+msgid "Individually enabled"
+msgstr "Posamezno omogočeni"
+
+#: strings.php:85
+msgctxt "static pages"
+msgid "Individually disabled"
+msgstr "Posamezno onemogočene"
+
+#: strings.php:86
+msgctxt "static pages"
+msgid "Individually enabled"
+msgstr "Posamezno omogočene"
+
+#: strings.php:88
+msgid "Server-side"
+msgstr "Na strani strežnika"
+
+#: strings.php:89
+msgctxt "Insertion"
+msgid "Client-side"
+msgstr "Na strani klienta"
+
+#: strings.php:90
+msgctxt "Dynamic blocks"
+msgid "Client-side show"
+msgstr "Prikaži na strani klienta"
+
+#: strings.php:91
+msgctxt "Dynamic blocks"
+msgid "Client-side insert"
+msgstr "Vstavi na strani klienta"
+
+#: strings.php:92
+msgctxt "Insertion"
+msgid "Server-side using W3 Total Cache"
+msgstr "Na strani strežnika z uporabo W3 Total Cache"
+
+#: strings.php:93
+msgctxt "Insertion"
+msgid "Client-side when DOM ready"
+msgstr "Na strani klienta, ko je DOM pripravljen"
+
+#: strings.php:98
+msgid "Replace element"
+msgstr "Nadomesti element"
+
+#: strings.php:100
+msgid "desktop devices"
+msgstr "namizne naprave"
+
+#: strings.php:101
+msgid "mobile devices"
+msgstr "mobilne naprave"
+
+#: strings.php:102
+msgid "tablet devices"
+msgstr "tablične naprave"
+
+#: strings.php:103
+msgid "phone devices"
+msgstr "telefonske naprave"
+
+#: strings.php:104
+msgid "desktop and tablet devices"
+msgstr "namizne in telefonske naprave"
+
+#: strings.php:105
+msgid "desktop and phone devices"
+msgstr "tablične in telefonske naprave"
+
+#: strings.php:107
+msgid "Stick to the left"
+msgstr "Lepljiv na levi"
+
+#: strings.php:108
+msgid "Stick to the content left"
+msgstr "Lepljiv na vsebino levo"
+
+#: strings.php:109
+msgid "Stick to the content right"
+msgstr "Lepljiv na vsebino desno"
+
+#: strings.php:110
+msgid "Stick to the right"
+msgstr "Lepljiv na desni"
+
+#: strings.php:112
+msgid "Stick to the top"
+msgstr "Lepljiv na vrh"
+
+#: strings.php:113
+msgid "Scroll with the content"
+msgstr "Pomikaj z vsebino"
+
+#: strings.php:114
+msgid "Stick to the bottom"
+msgstr "Lepljiv na dno"
+
+#: strings.php:116
+msgid "Fade"
+msgstr "Uveni"
+
+#: strings.php:117
+msgid "Slide"
+msgstr "Drsaj"
+
+#: strings.php:118
+msgid "Slide and Fade"
+msgstr "Drsaj in Uveni"
+
+#: strings.php:119
+msgid "Flip"
+msgstr "Zavrti"
+
+#: strings.php:120
+msgid "Zoom In"
+msgstr "Približaj"
+
+#: strings.php:121
+msgid "Zoom Out"
+msgstr "Oddalji"
+
+#: strings.php:122
+msgid "Turn"
+msgstr "Obrni"
+
+#: strings.php:124
+msgid "Page loaded"
+msgstr "Stran naložena"
+
+#: strings.php:125
+msgid "Page scrolled (%)"
+msgstr "Stran pomaknjena (%)"
+
+#: strings.php:126
+msgid "Page scrolled (px)"
+msgstr "Stran pomaknjena (px)"
+
+#: strings.php:127
+msgid "Element visible"
+msgstr "Element viden"
+
+#: strings.php:129
+msgid "Insert immediately"
+msgstr "Vstavi takoj"
+
+#: strings.php:130
+msgid "Delay insertion"
+msgstr "Zakasni vstavljanje"
+
+#: strings.php:131
+msgid "Insert between dates"
+msgstr "Vstavi med datumoma"
+
+#: strings.php:132
+msgid "Insert outside dates"
+msgstr "Vstavi izven datumov"
+
+#: strings.php:133
+msgid "Insert only"
+msgstr "Vstavi samo"
+
+#: strings.php:134
+msgid "Insert for posts published between dates"
+msgstr "Vstavi samo za prispevke objavljene med datumoma"
+
+#: strings.php:135
+msgid "Insert for posts published outside dates"
+msgstr "Vstavi samo za prispevke objavljene izven datumov"
+
+#: strings.php:137
+msgctxt "functions"
+msgid "Standard"
+msgstr "Običajne"
+
+#: strings.php:138
+msgctxt "detection"
+msgid "Standard"
+msgstr "Običajno"
+
+#: strings.php:139
+msgctxt "functions"
+msgid "Multibyte"
+msgstr "Večznakovne"
+
+#: strings.php:141
+msgctxt "action"
+msgid "None"
+msgstr "Nobena"
+
+#: strings.php:142
+msgctxt "button"
+msgid "None"
+msgstr "Noben"
+
+#: strings.php:143
+msgid "Popup Message"
+msgstr "Pojavno Sporočilo"
+
+#: strings.php:144
+msgid "Redirection"
+msgstr "Preusmeritev"
+
+#: strings.php:146
+msgid "Do nothnig"
+msgstr "Ne naredi ničesar"
+
+#: strings.php:148
+msgctxt "Action when ad blocking detected"
+msgid "Show"
+msgstr "Pokaži"
+
+#: strings.php:149
+msgctxt "Action when ad blocking detected"
+msgid "Hide"
+msgstr "Skrij"
+
+#: strings.php:151
+msgctxt "tracking"
+msgid "Internal"
+msgstr "Interno"
+
+#: strings.php:152
+msgctxt "detection"
+msgid "Advanced"
+msgstr "Napredno"
+
+#: strings.php:155
+msgid "Top right"
+msgstr "Zgoraj desno"
+
+#: strings.php:156
+msgid "Top left"
+msgstr "Zgoraj levo"
+
+#: strings.php:157
+msgid "Bottom right"
+msgstr "Spodaj desno"
+
+#: strings.php:158
+msgid "Bottom left"
+msgstr "Spodaj levo"
+
+#: strings.php:160
+msgctxt "AdSense Ad Type"
+msgid "Standard"
+msgstr "Običajni"
+
+#: strings.php:161
+msgctxt "AdSense Ad Type"
+msgid "Link"
+msgstr "Povezave"
+
+#: strings.php:162
+msgctxt "AdSense Ad Type"
+msgid "In-article"
+msgstr "V članku"
+
+#: strings.php:163
+msgctxt "AdSense Ad Type"
+msgid "In-feed"
+msgstr "V viru"
+
+#: strings.php:164
+msgctxt "AdSense Ad Type"
+msgid "Matched content"
+msgstr "Prilagojena vsebina"
+
+#: strings.php:165
+msgctxt "AdSense Ad Type"
+msgid "Auto Ads"
+msgstr "Samodejni"
+
+#: strings.php:167
+msgctxt "AMP ad"
+msgid "Disabled"
+msgstr "Onemogočen"
+
+#: strings.php:168
+msgid "Above the fold"
+msgstr "Nad pregibom"
+
+#: strings.php:169
+msgid "Below the fold"
+msgstr "Pod pregibom"
+
+#: strings.php:171
+msgctxt "size"
+msgid "Fixed"
+msgstr "Fiksna"
+
+#: strings.php:172
+msgctxt "size"
+msgid "Responsive"
+msgstr "Odzivna"
+
+#: strings.php:173
+msgctxt "size"
+msgid "Fixed by viewport"
+msgstr "Fiksna glede na pogled"
+
+#: strings.php:178
+msgctxt "Button"
+msgid "Hide"
+msgstr "Skrij"
+
+#: strings.php:180
+msgid "Insertion expired"
+msgstr "Vstavljanje poteklo"
+
+#: strings.php:181
+msgid "Duration"
+msgstr "Trajanje"
+
+#: strings.php:182
+msgid "Invalid end date - must be after start date"
+msgstr "Neveljaven končni datum - mora biti za začetnim datumom"
+
+#: strings.php:183
+msgid "Invalid start date - only data for 1 year back is available"
+msgstr "Neveljaven začetni datum - na voljo so samo pdatki za 1 leto nataj"
+
+#: strings.php:184
+msgid "Invalid date range - only data for 1 year can be displayed"
+msgstr ""
+"Neveljavno časovno oddobje - prikažejo se lahko samo podatki za 1 leto nazaj"
+
+#: strings.php:185 strings.php:186 strings.php:187 strings.php:188
+#: strings.php:189 strings.php:190
+msgid "day"
+msgid_plural "days"
+msgstr[0] "dan"
+msgstr[1] "dni"
+msgstr[2] "dni"
+msgstr[3] "dni"
+
+#: strings.php:191
+msgid "Warning"
+msgstr "Opozorilo"
+
+#: strings.php:192
+msgid "Delete"
+msgstr "Pobriši"
+
+#: strings.php:194
+msgid "Delete all statistics data?"
+msgstr "Pobrišem vse podatke o statistiki?"
+
+#. translators: %s: dates
+#: strings.php:196
+msgid "Delete statistics data between %s and %s?"
+msgstr "Pobrišem podatke o statistiki med %s in %s?"
+
+#: strings.php:197
+msgid "Cancel block order rearrangement"
+msgstr "Prekliči preureditev vrstnega reda blokov"
+
+#: strings.php:199
+msgid "downloading..."
+msgstr "prenašam..."
+
+#: strings.php:200
+msgid "download error"
+msgstr "napaka pri prenosu"
+
+#: strings.php:201
+msgid "update error"
+msgstr "napaka pri posodobitvi"
+
+#: strings.php:202
+msgid "Updating..."
+msgstr "Posodabljam..."
+
+#: strings.php:204
+msgid "ERROR"
+msgstr "NAPAKA"
+
+#: strings.php:205
+msgid "Error reloading settings"
+msgstr "Napaka pri nalaganju nastavitev"
+
+#: strings.php:207
+msgid "Search..."
+msgstr "Išči..."
+
+#: strings.php:220
+msgid "Add"
+msgstr "Dodaj"
+
+#: strings.php:221
+msgid "Parent"
+msgstr "Starš"
+
+#: strings.php:222
+msgid "Cancel element selection"
+msgstr "Prekliči izbor HTML elementa"
+
+#: strings.php:223
+msgid "Select parent element"
+msgstr "Izberi starševski element"
+
+#: strings.php:224
+msgid "CSS selector"
+msgstr "CSS selektor"
+
+#: strings.php:225
+msgid "Use current selector"
+msgstr "Uporabi trenutni selektor"
+
+#: strings.php:226
+msgid "ELEMENT"
+msgstr "ELEMENT"
+
+#: strings.php:227
+msgid "PATH"
+msgstr "POT"
+
+#: strings.php:228
+msgid "SELECTOR"
+msgstr "SELEKTOR"
+
+#: strings.php:229
+msgctxt "Block"
+msgid "VISIBLE"
+msgstr "VIDEN"
+
+#: strings.php:230
+msgctxt "Block"
+msgid "HIDDEN"
+msgstr "SKRIT"
+
+#. Description of the plugin/theme
+msgid ""
+"Ad management with many advanced advertising features to insert ads at "
+"optimal positions"
+msgstr ""
+"Upravljanje z oglasi z veliko naprednimi funkcijami za vstavljanje oglasov "
+"na optimalna mesta"
+
+#~ msgid "Disable PHP code processing"
+#~ msgstr "Onemogoči procesiranje PHP kode"
+
+#~ msgid "Disable all blocks"
+#~ msgstr "Onemogoči vse bloke"
+
+#~ msgid "Page code showing %s code"
+#~ msgstr "Koda strani, ki prikazuje %s kodo"
+
+#~ msgid "DIS"
+#~ msgstr "AHA"
+
+#~ msgid "PREPEND"
+#~ msgstr "DODAJ ZA"
+
+#~ msgid "APPEND"
+#~ msgstr "DODAJ PRED"
+
+#~ msgctxt "When ad blocking detected"
+#~ msgid "Show"
+#~ msgstr "Prikaži"
+
+#, fuzzy
+#~| msgid "Cancel"
+#~ msgctxt "Button"
+#~ msgid "Cance"
+#~ msgstr "Prekliči"
+
+#, fuzzy
+#~| msgid "Cancel"
+#~ msgctxt "Button"
+#~ msgid "Cancels"
+#~ msgstr "Prekliči"
+
+#~ msgctxt "Button"
+#~ msgid "Cancela"
+#~ msgstr "Prekliči"
+
+#, fuzzy
+#~| msgctxt "Widget"
+#~| msgid "Sticky"
+#~ msgctxt "Code Preview"
+#~ msgid "Sticky"
+#~ msgstr "Lepljiv"
+
+#~ msgid "Hey"
+#~ msgstr "Hej"
+
+#~ msgid "64 code (ad) blocks"
+#~ msgstr "64 kodnih (oglasnih) blokov"
+
+#~ msgid "Click on %s Create credentials %s"
+#~ msgstr "Kliknite na %s Ustvarite pooblastila %s"
+
+#, fuzzy
+#~| msgid "Automatic insertion"
+#~ msgid "Automatic Insertion"
+#~ msgstr "Samodejno vstavljanje"
+
+#~| msgctxt "Header code"
+#~| msgid "DISABLED"
+#~ msgctxt "header or footer"
+#~ msgid "DISABLED"
+#~ msgstr "ONEMOGOČENA"
+
+#~ msgid "Comma separated text"
+#~ msgstr "Z vejico ločeno besedilo"
+
+#, fuzzy
+#~| msgid "Devices"
+#~ msgctxt "ad-inserter"
+#~ msgid "all devices"
+#~ msgstr "Naprave"
+
+#~ msgid ""
+#~ "Wrong version parameter of the CSS file, probably due to inappropriate "
+#~ "caching."
+#~ msgstr ""
+#~ "Manjka parameter verzije CSS datoteke, najbrž zaradi nepravilnega "
+#~ "predpomnjenja."
+
+#~ msgid "Go&nbsp;Pro"
+#~ msgstr "Go&nbsp;Pro"
+
+#, fuzzy
+#~| msgid "Before post"
+#~ msgid "Before post, "
+#~ msgstr "Pred prispevkom"
+
+#, fuzzy
+#~| msgid "After post"
+#~ msgid "After post, "
+#~ msgstr "Za prispevkom"
+
+#~ msgctxt "filter counter"
+#~ msgid "auto"
+#~ msgstr "samodejni"
+
+#, fuzzy
+#~| msgctxt "Enabled/disabled on all"
+#~| msgid "posts"
+#~ msgid "posts"
+#~ msgstr "prispevkih"
+
+#~ msgid "BEFORE PARAGRAPH"
+#~ msgstr "PRED ODSTAVKOM"
+
+#~ msgid "AFTER PARAGRAPH"
+#~ msgstr "PO ODSTAVKU"
+
+#~ msgid "Default insertion for %s for each block can be configured on %s"
+#~ msgstr "Privzeto vstavljanje za %s za vsak blok se lahko nastavi na %s"
+
+#~ msgid "Prepend"
+#~ msgstr "Dodaj pred vsebino"
+
+#~ msgid "Append"
+#~ msgstr "Dodaj za vsebino"
+
+#~ msgid "Every minute"
+#~ msgstr "Vsako minuto"
+
+#~ msgid "Once Weekly"
+#~ msgstr "Enkrat tedensko"
+
+#~ msgid "Once Monthly"
+#~ msgstr "Enkrat mesečno"
+
+#~ msgid "No plugin data."
+#~ msgstr "Ni podatkov o vtičniku."
+
+#~ msgid ""
+#~ "Thank you for installing our plugin. We'd like your permission to track "
+#~ "its usage on your site and subscribe you to our newsletter. This is "
+#~ "completely optional."
+#~ msgstr ""
+#~ "Hvala za namestitev našega vtičnika. Prosimo za soglasje za sledenje "
+#~ "njegovi uporabi na vašem spletnem mestu in za naročimo na naše novice. To "
+#~ "je povsem izbirno."
+
+#~ msgid ""
+#~ "We won't record any sensitive data, only information regarding the "
+#~ "WordPress environment and plugin settings, which will help us to make "
+#~ "improvements to the plugin."
+#~ msgstr ""
+#~ "Ne bomo beležili občutljivh podatkov, samo informacije glede okolja "
+#~ "WordPress in nastavitev vtičnika, kar nam bo omogočilo izdelavo izboljšav "
+#~ "za vtičnik."
+
+#~ msgid ""
+#~ "Thank you for installing our theme. We'd like your permission to track "
+#~ "its usage on your site and subscribe you to our newsletter. This is "
+#~ "completely optional."
+#~ msgstr ""
+#~ "Hvala za namestitev naše teme. Prosimo za soglasje za sledenje njeni "
+#~ "uporabi na vašem spletnem mestu in za naročimo na naše novice. To je "
+#~ "povsem izbirno."
+
+#~ msgid ""
+#~ "We won't record any sensitive data, only information regarding the "
+#~ "WordPress environment and theme settings, which will help us to make "
+#~ "improvements to the theme."
+#~ msgstr ""
+#~ "Ne bomo beležili občutljivh podatkov, samo informacije glede okolja "
+#~ "WordPress in nastavitev teme, kar nam bo omogočilo izdelavo izboljšav za "
+#~ "temo."
+
+#~ msgid ""
+#~ "Thank you for installing our plugin. We would like to track its usage on "
+#~ "your site. This is completely optional."
+#~ msgstr ""
+#~ "Hvala za namestitev našega vtičnika. Radi bi sledili njegovi uporabi na "
+#~ "vašem spletnem mestu. To je povsem izbirno."
+
+#~ msgid ""
+#~ "We don't record any sensitive data, only information regarding the "
+#~ "WordPress environment and plugin settings, which will help us to make "
+#~ "improvements to the plugin."
+#~ msgstr ""
+#~ "Ne beležimo občutljivh podatkov, samo informacije glede okolja WordPress "
+#~ "in nastavitev vtičnika, kar nam bo omogočilo izdelavo izboljšav za "
+#~ "vtičnik."
+
+#~ msgid ""
+#~ "Thank you for installing our theme. We would like to track its usage on "
+#~ "your site. This is completely optional."
+#~ msgstr ""
+#~ "Hvala za namestitev naše teme. Radi bi sledili njeni uporabi na vašem "
+#~ "spletnem mestu. To je povsem izbirno."
+
+#~ msgid ""
+#~ "We don't record any sensitive data, only information regarding the "
+#~ "WordPress environment and theme settings, which will help us to make "
+#~ "improvements to the theme."
+#~ msgstr ""
+#~ "Ne beležimo občutljivh podatkov, samo informacije glede okolja WordPress "
+#~ "in nastavitev teme, kar nam bo omogočilo izdelavo izboljšav za temo."
+
+#~ msgid ""
+#~ "Thank you for opting in to tracking. Would you like to receive occasional "
+#~ "news about this plugin, including details of new features and special "
+#~ "offers?"
+#~ msgstr ""
+#~ "Hvala za soglasje za sledenje. Ali želite prejemati občasne novice glede "
+#~ "tega vtičnika, vključno s podrobnostmi o novih funkcijah in posebnih "
+#~ "ponudbah?"
+
+#~ msgid ""
+#~ "Thank you for opting in to tracking. Would you like to receive occasional "
+#~ "news about this theme, including details of new features and special "
+#~ "offers?"
+#~ msgstr ""
+#~ "Hvala za soglasje za sledenje. Ali želite prejemati občasne novice glede "
+#~ "te teme, vključno s podrobnostmi o novih funkcijah in posebnih ponudbah?"
+
+#~ msgid "Sorry to see you go"
+#~ msgstr "Žal nam je, da odhajate"
+
+#~ msgid ""
+#~ "Before you deactivate the plugin, would you quickly give us your reason "
+#~ "for doing so?"
+#~ msgstr ""
+#~ "Preden onemogočite vtičnik, ali nam lahko na kratko sporočite razlog za "
+#~ "to?"
+
+#~ msgid "Set up is too difficult"
+#~ msgstr "Nastavitve so preveč zahtevne"
+
+#~ msgid "Not the features I wanted"
+#~ msgstr "Nima funkcij, ki jih potrebujem"
+
+#~ msgid "Doesn't work"
+#~ msgstr "Ne dela"
+
+#~ msgid "Found a better plugin"
+#~ msgstr "Načel sem boljši vtičnik"
+
+#~ msgid "Installed by mistake"
+#~ msgstr "Namestil po pomoti"
+
+#~ msgid "Only required temporarily"
+#~ msgstr "Potrebujem samo začasno"
+
+#~ msgid "Don't show this form again"
+#~ msgstr "Ne prikaži več tega obrazca"
+
+#~ msgid "Details (optional)"
+#~ msgstr "Podrobnosti (izbirno)"
+
+#~ msgid "This information will greatly help us to improve the plugin."
+#~ msgstr "Te informacije nam bodo zelo pomagale izboljšati vtičnik."
+
+#~ msgid "Goodbye!"
+#~ msgstr "Nasvidenje!"
+
+#~ msgid "Submitting form"
+#~ msgstr "Pošiljam obrazec"
+
+#~ msgid "Just Deactivate"
+#~ msgstr "Samo Onemogoči"
+
+#~ msgid "Submit and Deactivate"
+#~ msgstr "Pošlji in Onemogoči"
+
+#~ msgid "Check for updates"
+#~ msgstr "Preveri posodobitve"
+
+#~ msgid "View details"
+#~ msgstr "Poglej podrobnosti"
+
+#~ msgctxt "the plugin title"
+#~ msgid "The %s plugin is up to date."
+#~ msgstr "Vtičnik %s je posodobljen."
+
+#~ msgctxt "the plugin title"
+#~ msgid "A new version of the %s plugin is available."
+#~ msgstr "Nova različica vtičnika %s je na voljo."
+
+#~ msgctxt "the plugin title"
+#~ msgid "Could not determine if updates are available for %s."
+#~ msgstr "Ne morem ugotoviti ali so za %s na voljo posodobitve."
+
+#~ msgid "There is no changelog available."
+#~ msgstr "Dnevnik sprememb ni na razpolago."

@@ -1,0 +1,144 @@
+/*
+CSS style for index.html
+*/
+
+body{
+  color: rgba(255,255,255,0.9);
+  font-family: Calibri;
+  white-space: nowrap;
+
+  padding: 0;
+  margin: 0;
+
+  background: url("bg7.jpg");
+  background-color: navy;
+  background-size: cover;
+ 
+}
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  padding: 0;
+  margin: 0;
+}
+
+h2{
+  float: left; 
+
+  margin-left: 1%;
+  margin-top: 10px;
+  margin-bottom: 5px;  
+}
+
+h3{
+  float: left;
+  text-shadow: 2px 2px 3px black;
+  
+  width: 100%;
+  margin-left: 1%;
+  margin-top: 30px;
+  padding-bottom: 0;
+  
+}
+
+a:link, a:visited {
+    color: rgba(255,255,255,0.9);
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+}
+
+
+#title{
+  float: left;
+  background-color: rgba(50,50,150,0.6);
+  box-shadow: 0px 0px 5px black;  
+  
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#canvas, #canvas2{
+  float: left;
+  box-shadow: 0px 0px 5px black;
+  color: white;
+
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px; 
+}
+
+.values{
+  float: left;
+  background-color: rgba(100,100,150,0.5);
+  box-shadow: 2px 2px 5px black;
+
+  text-shadow: 2px 2px 5px black;
+  font-size: 18px;
+
+	margin-left: 1%;
+	margin-right: 1%;
+  margin-bottom: 10px;
+  padding: 8px;
+
+  width: 23%;
+	height: 100px;
+}
+
+.values div {
+  font-family: Arial;
+}
+
+#teplota{
+  padding-left: 1.5%;
+  height: 210px;
+  width: 48%;
+
+}
+
+#line{
+  border-top: 2px dotted rgba(255,255,255,0.5);
+  width: 97%;
+  margin-bottom: 10px;
+
+}      
+    
+/*
+Display mode for mobile devices.
+*/    
+@media only screen and (max-device-width:800px), (max-width:800px){
+  .values{
+    width: 48%;
+    max-width: 100%;
+
+  }
+
+  #teplota{
+    width: 98%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

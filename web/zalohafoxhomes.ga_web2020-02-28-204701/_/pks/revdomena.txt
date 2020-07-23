@@ -1,0 +1,13 @@
+$TTL    1h
+$ORIGIN         4.1.1.0.0.0.0.0.0.0.0.0.0.0.0.0.6.c.2.0.1.0.0.1.8.1.7.0.1.0.0.2.ip6.arpa.
+@           IN SOA  dns1.domema.cz.     hostmaster.domema.cz. (
+            2012122101; serial
+            24h; refresh
+            2h; retry
+            1000h; expire
+            2d; minimum
+            )
+
+    IN  NS  dns1.domema.cz. 
+
+4.1.1.0.0.0.0.0.0.0.0.0.0.0.0.0.6.c.2.0.1.0.0.1.8.1.7.0.1.0.0.2.ip6.arpa.   IN PTR dns1.domema.cz.

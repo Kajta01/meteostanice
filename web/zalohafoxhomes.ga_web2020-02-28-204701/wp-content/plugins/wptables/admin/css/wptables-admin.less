@@ -1,0 +1,567 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+@border-color: #e5e5e5;
+@border-color-dark: #b4b9be;
+@background-color: #f9f9f9;
+
+.wpt-fields-container {
+    overflow: auto;
+    max-height: 400px;
+}
+
+table.wpt-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+table.wpt-table td,
+table.wpt-table th {
+    line-height: 30px;
+    padding: 4px 2px;
+    text-align: left;
+}
+
+table.wpt-table th {
+    padding-left: 6px;
+}
+
+table.wpt-table tr {
+    padding-bottom: 5px;
+}
+
+table.wpt-alter-rows tr:nth-child(2n) {
+    background-color: #f9f9f9;
+}
+
+.wpt-shortcode {
+    background: #f5f5f5;
+    padding: 3px;
+    cursor: pointer;
+    display: inline-block;
+}
+div.wpt-shortcode {
+    text-align: center;
+    display: block;
+    padding: 5px;
+    padding-bottom: 8px;
+    margin-top: 10px;
+}
+
+.wpt-icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'wptables-font' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wpt-icon-table2:before {
+    content: "\ea71";
+}
+
+.wpt-dashicons {
+    vertical-align: middle;
+    height: 15px;
+    font-size: 15px;
+}
+
+span.wpt-drag-handle {
+    content: '....';
+    width: 10px;
+    height: 20px;
+    display: inline-block;
+    overflow: hidden;
+    line-height: 5px;
+    padding: 3px 4px;
+    cursor: move;
+    vertical-align: middle;
+    margin-top: -.7em;
+    margin-right: .3em;
+    font-size: 12px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    color: #cccccc;
+}
+
+span.wpt-drag-handle::after {
+    content: '.. .. .. ..';
+}
+
+.wpt-medium {
+    width: 100px;
+}
+
+.wpt-content-wrapper {
+    overflow: auto;
+}
+
+#wpt-content input {
+    width: 100%;
+}
+
+#wpt-content td:first-child {
+    text-align: center;
+}
+
+#wpt-content td:last-child {
+    text-indent: center;
+    vertical-align: middle;
+}
+
+#wpt-add-row {
+    margin-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.wpt-hint {
+    margin: 0;
+}
+
+.wpt-remove-row {
+    position: relative;
+    cursor: pointer;
+}
+
+.wpt-remove-row i {
+    position: absolute;
+    top: -10px;
+}
+
+.wpt-row > * {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.wpt-col-2 {
+    width: 49%;
+}
+
+.wpt-clean-link,
+.wpt-clean-link:hover,
+.wpt-clean-link:active,
+.wpt-clean-link:focus {
+    color: #444;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.wpt-clean-link .dashicons-before:before {
+    height: 20px;
+    font-size: 16px;
+    width: 16px;
+    vertical-align: middle;
+}
+
+.wpt-btn {
+    min-width: 120px;
+    text-align: center;
+}
+
+.wpt-icon-btn {
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.wpt-tl {
+    text-align: left;
+}
+
+.wpt-title {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+
+/* Dialog */
+
+.wpt-dialog {
+    position: fixed;
+    z-index: 9999;
+    background: #fff;
+    border: 1px solid @border-color;
+    .wpt-title {
+        position: relative;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 10px;
+        border-bottom: 1px solid @border-color;
+        margin: 0;
+        .wpt-close-btn {
+            position: absolute;
+            right: 10px;
+        }
+    }
+    .wpt-content {
+        padding: 10px;
+        overflow: auto;
+    }
+    .wpt-toolbar {
+        text-align: right;
+        border-top: 1px solid @border-color;
+        padding: 10px;
+        .button {
+            min-width: 120px;
+            text-align: center;
+        }
+    }
+}
+
+.wpt-dialog-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9998;
+    background: #000;
+    opacity: 0.75;
+}
+
+// tables
+table.wpt-table-compact {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid @border-color;
+    thead {
+        border-bottom: 1px solid @border-color;
+    }
+    td,
+    th {
+        border-right: 1px solid @border-color;
+        text-align: left;
+        padding: 2px 4px;
+        &:last-child {
+            border-right: none;
+        }
+    }
+    tbody {
+        td {
+            border-bottom: 1px solid @border-color;
+        }
+        tr:last-child td {
+            border-bottom: none;
+        }
+    }
+}
+
+
+/* Add new table */
+
+.wpt-ds-list {
+    li {
+        display: inline-block;
+        margin-right: 10px;
+        border: 2px solid @border-color-dark;
+        cursor: pointer;
+        text-align: center;
+        vertical-align: bottom;
+        background-color: #fff;
+        &:hover {
+            background-color: #f9f9f9;
+        }
+        &.wpt-active {
+            border-color: #0073aa;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+        img.wpt-logo {
+            padding: 20px;
+            width: auto;
+            height: 128px;
+        }
+        .wpt-ds-item-title {
+            background: @background-color;
+            font-weight: bold;
+            padding: 5px;
+            i {
+                color: #b4b9be;
+                font-size: 14px;
+                margin-left: 4px;
+            }
+        }
+    }
+}
+
+@media (max-width: 810px) {
+    .wpt-ds-list {
+        li {
+            display: block;
+            margin-right: 0;
+            position: relative;
+            img.wpt-logo {
+                height: 50px;
+                position: absolute;
+                left: 10px;
+                top: 10px;
+                padding: 0;
+            }
+            .wpt-ds-item-title {
+                text-align: left;
+                padding: 25px 10px;
+                margin-left: 70px;
+                i {
+                    float: right;
+                }
+            }
+        }
+    }
+}
+
+
+/* Upload */
+
+.wpt-upload-drop-zone {
+    padding: 20px 0;
+    border-width: 4px;
+    border-style: dashed;
+    border-color: #ccc;
+    text-align: center;
+
+    &.wpt-drop {
+        color: #222;
+        border-color: #222;
+    }
+}
+
+// Tabs
+.wpt-wrap {
+    padding: 10px;
+}
+.wpt-tab-content {
+    display: none;
+    margin-top: 10px;
+
+    &.wpt-wrap {
+        padding-top: 0;
+    }
+}
+
+/* Notice */
+
+.wpt-notice {
+    margin: 5px 0 15px;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 1px 12px;
+    p {
+        margin: 5px 0;
+    }
+}
+
+.wpt-notice-error {
+    border: 1px solid #dc3232;
+    border-left-width: 4px;
+}
+
+#wpt-form {
+    p.search-box {
+        padding-bottom: 6px;
+    }
+}
+
+.wpt-form-label {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+// Edit table
+#wpt-fields {
+    margin-top: 20px;
+
+    .inside {
+        padding: 0;
+        margin: 0;
+    }
+    td.wpt-col-drag {
+        width: 5px;
+    }
+    td.wpt-col-check {
+        width: 25px;
+        input {
+            margin-bottom: 4px;
+        }
+    }
+    td.wpt-col-actions {
+        width: 30px;
+
+        .wpt-icon-btn {
+            padding: 0 5px;
+            margin-bottom: 5px;
+        }
+    }
+}
+
+// Metaboxes
+.wpt-metabox-actions {
+    padding: 10px;
+    clear: both;
+    border-top: 1px solid #ddd;
+    background: #f5f5f5;
+    text-align: right;
+}
+
+#wpt-table .inside {
+    padding: 0;
+}
+
+#wpt-data .inside {
+    padding: 10px;
+    margin: 0;
+
+    #wpt-data-sheet {
+        overflow: hidden;
+        width: 100%;
+        height: 500px;
+    }
+}
+
+// form table
+table.wpt-vform-table {
+    td, th {
+        padding: 10px;
+        border-bottom: 1px solid @border-color;
+    }
+    th {
+        border-right: 1px solid #E1E1E1;
+        background: @background-color;
+        white-space: nowrap;
+    }
+    tr:last-child {
+        td, th {
+            border-bottom: none;
+        }
+    }
+    input[type=text],
+    input[type=number], 
+    select {
+        width: 100%;
+    }
+}
+
+#wpt-edit-field-dialog {
+    .wpt-content {
+        padding: 0;
+    }
+    .wpt-title {
+        margin-bottom: 0;
+    }
+
+    .wpt-input-wrap {
+        width: 100%;
+        white-space: nowrap;
+        position: relative;
+    }
+
+    #wpt-format-preview {
+        border: 1px solid @border-color;
+        background-color: @background-color;
+        z-index: -1;
+        border-left: none;
+        display: inline-block;
+        height: 25px;
+        position: absolute;
+        right: 0;
+        top: 2px;
+        box-sizing: border-box;
+        text-align: right;
+        padding-right: 4px;
+        line-height: 22px;
+    }
+
+    .wpt-info {
+        font-style: italic;
+    }
+}
+
+#wpt-options .inside {
+    padding: 0;
+    margin-top: 0;
+
+    td {
+        padding: 10px;
+        vertical-align: middle;
+    }
+
+    th {
+        white-space: nowrap;
+    }
+}
+
+.button-link.trash {
+    color: #a00;
+    &:hover {
+        color: #dc3232;
+    }
+}
+
+.wpt-notif {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #f0f5ea;
+    border: 1px solid #5ea400;
+    border-top-width: 3px;
+
+    .dashicons {
+        font-size: 16px;
+        line-height: 12px;
+        height: 16px;
+        vertical-align: middle;
+        width: 16px;
+        margin-right: 6px;
+    }
+
+    .link-btn {
+        display: inline-block;
+        padding: 5px 0;
+    }
+
+    .button {
+        margin-right: 10px;
+    }
+
+    .button-attractive {
+        background-color: #5ea400;
+        border-color: darken(#5ea400, 5%);
+        color: white;
+
+        &:hover, &:active, &:focus {
+            background-color: lighten(#5ea400, 2%);
+            border-color: darken(#5ea400, 5%);
+            color: #ffffff;
+        }
+    }
+
+    .wpt-avatar {
+        border-radius: 50%;
+        height: 150px;
+        margin-right: 20px;
+        vertical-align: middle;
+    }
+}
+
+.wpt-no-tables {
+    padding: 20px;
+    text-align: center;
+}
+
+.wpt-code {
+    font-family: monospace;
+}

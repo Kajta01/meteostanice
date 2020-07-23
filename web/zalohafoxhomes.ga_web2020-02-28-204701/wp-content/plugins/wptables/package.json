@@ -1,0 +1,28 @@
+{
+  "name": "wptables",
+  "version": "1.0.0",
+  "description": "=== WordPress Tables === Contributors: iansadovy Tags: table, grid, data, csv, mysql, excel, html, tablepress Tested up to: 4.8.1 Stable tag: 1.2.3 License: GPLv2+ License URI: http://www.gnu.org/licenses/gpl-2.0.html",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://iansadovy@bitbucket.org/iansadovy/wptables.git"
+  },
+  "author": "Ian Sadovy",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/iansadovy/wptables#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.8.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-css-url-adjuster": "^0.2.3",
+    "gulp-less": "^3.3.2",
+    "gulp-minify": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
+    "gulp-watch": "^4.3.11"
+  }
+}
