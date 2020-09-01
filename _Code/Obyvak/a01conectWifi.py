@@ -24,3 +24,4 @@ def connect():
 def isconnected():
     return station.isconnected()
 
+connect()

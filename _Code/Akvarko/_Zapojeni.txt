@@ -1,0 +1,10 @@
+-AM - teplota
+    GND
+    3V
+    D4 - pin(2)
+HW-038 - vodní hladina
+    VCC - D6 - pin (12) 
+    GND
+    OUT - A0 - ADC(0)
+RESET - RST - D0
+LED - GND, D2 - pin(4)

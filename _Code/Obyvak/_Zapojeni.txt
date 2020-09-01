@@ -1,0 +1,17 @@
+-AM2320 - (teplota, vlhkost)
+       1 - VCC
+       2 - SDA - D5 (14)
+       3 - GND
+       4 - SCL - D6 (12)
+
+- BMP 180 (tlak)
+       VCC, GND, 
+       SDA - D5 (14)
+       SCL - D6 (12)
+
+- SM (vlhkost půdy)
+       GND,VCC - D2 (4)
+       Analog - A0
+
+LED - GND, D1 (5)      
+RESET - RST - D0
