@@ -1,0 +1,12 @@
+-AM2320 - (teplota, vlhkost)
+       1 - VCC - D4 - (2)
+       2 - SDA - D5 (14)
+       3 - GND
+       4 - SCL - D6 (12)
+
+- MQ 7  (co2)
+       VCC - D2 (4) 
+       GND 
+       A0 
+       
+RESET - RST - D0

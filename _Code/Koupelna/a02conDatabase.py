@@ -3,12 +3,12 @@ import urequests
 
 
 def DataTV(mistnost,teplota,vlhkost):
-    link = "http://foxhomes.ga.srv11.endora.cz//_/service/service.php?tabulka="+mistnost+"&teplota=" + str(teplota) + "&vlhkost="+ str(vlhkost)
+    link = "https://foxhomes.000webhostapp.com//service/service.php?tabulka="+mistnost+"&teplota=" + str(teplota) + "&vlhkost="+ str(vlhkost)
     print(link)
     f = urequests.get(link)
     f.close()
 def Data(mistnost,teplota):
-    link = "http://foxhomes.ga.srv11.endora.cz/_/service/service.php?tabulka="+mistnost+"&teplota=" + str(teplota)
+    link = "https://foxhomes.000webhostapp.com/service/service.php?tabulka="+mistnost+"&teplota=" + str(teplota)
     print(link)
     f = urequests.get(link)
     f.close()
